@@ -1,36 +1,39 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [0]
-Name = Essen
+Name = Soulos
 Filename = mapRegion0.png
-Point = 13,12,Lappet Town,Oak's Lab,2,8,8
-Point = 13,11,Route 1
-Point = 13,10,Cedolan City,Cedolan Dept. Store,7,47,11
-Point = 14,10,Cedolan City,,7,47,11
-Point = 14,9,Route 2
-Point = 14,8,Route 2
-Point = 15,8,Lerucean Town,,23,11,15
-Point = 16,8,Natural Park
-Point = 15,7,Route 3
-Point = 15,6,Route 3,Ice Cave
-Point = 14,6,Route 3
-Point = 13,6,Ingido Plateau,,35,17,7
-Point = 12,6,Route 4
-Point = 11,6,Route 4
-Point = 11,7,Route 5,Cycle Road
-Point = 11,8,Route 5,Cycle Road
-Point = 11,9,Route 5,Cycle Road
-Point = 11,10,Route 6
-Point = 12,10,Route 6
-Point = 15,10,Route 7
-Point = 16,10,Route 7,Rock Cave
-Point = 17,10,Battle Frontier,,52,17,14
-Point = 12,12,Safari Zone
-Point = 13,13,Route 8,Diving area
-Point = 18,17,Berth Island,,,,,51
-Point = 22,16,Faraday Island,,,,,52
-#-------------------------------
-[1]
-Name = Tiall
-Filename = mapRegion1.png
-Point = 13,16,Here
+Point = 10,15,Ori-Yin Town,,43,28,19,
+Point = 10,12,Florasia Town,,8,21,18,
+Point = 10,9,"Pokémon Café",,13,20,40,
+Point = 15,9,"Finesta City",,15,35,44,
+Point = 19,8,Illusio Forest,,17,43,8,
+Point = 19,6,Mt. Crescent,,20,40,44,
+Point = 19,4,"Sarenio City",,21,45,119,
+Point = 15,4,Winter Tunnel,,,,,
+Point = 10,16,"Ori-Yin Port",,48,33,9,
+Point = 10,14,"Route 23",,,,,
+Point = 10,13,"Route 23",,,,,
+Point = 10,11,"Route 24",,,,,
+Point = 10,10,"Route 24",,,,,
+Point = 11,9,"Route 25",,,,,
+Point = 12,9,"Route 25",,,,,
+Point = 13,9,"Route 25",,,,,
+Point = 14,9,"Route 25",,,,,
+Point = 16,9,"Route 26",,,,,
+Point = 17,9,"Route 26",,,,,
+Point = 18,9,"Route 26",,,,,
+Point = 19,9,"Route 26",,,,,
+Point = 19,5,"Route 27",,,,,
+Point = 20,5,"Route 27",,,,,
+Point = 18,4,"Route 28",,,,,
+Point = 16,4,"Route 28",,,,,
+Point = 17,4,"Route 28",,,,,
+Point = 17,5,"Route 28",,,,,
+Point = 17,6,"Route 28",,,,,
+Point = 17,7,"Route 28",,,,,
+Point = 17,8,"Route 28",,,,,
+Point = 14,4,Winter Tunnel,,,,,
+Point = 9,15,"Route 38",,,,,
+Point = 8,15,"Route 38",,,,,
+

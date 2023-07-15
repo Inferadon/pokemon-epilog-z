@@ -1070,3 +1070,48 @@ Description = Combines Unnerve and Chilling Neigh Abilities.
 [ASONEGRIMNEIGH]
 Name = As One
 Description = Combines Unnerve and Grim Neigh Abilities.
+#-------------------------------
+[STURMBOEEN]
+Name = Squalls
+Description = Powers up Flying-type moves in a pinch.
+#-------------------------------
+[GEFRIERKRAFT]
+Name = Cold Winter
+Description = Powers up Ice-type moves in a pinch.
+#-------------------------------
+[HYPERAROUSAL]
+Name = Hyperarousal
+Description = Powers up Fighting-type moves in a pinch.
+#-------------------------------
+[LUFTSCHUTZ]
+Name = Air Defense
+Description = Weakens Electric, Rock, Ice and Sword-type damage.
+#-------------------------------
+[FROSTKOERPER]
+Name = Ice Body
+Description = Contact with the Pokémon may cause freezing.
+#-------------------------------
+[HYDROHAUT]
+Name = Hydro Bliss
+Description = Normal-type moves become Water-type moves.
+#-------------------------------
+[AIMBOT]
+Name = Aim Bot
+Description = Highers accuracy and critical hit rate.
+#-------------------------------
+[TRUGTYP]
+Name = Illusive Type
+Description = The Pokémon recieves a random type every battle.
+#-------------------------------
+[TRUGTYPEN]
+Name = Illusive Types
+Description = The Pokémon recieves two random types every battle.
+#-------------------------------
+[ASTRALITAET]
+Name = Astrality
+Description = Normal-type moves become Star-type moves.
+#-------------------------------
+[KONVERGENZ]
+Name = Convergence
+Description = Ensures incoming and outgoing attacks always land.
+
