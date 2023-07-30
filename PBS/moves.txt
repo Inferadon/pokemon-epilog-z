@@ -8710,3 +8710,900 @@ TotalPP = 40
 Target = User
 FunctionCode = RaiseUserDefense1
 Description = The user withdraws its body into its hard shell, raising its Defense stat.
+#-------------------------------
+[DRACHENWIND]
+Name = Draco Wind
+Type = FLYING
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 0
+FunctionCode = EffectivenessIncludesDragonType
+Flags = bef
+EffectChance = 0
+Description = "A powerful dragon wind. This move belongs to the types Flying and Dragon."
+#-------------------------------
+[SCHOCKFROST]
+Name = Electrical Freeze
+Type = ICE
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 0
+FunctionCode = EffectivenessIncludesElectricType
+Flags = bef
+EffectChance = 0
+Description = "A lightning fast icing. This attack belongs to the types Ice and Electric."
+#-------------------------------
+[GROBSCHLAG]
+Name = Rough Hit
+Type = FIGHTING
+Category = Physical
+Power = 95
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 0
+FunctionCode = EffectivenessIncludesDarkType
+Flags = abef
+EffectChance = 0
+Description = "A nasty blow. This attack belongs to the types Fighting and Dark."
+#-------------------------------
+[FLINKAURA]
+Name = Agile Aura
+Type = FIGHTING
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 0
+FunctionCode = RaiseUserSpeed1
+Flags = befm
+EffectChance = 100
+Description = "The user takes a part of his aura and attacks with it, thus increasing its Speed."
+#-------------------------------
+[FAUSTSCHLAG]
+Name = Fist Punch
+Type = FIGHTING
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+Priority = 0
+FunctionCode = None
+Flags = abefj
+EffectChance = 0
+Description = "The user strikes with his powerful fist."
+#-------------------------------
+[SOLARWIND]
+Name = Solarwind
+Type = FIRE
+Category = Special
+Power = 100
+Accuracy = 90
+TotalPP = 5
+Target = AllNearOthers
+Priority = 0
+FunctionCode = BurnTarget
+Flags = befg
+EffectChance = 50
+Description = "A wind with the power of the sun, which burns the target with a high probability."
+#-------------------------------
+[OFFENSIVSCHLAEGE]
+Name = Offensive Strikes
+Type = FIGHTING
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 0
+FunctionCode = RaiseUserAtkSpd1
+Flags = abefj
+EffectChance = 100
+Description = "The target is damaged by numerous hits and the user increases Atk. and Speed."
+#-------------------------------
+[SPUKZAHN]
+Name = Shadow Fang
+Type = GHOST
+Category = Physical
+Power = 65
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = ConfuseFlinchTarget
+Flags = abei
+EffectChance = 100
+Description = "User bites with scary fangs. The opponent may flinch or become confused."
+#-------------------------------
+[WUCHTSTOSS]
+Name = Mega Impact
+Type = FIGHTING
+Category = Physical
+Power = 110
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 0
+FunctionCode = RecoilHalfOfDamageDealt
+Flags = abef
+EffectChance = 0
+Description = "A full body attack! The user takes recoil damage."
+#-------------------------------
+[DRACHENGEBRUELL]
+Name = Draconic Roar
+Type = DRAGON
+Category = Status
+Power = 0
+Accuracy = 100
+TotalPP = 40
+Target = AllNearFoes
+Priority = 0
+FunctionCode = LowerTargetAtk1RaiseUserAtk1
+Flags = bce
+EffectChance = 0
+Description = "A deafening scream lowers the attack of the targets and increases that of the user."
+#-------------------------------
+[DRACHENSCHWUR]
+Name = Dragon Oath
+Type = DRAGON
+Category = Status
+Power = 0
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 0
+FunctionCode = UseRandomDragonMove
+Flags = d
+EffectChance = 0
+Description = "The user uses a mystical power to use a random dragon-typed move."
+#-------------------------------
+[DONNERKEIL]
+Name = Thunder Strike
+Type = ELECTRIC
+Category = Special
+Power = 95
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+Priority = 0
+FunctionCode = UseTargetDefenseInsteadOfTargetSpDef
+Flags = abc
+EffectChance = 0
+Description = "User forms a wedge-shaped lightning bolt that deals physical damage."
+#-------------------------------
+[EINFRIERHAUCH]
+Name = Freeze Breath
+Type = ICE
+Category = Status
+Power = 0
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 0
+FunctionCode = FreezeTarget
+Flags = bce
+EffectChance = 0
+Description = "An icy wind freezes the target."
+#-------------------------------
+[LIEBESKRAFT]
+Name = Lovely Power
+Type = FAIRY
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = AttractTarget
+Flags = bef
+EffectChance = 30
+Description = "The power of love hits the target and the target may fall in love."
+#-------------------------------
+[HEXENWERK]
+Name = Witch Craft
+Type = GHOST
+Category = Special
+Power = 70
+Accuracy = 90
+TotalPP = 10
+Target = AllNearFoes
+Priority = 0
+FunctionCode = RandomEffectTarget
+Flags = bef
+EffectChance = 50
+Description = "The user uses witch magic and possibly adds a random status problem to the target."
+#-------------------------------
+[VERFLUESSIGUNG]
+Name = Liquefaction
+Type = WATER
+Category = Status
+Power = 0
+Accuracy = 0
+TotalPP = 20
+Target = User
+Priority = 0
+FunctionCode = LowerTargetAtk3RaiseUserSpAtk3
+Flags = d
+EffectChance = 0
+Description = "User liquefies, lowers attack and dramatically increases special attack."
+#-------------------------------
+[GEFRIERBRAND]
+Name = Freeze Burn
+Type = ICE
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = BurnTarget
+Flags = bef
+EffectChance = 30
+Description = "A beam that can cause burns due to the extreme cold."
+#-------------------------------
+[AUFWAERTSSTICH]
+Name = Upcut
+Type = SWORD
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 0
+FunctionCode = PowerHigherWithTargetSize
+Flags = abef
+EffectChance = 0
+Description = "User stabs and deals damage depending on the size of the target."
+#-------------------------------
+[RUECKWAERTSSCHNITT]
+Name = Backstab
+Type = SWORD
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = -1
+FunctionCode = None
+Flags = abef
+EffectChance = 0
+Description = "A slow stab to the back, with a low priority."
+#-------------------------------
+[SCHWERTKANTE]
+Name = Sword's Edge
+Type = SWORD
+Category = Physical
+Power = 100
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+Priority = 0
+FunctionCode = None
+Flags = abefh
+EffectChance = 0
+Description = "User attacks with the edge of his sword, giving a high critical hit hit rate."
+#-------------------------------
+[SCHWERTBRUCH]
+Name = Blade Breaker
+Type = SWORD
+Category = Physical
+Power = 130
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+Priority = 0
+FunctionCode = LowerUserAtk2IfFailsUnusableInGravity
+Flags = abef
+EffectChance = 0
+Description = "A dangerous move that greatly lowers the user's attack if it fails to hit."
+#-------------------------------
+[GEGENSCHNITT]
+Name = Revenge Stab
+Type = SWORD
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 0
+FunctionCode = DoublePowerIfTargetActed
+Flags = abef
+EffectChance = 0
+Description = "If the user attacks after the target, the power of this attack doubles."
+#-------------------------------
+[DOPPELSCHNITT]
+Name = Double Cut
+Type = SWORD
+Category = Physical
+Power = 30
+Accuracy = 95
+TotalPP = 30
+Target = NearOther
+Priority = 0
+FunctionCode = HitTwoTimes
+Flags = abef
+EffectChance = 0
+Description = "A double sword strike that damages the target twice."
+#-------------------------------
+[SILBERKLINGE]
+Name = Siver Blade
+Type = SWORD
+Category = Physical
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+Priority = 0
+FunctionCode = None
+Flags = abef
+EffectChance = 0
+Description = "A powerful sword strike that never misses."
+#-------------------------------
+[GOLDKLINGE]
+Name = Golden Blade
+Type = SWORD
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = LowerTargetDefense1
+Flags = abef
+EffectChance = 20
+Description = "The target is wounded with a powerful blade that possibly lowers its defense."
+#-------------------------------
+[PLATINKLINGE]
+Name = Platinum Blade
+Type = SWORD
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+Priority = 0
+FunctionCode = LowerUserDefSpDef1
+Flags = abef
+EffectChance = 0
+Description = "The ultimate blade technique! However, both of the user's defense values are lowered."
+#-------------------------------
+[ULTRASCHNITT]
+Name = Infinity Cut
+Type = SWORD
+Category = Physical
+Power = 150
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+Priority = 0
+FunctionCode = AttackAndSkipNextTurn
+Flags = abef
+EffectChance = 0
+Description = "User attacks with incredible strength, but must recharge afterwards."
+#-------------------------------
+[ZERMAHLEN]
+Name = Crusher
+Type = SWORD
+Category = Physical
+Power = 55
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = LowerTargetDefense1
+Flags = abef
+EffectChance = 100
+Description = "Target is crushed and the defense stat is lowered."
+#-------------------------------
+[TURBOTRENNER]
+Name = Speed Sting
+Type = SWORD
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = abef
+EffectChance = 0
+Description = "A very fast sword strike, with a high priority."
+#-------------------------------
+[ZERTEILEN]
+Name = Split
+Type = SWORD
+Category = Physical
+Power = 40
+Accuracy = 95
+TotalPP = 35
+Target = NearOther
+Priority = 0
+FunctionCode = None
+Flags = abef
+EffectChance = 0
+Description = "The user attacks the target with a sword."
+#-------------------------------
+[KLINGENWURF]
+Name = Sword Throw
+Type = SWORD
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 0
+FunctionCode = HitTwoToFiveTimes
+Flags = bef
+EffectChance = 0
+Description = "The user throws two to five swords at the target."
+#-------------------------------
+[LASERSCHWERT]
+Name = Lightsaber
+Type = SWORD
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = RemoveScreens
+Flags = bef
+EffectChance = 0
+Description = "A sword of light that destroys Reflect and Light Screens."
+#-------------------------------
+[MENTALMESSER]
+Name = Mental Knive
+Type = SWORD
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = RaiseUserSpAtk1
+Flags = bef
+EffectChance = 20
+Description = "A blade made of mind power, which possibly increases the user's special attack."
+#-------------------------------
+[VORSCHNITT]
+Name = Precut
+Type = SWORD
+Category = Status
+Power = 0
+Accuracy = 0
+TotalPP = 40
+Target = NearOther
+Priority = 0
+FunctionCode = LowerTargetDef1SpDef1
+Flags = abce
+EffectChance = 0
+Description = "The target is pre-damaged and defense stats are lowered."
+#-------------------------------
+[RITTERSCHLAG]
+Name = Accolade
+Type = SWORD
+Category = Status
+Power = 0
+Accuracy = 0
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = RaiseTargetAttack2
+Flags = bce
+EffectChance = 0
+Description = "A force that greatly increases the target's attack."
+#-------------------------------
+[RUESTUNG]
+Name = Amoring
+Type = SWORD
+Category = Status
+Power = 0
+Accuracy = 0
+TotalPP = 30
+Target = User
+Priority = 0
+FunctionCode = RaiseUserDef1SpDef1
+Flags = d
+EffectChance = 0
+Description = "The user arms himself, increasing physical and special defense."
+#-------------------------------
+[ROYALESSCHILD]
+Name = Royal Shield
+Type = SWORD
+Category = Status
+Power = 0
+Accuracy = 0
+TotalPP = 10
+Target = UserAndAllies
+Priority = 4
+FunctionCode = RaiseUserSideDefenseDependingOnParticipants
+Flags = d
+EffectChance = 0
+Description = "Increases Def. of allied side. If user is alone, Defense increases greatly."
+#-------------------------------
+[ALLSCHLAG]
+Name = Star Punch
+Type = STAR
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = ConfuseTarget
+Flags = abef
+EffectChance = 10
+Description = "Target is transported into space and may suffer confusion."
+#-------------------------------
+[WURMLOCH]
+Name = Wormhole
+Type = STAR
+Category = Physical
+Power = 90
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+Priority = 0
+FunctionCode = TwoTurnAttackInvulnerableRemoveProtections
+Flags = aef
+EffectChance = 0
+Description = "User disappears on turn 1, and attacks afterwards. Also hits through Protect."
+#-------------------------------
+[KOSMIKKLAUE]
+Name = Cosmic Claw
+Type = STAR
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 0
+FunctionCode = None
+Flags = abefh
+EffectChance = 0
+Description = "User uses a cosmic claw with a high critical hit rate."
+#-------------------------------
+[STERNENSTOSS]
+Name = Star Slap
+Type = STAR
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = abef
+EffectChance = 0
+Description = "A high priority cosmic attack."
+#-------------------------------
+[ORBIT]
+Name = Orbit
+Type = STAR
+Category = Physical
+Power = 30
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+Priority = 0
+FunctionCode = MultiTurnAttackPowersUpEachTurn
+Flags = abef
+EffectChance = 0
+Description = "User is in Orbit for 5 turns and attacks with increasing strength."
+#-------------------------------
+[METEORITENEINSCHLAG]
+Name = Meteor Impact
+Type = STAR
+Category = Physical
+Power = 120
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+Priority = 0
+FunctionCode = LowerUserAtkDef1
+Flags = abef
+EffectChance = 0
+Description = "A powerful attack that lowers the user's attack and defense."
+#-------------------------------
+[STERNENFALL]
+Name = Shooting Stars
+Type = STAR
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = PowerHigherAtNight
+Flags = bef
+EffectChance = 0
+Description = "An unusual attack that is more powerful at night than during the day."
+#-------------------------------
+[VAKUUMSAUGER]
+Name = Void Drain
+Type = STAR
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = bef
+EffectChance = 0
+Description = "User drains off a portion of the HP and uses it to heal himself."
+#-------------------------------
+[ALLKRAFT]
+Name = Spacial Power
+Type = STAR
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+Priority = 0
+FunctionCode = RaiseUserMainStats1
+Flags = bef
+EffectChance = 10
+Description = "This power from space, rarely increases all of the user's stats."
+#-------------------------------
+[GLITZER]
+Name = Shining
+Type = STAR
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+Priority = 0
+FunctionCode = None
+Flags = bef
+EffectChance = 00
+Description = "The target is attacked with star glitter."
+#-------------------------------
+[RAUMLADUNG]
+Name = Space Charge
+Type = STAR
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 0
+FunctionCode = RaiseUserSpeed1
+Flags = bef
+EffectChance = 100
+Description = "User envelops himself in energy and attacks the target. He increases his own speed."
+#-------------------------------
+[ASTROSCHIMMER]
+Name = Astro-Shimmer
+Type = STAR
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = AllNearFoes
+Priority = 0
+FunctionCode = None
+Flags = bef
+EffectChance = 00
+Description = "User attacks the entire enemy side with Astral energy."
+#-------------------------------
+[UVSTRAHL]
+Name = UV-Beam
+Type = STAR
+Category = Special
+Power = 110
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = BurnTarget
+Flags = bef
+EffectChance = 10
+Description = "The target is attacked with UV rays and may suffer burns."
+#-------------------------------
+[GAMMABLITZ]
+Name = Gamma-Ray
+Type = STAR
+Category = Special
+Power = 150
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+Priority = 0
+FunctionCode = AttackAndSkipNextTurn
+Flags = bef
+EffectChance = 0
+Description = "A powerful attack after which the user must recharge."
+#-------------------------------
+[SUPERNOVA]
+Name = Supernova
+Type = STAR
+Category = Special
+Power = 200
+Accuracy = 100
+TotalPP = 10
+Target = AllNearOthers
+Priority = 0
+FunctionCode = UserFaintsExplosive
+Flags = bef
+EffectChance = 0
+Description = "The user becomes a supernova and gets knocked out himself."
+#-------------------------------
+[HYPERNOVA]
+Name = Hypernova
+Type = STAR
+Category = Special
+Power = 250
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+Priority = 0
+FunctionCode = UserFaintsExplosive
+Flags = bef
+EffectChance = 0
+Description = "The user becomes a powerful hypernova and also knocks himself out."
+#-------------------------------
+[KONVERGENZ]
+Name = Convergence
+Type = STAR
+Category = Status
+Power = 0
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 0
+FunctionCode = SetUserAbilityToConvergence
+Flags = d
+EffectChance = 0
+Description = "User gains an ability that all moves on the field always hit."
+#-------------------------------
+[QUANTENKRAFT]
+Name = Quantum Power
+Type = STAR
+Category = Status
+Power = 0
+Accuracy = 0
+TotalPP = 20
+Target = User
+Priority = 0
+FunctionCode = RaiseUserSpAtkSpd1
+Flags = d
+EffectChance = 0
+Description = "Quantum level energy increases Sp. Atk. and Speed."
+#-------------------------------
+[KOSMOSCHLEIER]
+Name = Cosmic Veil
+Type = STAR
+Category = Status
+Power = 0
+Accuracy = 0
+TotalPP = 10
+Target = UserAndAllies
+Priority = 4
+FunctionCode = RaiseUserSideSpecialDefenseDependingOnParticipants
+Flags = d
+EffectChance = 0
+Description = "Increases Sp. Def. of allied side. If user is alone, Sp. Def. increases greatly."
+#-------------------------------
+[STERNENLICHT]
+Name = Starlight
+Type = STAR
+Category = Status
+Power = 0
+Accuracy = 0
+TotalPP = 20
+Target = AllNearFoes
+Priority = 0
+FunctionCode = LowerTargetAccuracy1
+Flags = d
+EffectChance = 0
+Description = "A bright starlight lowers the accuracy of the enemy side."
+#-------------------------------
+[PRIMAERSCHLAG]
+Name = Primary Punch
+Type = NORMAL
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = TypeIsUserFirstType
+Flags = abf
+EffectChance = 0
+Description = "A punch attack that takes on the primary type of the user."
+#-------------------------------
+[SEKUNDAERTRITT]
+Name = Secondary Smite
+Type = NORMAL
+Category = Physical
+Power = 80
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = TypeIsUserSecondType
+Flags = abf
+EffectChance = 0
+Description = "A smite attack that takes on the secondary type of the user."
+#-------------------------------
+[HARFENSPIEL]
+Name = Harp Sound
+Type = BUG
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = AllNearFoes
+Priority = 0
+FunctionCode = SleepTarget
+Flags = befk
+EffectChance = 10
+Description = "User plays a melody that harms the enemy side and possibly causes sleep."
+#-------------------------------
+[WIRBELSTURM]
+Name = Cyclone
+Type = FLYING
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = RandomNearFoe
+Priority = 0
+FunctionCode = MultiTurnAttackConfuseUserAtEnd
+Flags = bef
+EffectChance = 0
+Description = "A whirlwind that rages for 2 to 3 rounds. After that, user is confused."
+#-------------------------------
+[FROSTERUPTION]
+Name = Cold Eruption
+Type = ICE
+Category = Special
+Power = 150
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+Priority = 0
+FunctionCode = PowerHigherWithUserHP
+Flags = bef
+EffectChance = 0
+Description = "The higher the user's HP, the more damage is dealt."
+#-------------------------------
+[REISSZAHN]
+Name = Carnassial
+Type = DRAGON
+Category = Physical
+Power = 40
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+Priority = 0
+FunctionCode = LowerTargetDefense1
+Flags = abefi
+EffectChance = 50
+Description = "User bites and possibly lowers target's defense."
+#-------------------------------
+[METALMASH]
+Name = Metal Mash
+Type = STEEL
+Category = Physical
+Power = 90
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+Priority = 0
+FunctionCode = RaiseTargetAttack1
+Flags = abefj
+EffectChance = 20
+Description = "The target is hit with a hard metal punch. It may also raise the user's Attack."
+

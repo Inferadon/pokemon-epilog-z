@@ -2,10 +2,11 @@ DONE - Fix Encouters pbs file
 - Add Horde Encounter type
 DONE - Fix PokemonForms pbs file
 - Edit Pokemon metrics
-- Schreibe Code für Konvertierung vom Items PBS File
-- Schreibe Code für Konvertierung vom Moves PBS File
-- Schreibe Code für Konvertierung vom Pokemon PBS File
-- Schreibe Code für Konvertierung vom Trainer PBS File
+- Schreibe Code, der das TM PBS-File durchgeht und dann für Jedes Pokemon ihre Attack in TutorMoves umwandelt
+NEARLY DONE (TMs fehlen) - Schreibe Code für Konvertierung vom Pokemon PBS File
+NEARLY DONE (Flags) - Schreibe Code für Konvertierung vom Moves PBS File
+NEARLY DONE (Spezielle neue Attribute fehlen)- Schreibe Code für Konvertierung vom Items PBS File
+DONE - Konvertierung vom Trainer PBS File
 - Map Connections neu machen
 DONE - Map metadata konvertieren
 - pbs/metadata.txt bearbeiten - Anpassen an Version 18

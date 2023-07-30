@@ -6563,3 +6563,235 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A faded sea chart that shows the way to a certain island.
+#-------------------------------
+[EXPALL]
+Name = Exp. All
+NamePlural = Exp. Alls
+Pocket = 8
+Price = 0
+Description = ON, Turning on this special device will allow all the Pokémon on your team to receive Exp. Points from battles.
+#-------------------------------
+[EXPALLOFF]
+Name = Exp. All
+NamePlural = Exp. Alls
+Pocket = 8
+Price = 0
+Description = OFF, Turning on this special device will allow all the Pokémon on your team to receive Exp. Points from battles.
+#-------------------------------
+[HOERGERAET]
+Name = Hearing aid
+NamePlural = Hearing aids
+Pocket = 8
+Price = 0
+Description = An old hearing aid. Someone lost it in Finesta City.
+#-------------------------------
+[LANGHORN]
+Name = Longhorn
+NamePlural = Longhorns
+Pocket = 1
+Price = 2100
+Description = An unique long horn. It may evolve a specific Pokémon.
+#-------------------------------
+[HOLOPHONE]
+Name = HoloPhone
+NamePlural = HoloPhones
+Pocket = 8
+Price = 0
+Description = This phone supports lots of apps that may help you on your journey.
+#-------------------------------
+[PRALINE]
+Name = Praline
+NamePlural = Pralines
+Pocket = 2
+Price = 1000
+Description = A sweet tasting Praline. It heals 50 HP and cures all status conditions.
+#-------------------------------
+[GIFTSTEIN]
+Name = Venom Stone
+NamePlural = Venom Stones
+Pocket = 1
+Price = 3000
+Description = A peculiar stone that makes certain species of Pokémon evolve. It feels poisonous.
+#-------------------------------
+[KAMPFKRALLE]
+Name = Battle Claw
+NamePlural = Battle Claws
+Pocket = 1
+Price = 2000
+Description = A powerful claw, which can cause Mienfoo to evolve into a new form.
+#-------------------------------
+[SONNENFLUEGEL]
+Name = Solar Wing
+NamePlural = Solar Wings
+Pocket = 1
+Price = 2000
+Description = A warm wing, which can cause Larvesta to evolve into a new form.
+#-------------------------------
+[FINSTERSCHWINGE]
+Name = Night Wing
+NamePlural = Night Wings
+Pocket = 1
+Price = 2000
+Description = A dark wing, which can cause Vullaby to evolve into a new form.
+#-------------------------------
+[FREIHEITSFEDER]
+Name = Freedom Feather
+NamePlural = Freedom Feathers
+Pocket = 1
+Price = 2000
+Description = A light feather, which can cause Rufflet to evolve into a new form.
+#-------------------------------
+[AURORAAMETHYST]
+Name = Aurora Amethyst
+NamePlural = Aurora Amethysts
+Pocket = 1
+Price = 3000
+Description = This beautiful violet Gem helps Delcatty to evolve.
+#-------------------------------
+[AURORARUBIN]
+Name = Aurora Ruby
+NamePlural = Aurora Rubys
+Pocket = 1
+Price = 3000
+Description = This beautiful red Gem helps Delcatty to evolve.
+#-------------------------------
+[AURORASAPHIR]
+Name = Aurora Sapphire
+NamePlural = Aurora Sapphires
+Pocket = 1
+Price = 3000
+Description = This beautiful indigo Gem helps Delcatty to evolve.
+#-------------------------------
+[AURORASMARAGD]
+Name = Aurora Emerald
+NamePlural = Aurora Emeralds
+Pocket = 1
+Price = 3000
+Description = This beautiful green Gem helps Delcatty to evolve.
+#-------------------------------
+[SCHWARZERUESTUNG]
+Name = Dark Armor
+NamePlural = Dark Armors
+Pocket = 1
+Price = 3000
+Description = A black-colored Armor which helps a certain Pokémon to evolve. It only works at night.
+#-------------------------------
+[GIFTFLOSSE]
+Name = Poisonous Fin
+NamePlural = Poisonous Fins
+Pocket = 1
+Price = 1000
+Description = A fin-like item. It's purple colors makes it look poisonous. It changes Revoltox' form.
+#-------------------------------
+[BLITZFLOSSE]
+Name = Electrical Fin
+NamePlural = Electrical Fin
+Pocket = 1
+Price = 1000
+Description = A fin-like item. It's yellow colors makes it look electric. It changes Revoltox' form.
+#-------------------------------
+[PSD]
+Name = PokéSupport-Device
+NamePlural = PokéSupport-Devices
+Pocket = 8
+Price = 0
+Description = It can call special-trained Pokémon that help you on your journey with helpful moves.
+#-------------------------------
+[CUTCARD]
+Name = Cut Card
+NamePlural = Cut Cards
+Pocket = 8
+Price = 0
+Description = The PSD-Pokémon Farfetch'd can use Cut to remove fragile Trees.
+#-------------------------------
+[ROCKSMASHCARD]
+Name = Rocksmash Card
+NamePlural = Rocksmash Card
+Pocket = 8
+Price = 0
+Description = The PSD-Pokémon Sawk can use Rock Smash to remove broken Rocks.
+#-------------------------------
+[FLYCARD]
+Name = Fly Card
+NamePlural = Fly Card
+Pocket = 8
+Price = 0
+Description = The PSD-Pokémon Togekiss can fly you back to places you visited before.
+#-------------------------------
+[DIVEITEM]
+Name = Diving Goggles
+NamePlural = Diving Goggles
+Pocket = 8
+Price = 0
+Description = Diving Goggles to dive at deep seas.
+#-------------------------------
+[FLASHITEM]
+Name = Flash Light
+NamePlural = Flash Lights
+Pocket = 8
+Price = 0
+Description = A flash light to light up dark caves.
+#-------------------------------
+[DIGITEM]
+Name = Shovel
+NamePlural = Shovels
+Pocket = 8
+Price = 0
+Description = A shovel to escape from caves.
+#-------------------------------
+[HEADBUTTITEM]
+Name = Thick Branch
+NamePlural = Thick Branches
+Pocket = 8
+Price = 0
+Description = A Thick Branch to shake pokemon of trees.
+#-------------------------------
+[STRENGTHITEM]
+Name = Working Gloves
+NamePlural = Working Gloves
+Pocket = 8
+Price = 0
+Description = Working gloves to move boulders.
+#-------------------------------
+[SURFITEM]
+Name = Surfboard
+NamePlural = Surfboards
+Pocket = 8
+Price = 0
+Description = A surfboard to move on water.
+#-------------------------------
+[SWEETSCENTITEM]
+Name = Sweet Scent
+NamePlural = Sweet Scent
+Pocket = 8
+Price = 0
+Description = Sweet scent to attract pokemon.
+#-------------------------------
+[TELEPORTITEM]
+Name = Teleporter
+NamePlural = Teleporters
+Pocket = 8
+Price = 0
+Description = A teleporter to return to the last pokemon center.
+#-------------------------------
+[WATERFALLITEM]
+Name = Waterfall Equipment
+NamePlural = Waterfall Equipments
+Pocket = 8
+Price = 0
+Description = Waterfall equipment to climb waterfalls.
+#-------------------------------
+[AURAKRISTALL]
+Name = Aura Jewel
+NamePlural = Aura Jewels
+Pocket = 1
+Price = 0
+Description = A crystal, which powers up aura and pulse moves of the Pokémon that carries it.
+#-------------------------------
+[TM101]
+Name = TM101
+NamePlural = TM101
+Pocket = 4
+Price = 3000
+Description = The user takes a part of his aura and attacks with it, thus increasing its Speed.
+#-------------------------------
