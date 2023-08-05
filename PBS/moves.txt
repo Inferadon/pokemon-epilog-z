@@ -8721,7 +8721,7 @@ TotalPP = 10
 Target = NearOther
 Priority = 0
 FunctionCode = EffectivenessIncludesDragonType
-Flags = bef
+Flags = CanProtect,CanMirrorMove,CannnotMetronome
 EffectChance = 0
 Description = "A powerful dragon wind. This move belongs to the types Flying and Dragon."
 #-------------------------------
@@ -8735,7 +8735,7 @@ TotalPP = 10
 Target = NearOther
 Priority = 0
 FunctionCode = EffectivenessIncludesElectricType
-Flags = bef
+Flags = CanProtect,CanMirrorMove,CannnotMetronome
 EffectChance = 0
 Description = "A lightning fast icing. This attack belongs to the types Ice and Electric."
 #-------------------------------
@@ -8749,7 +8749,7 @@ TotalPP = 10
 Target = NearOther
 Priority = 0
 FunctionCode = EffectivenessIncludesDarkType
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove,CannnotMetronome
 EffectChance = 0
 Description = "A nasty blow. This attack belongs to the types Fighting and Dark."
 #-------------------------------
@@ -8763,7 +8763,7 @@ TotalPP = 20
 Target = NearOther
 Priority = 0
 FunctionCode = RaiseUserSpeed1
-Flags = befm
+Flags = CanProtect,CanMirrorMove,Pulse
 EffectChance = 100
 Description = "The user takes a part of his aura and attacks with it, thus increasing its Speed."
 #-------------------------------
@@ -8777,7 +8777,7 @@ TotalPP = 25
 Target = NearOther
 Priority = 0
 FunctionCode = None
-Flags = abefj
+Flags = Contact,CanProtect,CanMirrorMove,Punching
 EffectChance = 0
 Description = "The user strikes with his powerful fist."
 #-------------------------------
@@ -8791,7 +8791,7 @@ TotalPP = 5
 Target = AllNearOthers
 Priority = 0
 FunctionCode = BurnTarget
-Flags = befg
+Flags = CanProtect,CanMirrorMove,ThawsUser
 EffectChance = 50
 Description = "A wind with the power of the sun, which burns the target with a high probability."
 #-------------------------------
@@ -8805,7 +8805,7 @@ TotalPP = 20
 Target = NearOther
 Priority = 0
 FunctionCode = RaiseUserAtkSpd1
-Flags = abefj
+Flags = Contact,CanProtect,CanMirrorMove,Punching
 EffectChance = 100
 Description = "The target is damaged by numerous hits and the user increases Atk. and Speed."
 #-------------------------------
@@ -8819,7 +8819,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = ConfuseFlinchTarget
-Flags = abei
+Flags = Contact,CanProtect,CanMirrorMove,Biting
 EffectChance = 100
 Description = "User bites with scary fangs. The opponent may flinch or become confused."
 #-------------------------------
@@ -8833,7 +8833,7 @@ TotalPP = 10
 Target = NearOther
 Priority = 0
 FunctionCode = RecoilHalfOfDamageDealt
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A full body attack! The user takes recoil damage."
 #-------------------------------
@@ -8847,7 +8847,7 @@ TotalPP = 40
 Target = AllNearFoes
 Priority = 0
 FunctionCode = LowerTargetAtk1RaiseUserAtk1
-Flags = bce
+Flags = CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A deafening scream lowers the attack of the targets and increases that of the user."
 #-------------------------------
@@ -8861,7 +8861,7 @@ TotalPP = 10
 Target = User
 Priority = 0
 FunctionCode = UseRandomDragonMove
-Flags = d
+Flags = CannnotMetronome
 EffectChance = 0
 Description = "The user uses a mystical power to use a random dragon-typed move."
 #-------------------------------
@@ -8875,7 +8875,7 @@ TotalPP = 10
 Target = NearOther
 Priority = 0
 FunctionCode = UseTargetDefenseInsteadOfTargetSpDef
-Flags = abc
+Flags = Contact,CanProtect
 EffectChance = 0
 Description = "User forms a wedge-shaped lightning bolt that deals physical damage."
 #-------------------------------
@@ -8889,7 +8889,7 @@ TotalPP = 20
 Target = NearOther
 Priority = 0
 FunctionCode = FreezeTarget
-Flags = bce
+Flags = CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "An icy wind freezes the target."
 #-------------------------------
@@ -8903,7 +8903,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = AttractTarget
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 30
 Description = "The power of love hits the target and the target may fall in love."
 #-------------------------------
@@ -8917,7 +8917,7 @@ TotalPP = 10
 Target = AllNearFoes
 Priority = 0
 FunctionCode = RandomEffectTarget
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 50
 Description = "The user uses witch magic and possibly adds a random status problem to the target."
 #-------------------------------
@@ -8931,7 +8931,7 @@ TotalPP = 20
 Target = User
 Priority = 0
 FunctionCode = LowerTargetAtk3RaiseUserSpAtk3
-Flags = d
+Flags = CanMirrorMove
 EffectChance = 0
 Description = "User liquefies, lowers attack and dramatically increases special attack."
 #-------------------------------
@@ -8945,7 +8945,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = BurnTarget
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 30
 Description = "A beam that can cause burns due to the extreme cold."
 #-------------------------------
@@ -8959,7 +8959,7 @@ TotalPP = 20
 Target = NearOther
 Priority = 0
 FunctionCode = PowerHigherWithTargetSize
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "User stabs and deals damage depending on the size of the target."
 #-------------------------------
@@ -8973,7 +8973,7 @@ TotalPP = 10
 Target = NearOther
 Priority = -1
 FunctionCode = None
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A slow stab to the back, with a low priority."
 #-------------------------------
@@ -8987,7 +8987,7 @@ TotalPP = 5
 Target = NearOther
 Priority = 0
 FunctionCode = None
-Flags = abefh
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
 EffectChance = 0
 Description = "User attacks with the edge of his sword, giving a high critical hit hit rate."
 #-------------------------------
@@ -9001,7 +9001,7 @@ TotalPP = 10
 Target = NearOther
 Priority = 0
 FunctionCode = LowerUserAtk2IfFailsUnusableInGravity
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A dangerous move that greatly lowers the user's attack if it fails to hit."
 #-------------------------------
@@ -9015,7 +9015,7 @@ TotalPP = 10
 Target = NearOther
 Priority = 0
 FunctionCode = DoublePowerIfTargetActed
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "If the user attacks after the target, the power of this attack doubles."
 #-------------------------------
@@ -9029,7 +9029,7 @@ TotalPP = 30
 Target = NearOther
 Priority = 0
 FunctionCode = HitTwoTimes
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A double sword strike that damages the target twice."
 #-------------------------------
@@ -9043,7 +9043,7 @@ TotalPP = 20
 Target = NearOther
 Priority = 0
 FunctionCode = None
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A powerful sword strike that never misses."
 #-------------------------------
@@ -9057,7 +9057,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = LowerTargetDefense1
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 20
 Description = "The target is wounded with a powerful blade that possibly lowers its defense."
 #-------------------------------
@@ -9071,7 +9071,7 @@ TotalPP = 5
 Target = NearOther
 Priority = 0
 FunctionCode = LowerUserDefSpDef1
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "The ultimate blade technique! However, both of the user's defense values are lowered."
 #-------------------------------
@@ -9085,7 +9085,7 @@ TotalPP = 5
 Target = NearOther
 Priority = 0
 FunctionCode = AttackAndSkipNextTurn
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "User attacks with incredible strength, but must recharge afterwards."
 #-------------------------------
@@ -9099,7 +9099,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = LowerTargetDefense1
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 100
 Description = "Target is crushed and the defense stat is lowered."
 #-------------------------------
@@ -9113,7 +9113,7 @@ TotalPP = 30
 Target = NearOther
 Priority = 1
 FunctionCode = None
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A very fast sword strike, with a high priority."
 #-------------------------------
@@ -9127,7 +9127,7 @@ TotalPP = 35
 Target = NearOther
 Priority = 0
 FunctionCode = None
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "The user attacks the target with a sword."
 #-------------------------------
@@ -9141,7 +9141,7 @@ TotalPP = 30
 Target = NearOther
 Priority = 0
 FunctionCode = HitTwoToFiveTimes
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "The user throws two to five swords at the target."
 #-------------------------------
@@ -9155,7 +9155,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = RemoveScreens
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A sword of light that destroys Reflect and Light Screens."
 #-------------------------------
@@ -9169,7 +9169,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = RaiseUserSpAtk1
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 20
 Description = "A blade made of mind power, which possibly increases the user's special attack."
 #-------------------------------
@@ -9183,7 +9183,7 @@ TotalPP = 40
 Target = NearOther
 Priority = 0
 FunctionCode = LowerTargetDef1SpDef1
-Flags = abce
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "The target is pre-damaged and defense stats are lowered."
 #-------------------------------
@@ -9197,7 +9197,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = RaiseTargetAttack2
-Flags = bce
+Flags = CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A force that greatly increases the target's attack."
 #-------------------------------
@@ -9211,7 +9211,7 @@ TotalPP = 30
 Target = User
 Priority = 0
 FunctionCode = RaiseUserDef1SpDef1
-Flags = d
+Flags = CanMirrorMove
 EffectChance = 0
 Description = "The user arms himself, increasing physical and special defense."
 #-------------------------------
@@ -9225,7 +9225,7 @@ TotalPP = 10
 Target = UserAndAllies
 Priority = 4
 FunctionCode = RaiseUserSideDefenseDependingOnParticipants
-Flags = d
+Flags = CanMirrorMove
 EffectChance = 0
 Description = "Increases Def. of allied side. If user is alone, Defense increases greatly."
 #-------------------------------
@@ -9239,7 +9239,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = ConfuseTarget
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 10
 Description = "Target is transported into space and may suffer confusion."
 #-------------------------------
@@ -9253,7 +9253,7 @@ TotalPP = 10
 Target = NearOther
 Priority = 0
 FunctionCode = TwoTurnAttackInvulnerableRemoveProtections
-Flags = aef
+Flags = Contact,CanMirrorMove
 EffectChance = 0
 Description = "User disappears on turn 1, and attacks afterwards. Also hits through Protect."
 #-------------------------------
@@ -9267,7 +9267,7 @@ TotalPP = 20
 Target = NearOther
 Priority = 0
 FunctionCode = None
-Flags = abefh
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
 EffectChance = 0
 Description = "User uses a cosmic claw with a high critical hit rate."
 #-------------------------------
@@ -9281,7 +9281,7 @@ TotalPP = 30
 Target = NearOther
 Priority = 1
 FunctionCode = None
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A high priority cosmic attack."
 #-------------------------------
@@ -9295,7 +9295,7 @@ TotalPP = 20
 Target = NearOther
 Priority = 0
 FunctionCode = MultiTurnAttackPowersUpEachTurn
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "User is in Orbit for 5 turns and attacks with increasing strength."
 #-------------------------------
@@ -9309,7 +9309,7 @@ TotalPP = 5
 Target = NearOther
 Priority = 0
 FunctionCode = LowerUserAtkDef1
-Flags = abef
+Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A powerful attack that lowers the user's attack and defense."
 #-------------------------------
@@ -9323,7 +9323,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = PowerHigherAtNight
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "An unusual attack that is more powerful at night than during the day."
 #-------------------------------
@@ -9337,7 +9337,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = HealUserByHalfOfDamageDone
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "User drains off a portion of the HP and uses it to heal himself."
 #-------------------------------
@@ -9351,7 +9351,7 @@ TotalPP = 5
 Target = NearOther
 Priority = 0
 FunctionCode = RaiseUserMainStats1
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 10
 Description = "This power from space, rarely increases all of the user's stats."
 #-------------------------------
@@ -9365,7 +9365,7 @@ TotalPP = 35
 Target = NearOther
 Priority = 0
 FunctionCode = None
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 00
 Description = "The target is attacked with star glitter."
 #-------------------------------
@@ -9379,7 +9379,7 @@ TotalPP = 20
 Target = NearOther
 Priority = 0
 FunctionCode = RaiseUserSpeed1
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 100
 Description = "User envelops himself in energy and attacks the target. He increases his own speed."
 #-------------------------------
@@ -9393,7 +9393,7 @@ TotalPP = 15
 Target = AllNearFoes
 Priority = 0
 FunctionCode = None
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 00
 Description = "User attacks the entire enemy side with Astral energy."
 #-------------------------------
@@ -9407,7 +9407,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = BurnTarget
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 10
 Description = "The target is attacked with UV rays and may suffer burns."
 #-------------------------------
@@ -9421,7 +9421,7 @@ TotalPP = 5
 Target = NearOther
 Priority = 0
 FunctionCode = AttackAndSkipNextTurn
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A powerful attack after which the user must recharge."
 #-------------------------------
@@ -9435,7 +9435,7 @@ TotalPP = 10
 Target = AllNearOthers
 Priority = 0
 FunctionCode = UserFaintsExplosive
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "The user becomes a supernova and gets knocked out himself."
 #-------------------------------
@@ -9449,7 +9449,7 @@ TotalPP = 5
 Target = AllNearOthers
 Priority = 0
 FunctionCode = UserFaintsExplosive
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "The user becomes a powerful hypernova and also knocks himself out."
 #-------------------------------
@@ -9463,7 +9463,7 @@ TotalPP = 10
 Target = User
 Priority = 0
 FunctionCode = SetUserAbilityToConvergence
-Flags = d
+Flags = CanMirrorMove
 EffectChance = 0
 Description = "User gains an ability that all moves on the field always hit."
 #-------------------------------
@@ -9477,7 +9477,7 @@ TotalPP = 20
 Target = User
 Priority = 0
 FunctionCode = RaiseUserSpAtkSpd1
-Flags = d
+Flags = CanMirrorMove
 EffectChance = 0
 Description = "Quantum level energy increases Sp. Atk. and Speed."
 #-------------------------------
@@ -9491,7 +9491,7 @@ TotalPP = 10
 Target = UserAndAllies
 Priority = 4
 FunctionCode = RaiseUserSideSpecialDefenseDependingOnParticipants
-Flags = d
+Flags = CanMirrorMove
 EffectChance = 0
 Description = "Increases Sp. Def. of allied side. If user is alone, Sp. Def. increases greatly."
 #-------------------------------
@@ -9505,7 +9505,7 @@ TotalPP = 20
 Target = AllNearFoes
 Priority = 0
 FunctionCode = LowerTargetAccuracy1
-Flags = d
+Flags = CanMirrorMove
 EffectChance = 0
 Description = "A bright starlight lowers the accuracy of the enemy side."
 #-------------------------------
@@ -9519,7 +9519,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = TypeIsUserFirstType
-Flags = abf
+Flags = Contact,CanProtect,CannnotMetronome
 EffectChance = 0
 Description = "A punch attack that takes on the primary type of the user."
 #-------------------------------
@@ -9533,7 +9533,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = TypeIsUserSecondType
-Flags = abf
+Flags = Contact,CanProtect,CannnotMetronome
 EffectChance = 0
 Description = "A smite attack that takes on the secondary type of the user."
 #-------------------------------
@@ -9547,7 +9547,7 @@ TotalPP = 10
 Target = AllNearFoes
 Priority = 0
 FunctionCode = SleepTarget
-Flags = befk
+Flags = CanProtect,CanMirrorMove,Sound
 EffectChance = 10
 Description = "User plays a melody that harms the enemy side and possibly causes sleep."
 #-------------------------------
@@ -9561,7 +9561,7 @@ TotalPP = 10
 Target = RandomNearFoe
 Priority = 0
 FunctionCode = MultiTurnAttackConfuseUserAtEnd
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "A whirlwind that rages for 2 to 3 rounds. After that, user is confused."
 #-------------------------------
@@ -9575,7 +9575,7 @@ TotalPP = 5
 Target = AllNearFoes
 Priority = 0
 FunctionCode = PowerHigherWithUserHP
-Flags = bef
+Flags = CanProtect,CanMirrorMove
 EffectChance = 0
 Description = "The higher the user's HP, the more damage is dealt."
 #-------------------------------
@@ -9589,7 +9589,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 0
 FunctionCode = LowerTargetDefense1
-Flags = abefi
+Flags = Contact,CanProtect,CanMirrorMove,Biting
 EffectChance = 50
 Description = "User bites and possibly lowers target's defense."
 #-------------------------------
@@ -9603,7 +9603,7 @@ TotalPP = 10
 Target = NearOther
 Priority = 0
 FunctionCode = RaiseTargetAttack1
-Flags = abefj
+Flags = Contact,CanProtect,CanMirrorMove,Punching
 EffectChance = 20
 Description = "The target is hit with a hard metal punch. It may also raise the user's Attack."
 
