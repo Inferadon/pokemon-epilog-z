@@ -4,389 +4,451 @@
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
+IntroBGM = Z_Encounter037
 #-------------------------------
 [POKEMONTRAINER_Leaf]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
+IntroBGM = Z_Encounter037
 #-------------------------------
-[POKEMONTRAINER_Brendan]
+[POKEMONTRAINER_Sam]
 Name = Pokémon Trainer
-Gender = Male
+Gender = Mixed
 BaseMoney = 60
+IntroBGM = Z_Encounter037
 #-------------------------------
 [POKEMONTRAINER_May]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
+IntroBGM = Z_Encounter037
 #-------------------------------
 [RIVAL1]
 Name = Rival
 Gender = Male
 BaseMoney = 16
+IntroBGM = Z_Encounter037
 #-------------------------------
 [RIVAL2]
 Name = Rival
 Gender = Male
 BaseMoney = 36
+IntroBGM = Z_Encounter037
 #-------------------------------
 [AROMALADY]
 Name = Aroma Lady
 Gender = Female
 BaseMoney = 32
+IntroBGM = Z_Encounter006
 #-------------------------------
 [BEAUTY]
 Name = Beauty
 Gender = Female
 BaseMoney = 56
+IntroBGM = Z_Encounter007
 #-------------------------------
 [BIKER]
 Name = Biker
 Gender = Male
 BaseMoney = 32
+IntroBGM = Z_Encounter008
 #-------------------------------
 [BIRDKEEPER]
 Name = Bird Keeper
 Gender = Male
 BaseMoney = 32
+IntroBGM = Z_Encounter009
 #-------------------------------
 [BUGCATCHER]
 Name = Bug Catcher
 Gender = Male
 BaseMoney = 16
+IntroBGM = Z_Encounter010
 #-------------------------------
 [BURGLAR]
 Name = Burglar
 Gender = Male
 BaseMoney = 88
 SkillLevel = 32
+IntroBGM = Z_Encounter011
 #-------------------------------
 [CHANNELER]
 Name = Channeler
 Gender = Female
 BaseMoney = 32
+IntroBGM = Z_Encounter012
 #-------------------------------
 [CUEBALL]
 Name = Cue Ball
 Gender = Male
 BaseMoney = 24
+IntroBGM = Z_Encounter013
 #-------------------------------
 [ENGINEER]
 Name = Engineer
 Gender = Male
 BaseMoney = 48
+IntroBGM = Z_Encounter014
 #-------------------------------
 [FISHERMAN]
 Name = Fisherman
 Gender = Male
 BaseMoney = 32
+IntroBGM = Z_Encounter015
 #-------------------------------
 [GAMBLER]
 Name = Gambler
 Gender = Male
 BaseMoney = 72
 SkillLevel = 32
+IntroBGM = Z_Encounter016
 #-------------------------------
 [GENTLEMAN]
 Name = Gentleman
 Gender = Male
 BaseMoney = 72
+IntroBGM = Z_Encounter017
 #-------------------------------
 [HIKER]
 Name = Hiker
 Gender = Male
 BaseMoney = 32
+IntroBGM = Z_Encounter018
 #-------------------------------
 [JUGGLER]
 Name = Juggler
 Gender = Male
 BaseMoney = 32
+IntroBGM = Z_Encounter019
 #-------------------------------
 [LADY]
 Name = Lady
 Gender = Female
 BaseMoney = 160
 SkillLevel = 72
+IntroBGM = Z_Encounter020
 #-------------------------------
 [PAINTER]
 Name = Painter
 Gender = Female
 BaseMoney = 16
+IntroBGM = Z_Encounter021
 #-------------------------------
 [POKEMANIAC]
 Name = Poké Maniac
 Gender = Male
 BaseMoney = 64
+IntroBGM = Z_Encounter022
 #-------------------------------
 [POKEMONBREEDER]
 Name = Pokémon Breeder
 Gender = Female
 BaseMoney = 48
+IntroBGM = Z_Encounter023
 #-------------------------------
-[PROFESSOR]
-Name = Professor
+[DUDE]
+Name = Dude
 Gender = Male
 BaseMoney = 100
+IntroBGM = Z_Encounter024
 #-------------------------------
-[ROCKER]
-Name = Rocker
+[SUPERNERD]
+Name = Super Nerd
 Gender = Male
 BaseMoney = 24
+IntroBGM = Z_Encounter025
 #-------------------------------
 [RUINMANIAC]
 Name = Ruin Maniac
 Gender = Male
 BaseMoney = 48
+IntroBGM = Z_Encounter026
 #-------------------------------
 [SAILOR]
 Name = Sailor
 Gender = Male
 BaseMoney = 32
+IntroBGM = Z_Encounter027
 #-------------------------------
 [SCIENTIST]
 Name = Scientist
 Gender = Male
 BaseMoney = 48
+IntroBGM = Z_Encounter028
 #-------------------------------
-[SUPERNERD]
-Name = Super Nerd
+[COLLERCTOR]
+Name = Collector
 Gender = Male
 BaseMoney = 48
+IntroBGM = Z_Encounter029
 #-------------------------------
-[TAMER]
-Name = Tamer
+[RICHBOY]
+Name = Rich Boy
 Gender = Male
 BaseMoney = 40
+IntroBGM = Z_Encounter030
 #-------------------------------
 [BLACKBELT]
 Name = Black Belt
 Gender = Male
 BaseMoney = 32
+IntroBGM = Z_Encounter031
 #-------------------------------
 [CRUSHGIRL]
 Name = Crush Girl
 Gender = Female
 BaseMoney = 24
+IntroBGM = Z_Encounter032
 #-------------------------------
 [CAMPER]
 Name = Camper
 Gender = Male
 BaseMoney = 16
+IntroBGM = Z_Encounter033
 #-------------------------------
 [PICNICKER]
 Name = Picnicker
 Gender = Female
 BaseMoney = 16
+IntroBGM = Z_Encounter033
 #-------------------------------
 [COOLTRAINER_M]
 Name = Cool Trainer
 Gender = Male
 BaseMoney = 60
+IntroBGM = Z_Encounter035
 #-------------------------------
 [COOLTRAINER_F]
 Name = Cool Trainer
 Gender = Female
 BaseMoney = 60
+IntroBGM = Z_Encounter035
 #-------------------------------
 [YOUNGSTER]
 Name = Youngster
 Gender = Male
 BaseMoney = 16
+IntroBGM = Z_Encounter037
 #-------------------------------
 [LASS]
 Name = Lass
 Gender = Female
 BaseMoney = 16
+IntroBGM = Z_Encounter038
 #-------------------------------
 [POKEMONRANGER_M]
 Name = Pokémon Ranger
 Gender = Male
 BaseMoney = 60
+IntroBGM = Z_Encounter039
 #-------------------------------
 [POKEMONRANGER_F]
 Name = Pokémon Ranger
 Gender = Female
 BaseMoney = 60
+IntroBGM = Z_Encounter039
 #-------------------------------
 [PSYCHIC_M]
 Name = Psychic
 Gender = Male
 BaseMoney = 32
+IntroBGM = Z_Encounter041
 #-------------------------------
 [PSYCHIC_F]
 Name = Psychic
 Gender = Female
 BaseMoney = 32
+IntroBGM = Z_Encounter041
 #-------------------------------
 [SWIMMER_M]
 Name = Swimmer
 Gender = Male
 BaseMoney = 16
 SkillLevel = 32
+IntroBGM = Z_Encounter043
 #-------------------------------
 [SWIMMER_F]
 Name = Swimmer
 Gender = Female
 BaseMoney = 16
 SkillLevel = 32
+IntroBGM = Z_Encounter044
 #-------------------------------
-[SWIMMER2_M]
-Name = Swimmer
+[VETERAN_M]
+Name = Veteran
 Gender = Male
 BaseMoney = 16
 SkillLevel = 32
+IntroBGM = Z_Encounter045
 #-------------------------------
-[SWIMMER2_F]
-Name = Swimmer
+[VETERAN_F]
+Name = Veteran
 Gender = Female
 BaseMoney = 16
 SkillLevel = 32
+IntroBGM = Z_Encounter045
 #-------------------------------
-[TUBER_M]
-Name = Tuber
+[SCHOOLBOY]
+Name = Schoolboy
 Gender = Male
 BaseMoney = 4
 SkillLevel = 16
+IntroBGM = Z_Encounter047
 #-------------------------------
-[TUBER_F]
-Name = Tuber
+[SCHOOLGIRL]
+Name = Schoolgirl
 Gender = Female
 BaseMoney = 4
 SkillLevel = 16
+IntroBGM = Z_Encounter047
 #-------------------------------
-[TUBER2_M]
-Name = Tuber
+[PRESCHOOLER_M]
+Name = Preschooler
 Gender = Male
 BaseMoney = 4
 SkillLevel = 16
+IntroBGM = Z_Encounter049
 #-------------------------------
-[TUBER2_F]
-Name = Tuber
+[PRESCHOOLER_F]
+Name = Preschooler
 Gender = Female
 BaseMoney = 4
 SkillLevel = 16
+IntroBGM = Z_Encounter049
 #-------------------------------
-[COOLCOUPLE]
-Name = Cool Couple
-Gender = Unknown
+[INTERVIEWERS]
+Name = Interviewers
+Gender = Mixed
 BaseMoney = 72
 SkillLevel = 48
+IntroBGM = Z_Encounter051
 #-------------------------------
-[CRUSHKIN]
-Name = Crush Kin
-Gender = Unknown
+[COUPLE]
+Name = Couple
+Gender = Mixed
 BaseMoney = 48
+IntroBGM = Z_Encounter052
 #-------------------------------
-[SISANDBRO]
-Name = Sis and Bro
-Gender = Unknown
+[CHEERLEADERS]
+Name = Cheerleaders
+Gender = Mixed
 BaseMoney = 16
 SkillLevel = 48
+IntroBGM = Z_Encounter053
 #-------------------------------
 [TWINS]
 Name = Twins
 Gender = Unknown
 BaseMoney = 24
+IntroBGM = Z_Encounter054
 #-------------------------------
-[YOUNGCOUPLE]
-Name = Young Couple
-Gender = Unknown
+[POKEFAN]
+Name = Poké Fan
+Gender = Mixed
 BaseMoney = 60
 SkillLevel = 32
+IntroBGM = Z_Encounter055
 #-------------------------------
-[TEAMROCKET_M]
+[TEAMNEOFLARE_M]
 Name = Team Rocket
 Gender = Male
 BaseMoney = 32
+BattleBGM = Z_Flare.wav
+VictoryBGM = Z_FlareVictory.wav
+IntroBGM = Z_Encounter056
 #-------------------------------
-[TEAMROCKET_F]
+[TEAMNEOFLARE_F]
 Name = Team Rocket
 Gender = Female
 BaseMoney = 32
+BattleBGM = Z_Flare.wav
+VictoryBGM = Z_FlareVictory.wav
+IntroBGM = Z_Encounter056
 #-------------------------------
 [ROCKETBOSS]
 Name = Rocket Boss
 Gender = Male
 BaseMoney = 100
 #-------------------------------
-[LEADER_Brock]
+[LEADER_ONE]
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
+BattleBGM = Z_Gymleader.wav
+VictoryBGM = VictoryGym.wav
 #-------------------------------
-[LEADER_Misty]
+[LEADER_TWO]
 Name = Gym Leader
 Gender = Female
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
+BattleBGM = Z_Gymleader.wav
+VictoryBGM = VictoryGym.wav
 #-------------------------------
-[LEADER_Surge]
+[LEADER_THREE]
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
+BattleBGM = Z_Gymleader.wav
+VictoryBGM = VictoryGym.wav
 #-------------------------------
-[LEADER_Erika]
+[LEADER_FOUR]
 Name = Gym Leader
 Gender = Female
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
+BattleBGM = Z_Gymleader.wav
+VictoryBGM = VictoryGym.wav
 #-------------------------------
-[LEADER_Koga]
+[LEADER_FIVE]
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
+BattleBGM = Z_Gymleader.wav
+VictoryBGM = VictoryGym.wav
 #-------------------------------
-[LEADER_Sabrina]
+[LEADER_SIX]
 Name = Gym Leader
 Gender = Female
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
+BattleBGM = Z_Gymleader.wav
+VictoryBGM = VictoryGym.wav
 #-------------------------------
-[LEADER_Blaine]
+[LEADER_SEVEN]
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
-VictoryBGM = Battle victory leader
+BattleBGM = Z_Gymleader.wav
+VictoryBGM = VictoryGym.wav
 #-------------------------------
-[LEADER_Giovanni]
+[LEADER_EIGHT]
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
+BattleBGM = Z_Gymleader.wav
+VictoryBGM = VictoryGym.wav
+#-------------------------------
+[ELITEFOUR_GRASS]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+BattleBGM = Z_Gymleader.wav
+VictoryBGM = VictoryGym.wav
+#-------------------------------
+[ELITEFOUR_ELECTRIC]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Elite
 VictoryBGM = Battle victory leader
 #-------------------------------
-[ELITEFOUR_Lorelei]
+[ELITEFOUR_WATER]
 Name = Elite Four
 Gender = Female
 BaseMoney = 100
 BattleBGM = Battle Elite
 VictoryBGM = Battle victory leader
 #-------------------------------
-[ELITEFOUR_Bruno]
-Name = Elite Four
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Elite
-VictoryBGM = Battle victory leader
-#-------------------------------
-[ELITEFOUR_Agatha]
-Name = Elite Four
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Elite
-VictoryBGM = Battle victory leader
-#-------------------------------
-[ELITEFOUR_Lance]
+[ELITEFOUR_STAR]
 Name = Elite Four
 Gender = Male
 BaseMoney = 100
@@ -399,3 +461,43 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Champion
 VictoryBGM = Battle victory leader
+IntroBGM = Z_Encounter
+#-------------------------------
+[MAYA]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 30
+BattleBGM = Z_MayaBattle.wav
+VictoryBGM = Z_RivalVictory.wav
+IntroBGM = Z_Encounter037
+#-------------------------------
+[FERRIO]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 30
+BattleBGM = Z_FerrioBattle.wav
+VictoryBGM = Z_RivalVictory.wav
+IntroBGM = Z_Encounter037
+#-------------------------------
+[UNUSED]
+Name = UNUSED
+Gender = Male
+BaseMoney = 30
+#-------------------------------
+[POLICEMAN]
+Name = Policeman
+Gender = Male
+BaseMoney = 30
+IntroBGM = Z_Encounter051
+#-------------------------------
+[JOGGER]
+Name = Jogger
+Gender = Male
+BaseMoney = 30
+IntroBGM = Z_Encounter076
+#-------------------------------
+[EVILSCIENTIST]
+Name = Evil Scientist
+Gender = Male
+BaseMoney = 30
+IntroBGM = Z_Encounter028

@@ -708,7 +708,7 @@ Evolutions = SANDSLASH,Level,22
 #-------------------------------
 [SANDSLASH]
 Name = Sandslash
-Types = GROUND
+Types = GROUND,SWORD
 BaseStats = 75,100,110,65,45,55
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -732,7 +732,7 @@ Pokedex = It curls up in a ball to protect itself from enemy attacks. It also cu
 Generation = 1
 WildItemUncommon = GRIPCLAW
 #-------------------------------
-[NIDORANfE]
+[NIDORANFE]
 Name = Nidoran♀
 Types = POISON
 BaseStats = 55,47,52,41,40,40
@@ -749,7 +749,7 @@ TutorMoves = AERIALACE,ATTRACT,BEATUP,BLIZZARD,BODYSLAM,CAPTIVATE,CHARM,CONFIDE,
 EggMoves = BEATUP,CHARM,COUNTER,DISABLE,FOCUSENERGY,POISONFANG,POISONTAIL,SKULLBASH,SUPERSONIC,TAKEDOWN,VENOMDRENCH
 EggGroups = Monster,Field
 HatchSteps = 5120
-Offspring = NIDORANfE,NIDORANmA
+Offspring = NIDORANFE,NIDORANMA
 Height = 0.4
 Weight = 7.0
 Color = Blue
@@ -811,7 +811,7 @@ Category = Drill
 Pokedex = It is adept at sending foes flying with harsh tackles using its tough, scaly body. This Pokémon is at its strongest when it is defending its young.
 Generation = 1
 #-------------------------------
-[NIDORANmA]
+[NIDORANMA]
 Name = Nidoran♂
 Types = POISON
 BaseStats = 46,57,40,50,40,40
@@ -828,7 +828,7 @@ TutorMoves = AMNESIA,ATTRACT,BEATUP,BLIZZARD,BODYSLAM,CAPTIVATE,CONFIDE,COUNTER,
 EggMoves = AMNESIA,BEATUP,CONFUSION,COUNTER,DISABLE,HEADSMASH,HORNDRILL,POISONTAIL,SUCKERPUNCH,SUPERSONIC,TAKEDOWN,THRASH,VENOMDRENCH
 EggGroups = Monster,Field
 HatchSteps = 5120
-Offspring = NIDORANfE,NIDORANmA
+Offspring = NIDORANFE,NIDORANMA
 Height = 0.5
 Weight = 9.0
 Color = Purple
@@ -892,7 +892,7 @@ Generation = 1
 #-------------------------------
 [CLEFAIRY]
 Name = Clefairy
-Types = FAIRY
+Types = FAIRY,STAR
 BaseStats = 70,45,48,35,60,65
 GenderRatio = Female75Percent
 GrowthRate = Fast
@@ -919,7 +919,7 @@ Evolutions = CLEFABLE,Item,MOONSTONE
 #-------------------------------
 [CLEFABLE]
 Name = Clefable
-Types = FAIRY
+Types = FAIRY,STAR
 BaseStats = 95,70,73,60,95,90
 GenderRatio = Female75Percent
 GrowthRate = Fast
@@ -1279,7 +1279,7 @@ CatchRate = 75
 Happiness = 50
 Abilities = SHIELDDUST,TINTEDLENS
 HiddenAbilities = WONDERSKIN
-Moves = 0,GUST,1,QUIVERDANCE,1,BUGBUZZ,1,WHIRLWIND,1,TACKLE,1,DISABLE,1,STRUGGLEBUG,1,SUPERSONIC,5,SUPERSONIC,11,CONFUSION,13,POISONPOWDER,17,PSYBEAM,23,STUNSPORE,25,MEGADRAIN,29,SLEEPPOWDER,37,LEECHLIFE,41,ZENHEADBUTT,47,POISONFANG,55,PSYCHIC,59,BUGBUZZ,63,QUIVERDANCE
+Moves = 0,GUST,1,GUST,1,QUIVERDANCE,1,BUGBUZZ,1,SILVERWIND,1,TACKLE,1,DISABLE,1,FORESIGHT,1,SUPERSONIC,5,SUPERSONIC,11,CONFUSION,13,POISONPOWDER,17,PSYBEAM,23,STUNSPORE,25,SIGNALBEAM,29,SLEEPPOWDER,37,LEECHLIFE,41,ZENHEADBUTT,47,POISONFANG,49,DARKPULSE,55,PSYCHIC,59,BUGBUZZ,63,QUIVERDANCE
 TutorMoves = ACROBATICS,AERIALACE,AIRCUTTER,ATTRACT,BUGBITE,BUGBUZZ,CAPTIVATE,CONFIDE,DEFOG,DOUBLEEDGE,DOUBLETEAM,ENDURE,ENERGYBALL,FACADE,FLASH,FRUSTRATION,GIGADRAIN,GIGAIMPACT,HIDDENPOWER,HYPERBEAM,INFESTATION,LEECHLIFE,MIMIC,NATURALGIFT,OMINOUSWIND,PROTECT,PSYCHIC,REST,RETURN,ROOST,ROUND,SECRETPOWER,SIGNALBEAM,SILVERWIND,SKILLSWAP,SLEEPTALK,SLUDGEBOMB,SNORE,SOLARBEAM,STRINGSHOT,STRUGGLEBUG,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,TAILWIND,THIEF,TWISTER,UTURN,VENOSHOCK,ZENHEADBUTT
 EggGroups = Bug
 HatchSteps = 5120
@@ -1292,6 +1292,7 @@ Category = Poison Moth
 Pokedex = Venomoth are nocturnal--they only are active at night. Their favorite prey are insects that gather around streetlights, attracted by the light in the darkness.
 Generation = 1
 WildItemUncommon = SHEDSHELL
+Evolutions = VEMOTHNA,HasMove,DARKPULSE
 #-------------------------------
 [DIGLETT]
 Name = Diglett
@@ -1639,7 +1640,7 @@ WildItemUncommon = KINGSROCK
 #-------------------------------
 [ABRA]
 Name = Abra
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 25,20,15,90,105,55
 GenderRatio = Female25Percent
 GrowthRate = Parabolic
@@ -1667,7 +1668,7 @@ Evolutions = KADABRA,Level,16
 #-------------------------------
 [KADABRA]
 Name = Kadabra
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 40,35,30,105,120,70
 GenderRatio = Female25Percent
 GrowthRate = Parabolic
@@ -1694,7 +1695,7 @@ Evolutions = ALAKAZAM,Trade,
 #-------------------------------
 [ALAKAZAM]
 Name = Alakazam
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 55,50,45,120,135,95
 GenderRatio = Female25Percent
 GrowthRate = Parabolic
@@ -2174,7 +2175,7 @@ Evolutions = MAGNEZONE,Item,THUNDERSTONE,MAGNEZONE,LocationFlag,Magnetic
 #-------------------------------
 [FARFETCHD]
 Name = Farfetch'd
-Types = NORMAL,FLYING
+Types = SWORD,FLYING
 BaseStats = 52,90,55,60,58,62
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -3157,7 +3158,7 @@ WildItemUncommon = MYSTICWATER
 #-------------------------------
 [STARYU]
 Name = Staryu
-Types = WATER
+Types = WATER,STAR
 BaseStats = 30,45,55,85,70,55
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -3185,7 +3186,7 @@ Evolutions = STARMIE,Item,WATERSTONE
 #-------------------------------
 [STARMIE]
 Name = Starmie
-Types = WATER,PSYCHIC
+Types = WATER,STAR
 BaseStats = 60,75,85,115,100,85
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -3525,7 +3526,7 @@ Habitat = Urban
 Category = Evolution
 Pokedex = An Eevee has an unstable genetic makeup that suddenly mutates due to its environment. Radiation from various stones causes this Pokémon to evolve.
 Generation = 1
-Evolutions = VAPOREON,Item,WATERSTONE,JOLTEON,Item,THUNDERSTONE,FLAREON,Item,FIRESTONE,LEAFEON,Item,LEAFSTONE,LEAFEON,LocationFlag,MossRock,GLACEON,Item,ICESTONE,GLACEON,LocationFlag,IceRock,SYLVEON,HappinessMoveType,FAIRY,ESPEON,HappinessDay,,UMBREON,HappinessNight,
+Evolutions = VAPOREON,Item,WATERSTONE,JOLTEON,Item,THUNDERSTONE,FLAREON,Item,FIRESTONE,LEAFEON,Item,LEAFSTONE,LEAFEON,LocationFlag,MossRock,GLACEON,Item,ICESTONE,GLACEON,LocationFlag,IceRock,AURERA,HasMove,FLINKAURA,SYLVEON,HappinessMoveType,FAIRY,ESPEON,HappinessDay,,UMBREON,HappinessNight,
 #-------------------------------
 [VAPOREON]
 Name = Vaporeon
@@ -3682,7 +3683,7 @@ Generation = 1
 #-------------------------------
 [KABUTO]
 Name = Kabuto
-Types = ROCK,WATER
+Types = ROCK,SWORD
 BaseStats = 30,80,90,55,55,45
 GenderRatio = FemaleOneEighth
 GrowthRate = Medium
@@ -3709,7 +3710,7 @@ Evolutions = KABUTOPS,Level,40
 #-------------------------------
 [KABUTOPS]
 Name = Kabutops
-Types = ROCK,WATER
+Types = ROCK,SWORD
 BaseStats = 60,115,105,80,65,70
 GenderRatio = FemaleOneEighth
 GrowthRate = Medium
@@ -4550,7 +4551,7 @@ Evolutions = PIKACHU,Happiness,
 #-------------------------------
 [CLEFFA]
 Name = Cleffa
-Types = FAIRY
+Types = FAIRY,STAR
 BaseStats = 50,25,28,15,45,55
 GenderRatio = Female75Percent
 GrowthRate = Fast
@@ -5060,7 +5061,7 @@ CatchRate = 120
 Happiness = 50
 Abilities = CHLOROPHYLL,SOLARPOWER
 HiddenAbilities = EARLYBIRD
-Moves = 1,FLOWERSHIELD,1,ENDEAVOR,1,SYNTHESIS,1,SEEDBOMB,1,POUND,1,TACKLE,1,GROWTH,4,INGRAIN,7,ABSORB,10,MEGADRAIN,13,LEECHSEED,16,RAZORLEAF,19,WORRYSEED,22,GIGADRAIN,25,BULLETSEED,28,PETALDANCE,34,SOLARBEAM,37,DOUBLEEDGE,40,SUNNYDAY,43,LEAFSTORM,50,PETALBLIZZARD
+Moves = 1,SOLARWIND,1,FLOWERSHIELD,1,ABSORB,1,POUND,1,GROWTH,4,INGRAIN,7,GRASSWHISTLE,10,MEGADRAIN,13,LEECHSEED,16,RAZORLEAF,19,WORRYSEED,22,GIGADRAIN,25,BULLETSEED,28,PETALDANCE,31,NATURALGIFT,34,SOLARBEAM,37,DOUBLEEDGE,40,SUNNYDAY,43,LEAFSTORM,46,SOLARWIND,50,PETALBLIZZARD
 TutorMoves = AFTERYOU,ATTRACT,BULLETSEED,CAPTIVATE,CONFIDE,CUT,DOUBLEEDGE,DOUBLETEAM,EARTHPOWER,ENDEAVOR,ENDURE,ENERGYBALL,FACADE,FLASH,FRUSTRATION,GIGADRAIN,GIGAIMPACT,GRASSKNOT,HELPINGHAND,HIDDENPOWER,HYPERBEAM,LIGHTSCREEN,MIMIC,NATURALGIFT,NATUREPOWER,PROTECT,REST,RETURN,ROUND,SAFEGUARD,SECRETPOWER,SEEDBOMB,SLEEPTALK,SLUDGEBOMB,SNORE,SOLARBEAM,SUBSTITUTE,SUNNYDAY,SWAGGER,SWORDSDANCE,SYNTHESIS,UPROAR,WORRYSEED
 EggGroups = Grass
 HatchSteps = 5120
@@ -5072,6 +5073,7 @@ Habitat = Grassland
 Category = Sun
 Pokedex = Sunflora convert solar energy into nutrition. They are highly active in the warm daytime but suddenly stop moving as soon as the sun sets.
 Generation = 2
+Evolutions = SONNESSEL,HasMove,SOLARWIND
 #-------------------------------
 [YANMA]
 Name = Yanma
@@ -5567,6 +5569,7 @@ Category = Balloon
 Pokedex = A Qwilfish uses the pressure of water it swallows to shoot toxic quills all at once from all over its body. It finds swimming to be somewhat challenging.
 Generation = 2
 WildItemUncommon = POISONBARB
+Evolutions = ENDORFISH,Item,THUNDERSTONE,ENDORFISH,Item,GIFTSTEIN
 #-------------------------------
 [SCIZOR]
 Name = Scizor
@@ -6657,7 +6660,7 @@ Evolutions = GROVYLE,Level,16
 #-------------------------------
 [GROVYLE]
 Name = Grovyle
-Types = GRASS
+Types = GRASS,SWORD
 BaseStats = 50,65,45,95,85,65
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -6683,7 +6686,7 @@ Evolutions = SCEPTILE,Level,36
 #-------------------------------
 [SCEPTILE]
 Name = Sceptile
-Types = GRASS
+Types = GRASS,SWORD
 BaseStats = 70,85,65,120,105,85
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -6969,7 +6972,7 @@ Pokedex = It is exceedingly fast if it only has to run in a straight line. When 
 Generation = 3
 WildItemCommon = POTION
 WildItemUncommon = MAXREVIVE
-Evolutions = OBSTAGOON,None,
+Evolutions = RUNTERRDAX,LevelDay,35
 #-------------------------------
 [WURMPLE]
 Name = Wurmple
@@ -7899,7 +7902,7 @@ Evolutions = PROBOPASS,LocationFlag,Magnetic,PROBOPASS,Item,THUNDERSTONE
 #-------------------------------
 [SKITTY]
 Name = Skitty
-Types = NORMAL
+Types = STAR
 BaseStats = 50,45,45,50,35,35
 GenderRatio = Female75Percent
 GrowthRate = Fast
@@ -7926,7 +7929,7 @@ Evolutions = DELCATTY,Item,MOONSTONE
 #-------------------------------
 [DELCATTY]
 Name = Delcatty
-Types = NORMAL
+Types = STAR
 BaseStats = 70,65,65,90,55,55
 GenderRatio = Female75Percent
 GrowthRate = Fast
@@ -7948,6 +7951,7 @@ Habitat = Forest
 Category = Prim
 Pokedex = Rather than keeping a permanent lair, it habitually seeks comfortable spots and sleeps there. It is nocturnal and becomes active at dusk.
 Generation = 3
+Evolutions = AURORECO,Item,AURORAAMETHYST,AURORECO,Item,AURORARUBIN,AURORECO,Item,AURORASMARAGD,AURORECO,Item,AURORASAPHIR
 #-------------------------------
 [SABLEYE]
 Name = Sableye
@@ -8244,7 +8248,7 @@ WildItemUncommon = CELLBATTERY
 #-------------------------------
 [VOLBEAT]
 Name = Volbeat
-Types = BUG
+Types = BUG,STAR
 BaseStats = 65,73,75,85,47,85
 GenderRatio = AlwaysMale
 GrowthRate = Erratic
@@ -8830,7 +8834,7 @@ Generation = 3
 #-------------------------------
 [ZANGOOSE]
 Name = Zangoose
-Types = NORMAL
+Types = NORMAL,STAR
 BaseStats = 73,115,60,90,60,60
 GenderRatio = Female50Percent
 GrowthRate = Erratic
@@ -8884,7 +8888,7 @@ WildItemUncommon = SHEDSHELL
 #-------------------------------
 [LUNATONE]
 Name = Lunatone
-Types = ROCK,PSYCHIC
+Types = ROCK,STAR
 BaseStats = 90,55,65,70,95,85
 GenderRatio = Genderless
 GrowthRate = Fast
@@ -8910,7 +8914,7 @@ WildItemUncommon = MOONSTONE
 #-------------------------------
 [SOLROCK]
 Name = Solrock
-Types = ROCK,PSYCHIC
+Types = ROCK,STAR
 BaseStats = 90,95,85,70,55,65
 GenderRatio = Genderless
 GrowthRate = Fast
@@ -9465,7 +9469,7 @@ WildItemUncommon = CLEANSETAG
 #-------------------------------
 [ABSOL]
 Name = Absol
-Types = DARK
+Types = DARK,SWORD
 BaseStats = 65,130,60,75,75,60
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -9865,7 +9869,7 @@ WildItemUncommon = DRAGONFANG
 #-------------------------------
 [BELDUM]
 Name = Beldum
-Types = STEEL,PSYCHIC
+Types = STEEL,STAR
 BaseStats = 40,55,80,30,35,60
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -9892,7 +9896,7 @@ Evolutions = METANG,Level,20
 #-------------------------------
 [METANG]
 Name = Metang
-Types = STEEL,PSYCHIC
+Types = STEEL,STAR
 BaseStats = 60,75,100,50,55,80
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -9919,7 +9923,7 @@ Evolutions = METAGROSS,Level,45
 #-------------------------------
 [METAGROSS]
 Name = Metagross
-Types = STEEL,PSYCHIC
+Types = STEEL,STAR
 BaseStats = 80,135,130,70,95,90
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -10148,7 +10152,7 @@ Flags = Legendary
 #-------------------------------
 [JIRACHI]
 Name = Jirachi
-Types = STEEL,PSYCHIC
+Types = STEEL,STAR
 BaseStats = 100,100,100,100,100,100
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -10177,7 +10181,7 @@ WildItemRare = STARPIECE
 [DEOXYS]
 Name = Deoxys
 FormName = Normal Forme
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 50,150,50,150,150,50
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -10600,6 +10604,7 @@ Category = Cricket
 Pokedex = It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.
 Generation = 4
 WildItemUncommon = METRONOME
+Evolutions = ZIRPIOLLA,Level,34
 #-------------------------------
 [SHINX]
 Name = Shinx
@@ -12428,7 +12433,7 @@ Generation = 4
 #-------------------------------
 [GALLADE]
 Name = Gallade
-Types = PSYCHIC,FIGHTING
+Types = PSYCHIC,SWORD
 BaseStats = 68,125,65,80,65,115
 GenderRatio = AlwaysMale
 GrowthRate = Slow
@@ -12747,7 +12752,7 @@ Flags = Legendary
 #-------------------------------
 [CRESSELIA]
 Name = Cresselia
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 120,70,120,85,75,130
 GenderRatio = AlwaysFemale
 GrowthRate = Slow
@@ -13097,7 +13102,7 @@ Evolutions = DEWOTT,Level,17
 #-------------------------------
 [DEWOTT]
 Name = Dewott
-Types = WATER
+Types = WATER,SWORD
 BaseStats = 75,75,60,60,83,60
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -13122,7 +13127,7 @@ Evolutions = SAMUROTT,Level,36
 #-------------------------------
 [SAMUROTT]
 Name = Samurott
-Types = WATER
+Types = WATER,SWORD
 BaseStats = 95,100,85,70,108,70
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -15306,7 +15311,7 @@ Evolutions = ESCAVALIER,TradeSpecies,SHELMET
 #-------------------------------
 [ESCAVALIER]
 Name = Escavalier
-Types = BUG,STEEL
+Types = BUG,SWORD
 BaseStats = 70,135,105,20,60,105
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -15705,7 +15710,7 @@ Generation = 5
 #-------------------------------
 [ELGYEM]
 Name = Elgyem
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 55,55,55,30,85,55
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -15731,7 +15736,7 @@ Evolutions = BEHEEYEM,Level,42
 #-------------------------------
 [BEHEEYEM]
 Name = Beheeyem
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 75,75,75,40,125,95
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -15955,7 +15960,7 @@ Generation = 5
 #-------------------------------
 [CRYOGONAL]
 Name = Cryogonal
-Types = ICE
+Types = ICE,STAR
 BaseStats = 80,50,50,105,95,135
 GenderRatio = Genderless
 GrowthRate = Medium
@@ -16077,7 +16082,7 @@ Shape = BipedalTail
 Category = Martial Arts
 Pokedex = They have mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.
 Generation = 5
-Evolutions = MIENSHAO,Level,50
+Evolutions = MIENSHAO,Level,50,SHINWHU,Item,KAMPFKRALLE
 #-------------------------------
 [MIENSHAO]
 Name = Mienshao
@@ -16182,7 +16187,7 @@ WildItemUncommon = LIGHTCLAY
 #-------------------------------
 [PAWNIARD]
 Name = Pawniard
-Types = DARK,STEEL
+Types = DARK,SWORD
 BaseStats = 45,85,70,60,40,40
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -16208,7 +16213,7 @@ Evolutions = BISHARP,Level,52
 #-------------------------------
 [BISHARP]
 Name = Bisharp
-Types = DARK,STEEL
+Types = DARK,SWORD
 BaseStats = 65,125,100,70,60,70
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -16531,7 +16536,7 @@ WildItemRare = SILVERPOWDER
 #-------------------------------
 [COBALION]
 Name = Cobalion
-Types = STEEL,FIGHTING
+Types = STEEL,SWORD
 BaseStats = 91,90,129,108,90,72
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -16555,7 +16560,7 @@ Flags = Legendary
 #-------------------------------
 [TERRAKION]
 Name = Terrakion
-Types = ROCK,FIGHTING
+Types = ROCK,SWORD
 BaseStats = 91,129,90,108,72,90
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -16579,7 +16584,7 @@ Flags = Legendary
 #-------------------------------
 [VIRIZION]
 Name = Virizion
-Types = GRASS,FIGHTING
+Types = GRASS,SWORD
 BaseStats = 91,90,72,108,90,129
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -16754,7 +16759,7 @@ Flags = Legendary
 [KELDEO]
 Name = Keldeo
 FormName = Ordinary Form
-Types = WATER,FIGHTING
+Types = WATER,SWORD
 BaseStats = 91,72,90,108,129,90
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -16841,7 +16846,7 @@ CatchRate = 45
 Happiness = 50
 Abilities = OVERGROW
 HiddenAbilities = BULLETPROOF
-Moves = 1,GROWL,1,VINEWHIP,5,VINEWHIP,8,ROLLOUT,11,BITE,15,LEECHSEED,18,PINMISSILE,27,TAKEDOWN,32,SEEDBOMB,35,MUDSHOT,39,BULKUP,42,BODYSLAM,45,PAINSPLIT,48,WOODHAMMER
+Moves = 1,TACKLE,1,GROWL,1,VINEWHIP,5,VINEWHIP,8,ROLLOUT,11,BITE,15,LEECHSEED,18,PINMISSILE,27,TAKEDOWN,32,SEEDBOMB,35,MUDSHOT,39,BULKUP,42,BODYSLAM,45,PAINSPLIT,48,WOODHAMMER
 TutorMoves = AERIALACE,ATTRACT,BRICKBREAK,BULKUP,BULLDOZE,CAPTIVATE,CONFIDE,CUT,DIG,DOUBLETEAM,DRAINPUNCH,DUALCHOP,ENDEAVOR,ENDURE,ENERGYBALL,FACADE,FLASH,FLING,FOCUSPUNCH,FRUSTRATION,GIGADRAIN,GRASSKNOT,GRASSPLEDGE,GYROBALL,HELPINGHAND,HIDDENPOWER,IRONDEFENSE,IRONHEAD,IRONTAIL,LOWKICK,LOWSWEEP,MIMIC,NATURALGIFT,NATUREPOWER,PAINSPLIT,PAYBACK,POISONJAB,POWERUPPUNCH,PROTECT,REFLECT,REST,RETALIATE,RETURN,ROAR,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SECRETPOWER,SEEDBOMB,SHADOWCLAW,SLEEPTALK,SLUDGEBOMB,SMACKDOWN,SNORE,SOLARBEAM,STOMPINGTANTRUM,STONEEDGE,STRENGTH,SUBSTITUTE,SUNNYDAY,SUPERFANG,SUPERPOWER,SWAGGER,SWORDSDANCE,SYNTHESIS,TAUNT,THUNDERPUNCH,TOXIC,WORKUP,WORRYSEED,ZENHEADBUTT
 EggMoves = BELLYDRUM,CURSE,DEFENSECURL,POWERUPPUNCH,QUICKGUARD,ROLLOUT,SPIKES,SYNTHESIS
 EggGroups = Field
@@ -16916,7 +16921,7 @@ CatchRate = 45
 Happiness = 50
 Abilities = BLAZE
 HiddenAbilities = MAGICIAN
-Moves = 1,SCRATCH,1,TAILWHIP,5,EMBER,11,HOWL,14,FLAMECHARGE,17,PSYBEAM,20,FIRESPIN,25,LUCKYCHANT,27,LIGHTSCREEN,31,PSYSHOCK,35,FLAMETHROWER,38,WILLOWISP,41,PSYCHIC,43,SUNNYDAY,46,MAGICROOM,48,FIREBLAST
+Moves = 1,SCRATCH,1,TAILWHIP,1,EMBER,11,HOWL,14,FLAMECHARGE,17,PSYBEAM,20,FIRESPIN,25,LUCKYCHANT,27,LIGHTSCREEN,31,PSYSHOCK,35,FLAMETHROWER,38,WILLOWISP,41,PSYCHIC,43,SUNNYDAY,46,MAGICROOM,48,FIREBLAST
 TutorMoves = ATTRACT,CAPTIVATE,CONFIDE,COVET,CUT,DOUBLETEAM,DREAMEATER,ECHOEDVOICE,EMBARGO,ENDURE,FACADE,FIREBLAST,FIREPLEDGE,FLAMECHARGE,FLAMETHROWER,FOULPLAY,FRUSTRATION,GRASSKNOT,HEATWAVE,HIDDENPOWER,INCINERATE,IRONTAIL,LIGHTSCREEN,MAGICCOAT,MAGICROOM,MIMIC,NATURALGIFT,OVERHEAT,POWERUPPUNCH,PROTECT,PSYCHIC,PSYCHUP,PSYSHOCK,RAINDANCE,REST,RETURN,ROUND,SAFEGUARD,SECRETPOWER,SLEEPTALK,SNORE,SOLARBEAM,SUBSTITUTE,SUNNYDAY,SWAGGER,THIEF,TOXIC,WILLOWISP,WORKUP
 EggMoves = HEATWAVE,HYPNOSIS,MAGICCOAT,PSYCHICTERRAIN,WISH
 EggGroups = Field
@@ -16991,7 +16996,7 @@ CatchRate = 45
 Happiness = 50
 Abilities = TORRENT
 HiddenAbilities = PROTEAN
-Moves = 1,POUND,1,GROWL,5,BUBBLE,8,QUICKATTACK,10,LICK,14,WATERPULSE,18,SMOKESCREEN,21,ROUND,25,FLING,29,SMACKDOWN,35,SUBSTITUTE,39,BOUNCE,43,DOUBLETEAM,48,HYDROPUMP
+Moves = 1,POUND,1,GROWL,1,BUBBLE,8,QUICKATTACK,10,LICK,14,WATERPULSE,18,SMOKESCREEN,21,ROUND,25,FLING,29,SMACKDOWN,35,SUBSTITUTE,39,BOUNCE,43,DOUBLETEAM,48,HYDROPUMP
 TutorMoves = ACROBATICS,AERIALACE,ATTRACT,BLIZZARD,BOUNCE,CAPTIVATE,CONFIDE,CUT,DIG,DIVE,DOUBLETEAM,ECHOEDVOICE,ENDURE,FACADE,FLING,FRUSTRATION,GRASSKNOT,HIDDENPOWER,ICEBEAM,ICYWIND,MIMIC,NATURALGIFT,POWERUPPUNCH,PROTECT,RAINDANCE,REST,RETURN,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROLEPLAY,ROUND,SCALD,SECRETPOWER,SLEEPTALK,SMACKDOWN,SNATCH,SNORE,SPITE,STRENGTH,SUBSTITUTE,SURF,SWAGGER,TAUNT,THIEF,TOXIC,UTURN,WATERFALL,WATERPLEDGE,WATERPULSE,WORKUP
 EggMoves = BESTOW,CAMOUFLAGE,MINDREADER,MUDSPORT,POWERUPPUNCH,TOXICSPIKES,WATERSPORT
 EggGroups = Water1
@@ -17092,7 +17097,7 @@ CatchRate = 127
 Happiness = 50
 Abilities = PICKUP,CHEEKPOUCH
 HiddenAbilities = HUGEPOWER
-Moves = 1,MUDSLAP,1,LEER,1,TACKLE,1,LASERFOCUS,9,QUICKATTACK,12,MUDSHOT,15,FLAIL,18,DOUBLEKICK,23,BULLDOZE,28,DIG,33,BOUNCE,38,TAKEDOWN,43,SWORDSDANCE,48,EARTHQUAKE,53,SUPERFANG,58,HAMMERARM
+Moves = 1,HAMMERARM,1,ROTOTILLER,1,BULLDOZE,1,SWORDSDANCE,1,TACKLE,1,AGILITY,1,LEER,7,QUICKATTACK,10,DOUBLESLAP,13,MUDSLAP,15,TAKEDOWN,18,MUDSHOT,21,DOUBLEKICK,27,ODORSLEUTH,32,FLAIL,37,DIG,43,BOUNCE,45,SUPERPOWER,48,SUPERFANG,54,FACADE,57,EARTHQUAKE,60,HAMMERARM
 TutorMoves = AGILITY,ATTRACT,BODYSLAM,BOUNCE,BRICKBREAK,BRUTALSWING,BULKUP,BULLDOZE,CAPTIVATE,CONFIDE,CUT,DIG,DOUBLETEAM,EARTHPOWER,EARTHQUAKE,ENDEAVOR,ENDURE,FACADE,FIREPUNCH,FLING,FOCUSPUNCH,FOULPLAY,FRUSTRATION,GASTROACID,GIGAIMPACT,GRASSKNOT,GUNKSHOT,HIDDENPOWER,HIGHHORSEPOWER,HYPERBEAM,ICEPUNCH,IRONHEAD,IRONTAIL,KNOCKOFF,LASTRESORT,LOWKICK,MEGAKICK,MEGAPUNCH,MIMIC,MUDSHOT,NATURALGIFT,NATUREPOWER,PAYBACK,POWERUPPUNCH,PROTECT,RECYCLE,REST,RETURN,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SANDSTORM,SANDTOMB,SCORCHINGSANDS,SECRETPOWER,SLEEPTALK,SLUDGEBOMB,SMACKDOWN,SNATCH,SNORE,SPIKES,STOMPINGTANTRUM,STONEEDGE,STRENGTH,SUBSTITUTE,SUPERFANG,SUPERPOWER,SURF,SWAGGER,SWORDSDANCE,THIEF,THUNDERPUNCH,TORMENT,TOXIC,UPROAR,UTURN,WILDCHARGE,WORKUP
 EggGroups = Field
 HatchSteps = 3840
@@ -17103,6 +17108,7 @@ Shape = BipedalTail
 Category = Digging
 Pokedex = As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it's finished digging, it lounges lazily.
 Generation = 6
+Evolutions = GIBANNY,HasMove,SUPERPOWER
 #-------------------------------
 [FLETCHLING]
 Name = Fletchling
@@ -17566,7 +17572,7 @@ Generation = 6
 #-------------------------------
 [HONEDGE]
 Name = Honedge
-Types = STEEL,GHOST
+Types = SWORD,GHOST
 BaseStats = 45,80,100,28,35,37
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -17591,7 +17597,7 @@ Evolutions = DOUBLADE,Level,35
 #-------------------------------
 [DOUBLADE]
 Name = Doublade
-Types = STEEL,GHOST
+Types = SWORD,GHOST
 BaseStats = 59,110,150,35,45,49
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -17616,7 +17622,7 @@ Evolutions = AEGISLASH,Item,DUSKSTONE
 [AEGISLASH]
 Name = Aegislash
 FormName = Shield Forme
-Types = STEEL,GHOST
+Types = SWORD,GHOST
 BaseStats = 60,50,140,60,50,140
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -19428,7 +19434,7 @@ WildItemUncommon = MYSTICWATER
 #-------------------------------
 [FOMANTIS]
 Name = Fomantis
-Types = GRASS
+Types = GRASS,SWORD
 BaseStats = 40,55,35,35,50,35
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -19455,7 +19461,7 @@ Evolutions = LURANTIS,LevelDay,34
 #-------------------------------
 [LURANTIS]
 Name = Lurantis
-Types = GRASS
+Types = GRASS,SWORD
 BaseStats = 70,105,90,45,80,90
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -19966,7 +19972,7 @@ Flags = Legendary
 [MINIOR]
 Name = Minior
 FormName = Meteor Form
-Types = ROCK,FLYING
+Types = ROCK,STAR
 BaseStats = 60,60,100,60,60,100
 GenderRatio = Genderless
 GrowthRate = Parabolic
@@ -20344,7 +20350,7 @@ Flags = Legendary
 #-------------------------------
 [COSMOG]
 Name = Cosmog
-Types = PSYCHIC
+Types = STAR
 BaseStats = 43,29,31,37,29,31
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -20368,7 +20374,7 @@ Evolutions = COSMOEM,Level,43
 #-------------------------------
 [COSMOEM]
 Name = Cosmoem
-Types = PSYCHIC
+Types = STAR
 BaseStats = 43,29,131,37,29,131
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -20393,7 +20399,7 @@ Evolutions = SOLGALEO,LevelDay,53,LUNALA,LevelNight,53
 #-------------------------------
 [SOLGALEO]
 Name = Solgaleo
-Types = PSYCHIC,STEEL
+Types = STAR,STEEL
 BaseStats = 137,137,107,97,113,89
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -20417,7 +20423,7 @@ Flags = Legendary
 #-------------------------------
 [LUNALA]
 Name = Lunala
-Types = PSYCHIC,GHOST
+Types = STAR,GHOST
 BaseStats = 137,113,89,97,137,107
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -20561,7 +20567,7 @@ Flags = UltraBeast
 #-------------------------------
 [KARTANA]
 Name = Kartana
-Types = GRASS,STEEL
+Types = GRASS,SWORD
 BaseStats = 59,181,131,109,59,31
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -20609,7 +20615,7 @@ Flags = UltraBeast
 #-------------------------------
 [NECROZMA]
 Name = Necrozma
-Types = PSYCHIC
+Types = STAR
 BaseStats = 97,107,101,79,127,89
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -23079,3 +23085,2177 @@ Category = King
 Pokedex = Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.
 Generation = 8
 Flags = Legendary
+#-------------------------------
+[PANZANO]
+Name = Panzero
+Types = FLYING
+BaseStats = 50,55,80,60,20,45
+GenderRate = Female50Percent
+GrowthRate = Slow
+EVs = DEFENSE,1
+Happiness = 70
+Abilities = KEENEYE,MARVELSCALE
+Moves = 1,LEER,1,PECK,5,SANDATTACK,8,PURSUIT,11,QUICKATTACK,16,AIRCUTTER,21,WINGATTACK,25,STEELWING,27,AGILITY,30,TAKEDOWN,34,SLASH,38,SCREECH,41,AIRSLASH,46,BRAVEBIRD,51,ENDEAVOR,55,NIGHTSLASH,60,DOUBLEEDGE
+TutorMoves = XSCISSOR,DARKPULSE,THIEF,PAYBACK,TAUNT,TORMENT,ROCKSMASH,SUNNYDAY,SKYATTACK,FLY,AERIALACE,DEFOG,ROOST,TAILWIND,ICYWIND,FACADE,HIDDENPOWER,ROUND,CUT,SNORE,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,PROTECT,DRACHENGEBRUELL,SLEEPTALK,SUBSTITUTE,SWAGGER,SWORDSDANCE,TOXIC,REST,ROCKSLIDE,ROCKTOMB,SANDSTORM,STEALTHROCK,FLASHCANNON,IRONHEAD,STEELWING,IRONDEFENSE
+EggMoves = ASSURANCE,BRAVEBIRD,CURSE,DRILLPECK,ENDURE,GUARDSWAP,PURSUIT,ROOST,SKYATTACK,WHIRLWIND
+Height = 0.5
+Weight = 10.6
+Color = Gray
+Shape = Winged
+Habitat = RoughTerrain
+Pokedex = Panzero's wings are made of a metal-like substance. Shortly before the evolution, they are the most robust.
+Evolutions = SKARMORY,HasMove,STEELWING
+Incense = FULLINCENSE
+BaseExp = 55
+CatchRate = 120
+HiddenAbilities = DEFIANT
+EggGroups = Flying
+HatchSteps = 3850
+Category = Federglanz
+#-------------------------------
+[OHRBY]
+Name = Audiby
+Types = NORMAL
+BaseStats = 78,48,53,30,48,53
+GenderRate = Female50Percent
+GrowthRate = Fast
+EVs = HP,1
+Happiness = 70
+Abilities = HEALER,REGENERATOR
+Moves = 1,GROWL,1,HELPINGHAND,3,POUND,5,BABYDOLLEYES,9,REFRESH,13,DISARMINGVOICE,16,DOUBLESLAP,20,ATTRACT,24,SECRETPOWER,27,DAZZLINGGLEAM,31,ENTRAINMENT,34,TAKEDOWN,37,HEALPULSE,40,MOONBLAST,43,SIMPLEBEAM,46,DOUBLEEDGE,50,LASTRESORT,53,AFTERYOU
+TutorMoves = SIGNALBEAM,THROATCHOP,KNOCKOFF,WUCHTSTOSS,SNATCH,THUNDER,THUNDERBOLT,WILDCHARGE,THUNDERPUNCH,CHARGEBEAM,THUNDERWAVE,DAZZLINGGLEAM,FOCUSPUNCH,DRAINPUNCH,POWERUPPUNCH,LOWKICK,FIREBLAST,FLAMETHROWER,FIREPUNCH,SUNNYDAY,SHADOWBALL,SOLARBEAM,GRASSKNOT,STOMPINGTANTRUM,BLIZZARD,ICEBEAM,ICEPUNCH,ICYWIND,HYPERBEAM,LASTRESORT,HYPERVOICE,UPROAR,FACADE,COVET,HIDDENPOWER,ROUND,SNORE,FRUSTRATION,RETURN,AFTERYOU,ATTRACT,CONFIDE,DOUBLETEAM,HEALBELL,HELPINGHAND,LASERFOCUS,PAINSPLIT,PROTECT,PSYCHUP,SAFEGUARD,SLEEPTALK,SUBSTITUTE,SWAGGER,WORKUP,TOXIC,DREAMEATER,PSYCHIC,PSYSHOCK,ZENHEADBUTT,ALLYSWITCH,CALMMIND,GRAVITY,LIGHTSCREEN,MAGICCOAT,REFLECT,REST,ROLEPLAY,SKILLSWAP,TELEKINESIS,TRICKROOM,IRONTAIL,SURF,RAINDANCE,DRAININGKISS
+EggMoves = AMNESIA,BESTOW,DRAININGKISS,ENCORE,HEALBELL,HEALINGWISH,LUCKYCHANT,SLEEPTALK,SWEETKISS,WISH,YAWN
+Height = 0.6
+Weight = 7.8
+Color = Pink
+Shape = BipedalTail
+Pokedex = It's said that once you've been nice to Audiby, it will always think of you as its friend.
+WildItemCommon = ORANBERRY
+WildItemUncommon = SITRUSBERRY
+Evolutions = AUDINO,Level,18
+BaseExp = 110
+CatchRate = 255
+HiddenAbilities = KLUTZ
+EggGroups = Fairy
+HatchSteps = 2555
+Category = Gehör
+#-------------------------------
+[SYMVOL]
+Name = Syliph
+Types = PSYCHIC,FLYING
+BaseStats = 52,30,60,85,73,60
+GenderRate = Female50Percent
+GrowthRate = Medium
+EVs = SPECIAL_ATTACK,2
+Happiness = 70
+Abilities = WONDERSKIN,MAGICGUARD
+Moves = 1,GUST,1,MIRACLEEYE,4,HYPNOSIS,8,PSYWAVE,11,TAILWIND,14,WHIRLWIND,18,PSYBEAM,21,AIRCUTTER,24,LIGHTSCREEN,28,REFLECT,31,SYNCHRONOISE,33,MIRRORMOVE,36,GRAVITY,38,AIRSLASH,43,PSYCHIC,47,COSMICPOWER,49,SKYATTACK
+TutorMoves = SIGNALBEAM,DARKPULSE,THIEF,SHOCKWAVE,CHARGEBEAM,THUNDERWAVE,DAZZLINGGLEAM,HEATWAVE,SKYATTACK,FLY,AERIALACE,DEFOG,ROOST,TAILWIND,SHADOWBALL,SOLARBEAM,ENERGYBALL,ICEBEAM,ICYWIND,HYPERBEAM,FACADE,HIDDENPOWER,ROUND,SNORE,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,PROTECT,PSYCHUP,SAFEGUARD,SLEEPTALK,SUBSTITUTE,SWAGGER,TOXIC,DREAMEATER,PSYCHIC,PSYSHOCK,ZENHEADBUTT,CALMMIND,GRAVITY,LIGHTSCREEN,MAGICCOAT,MAGICROOM,REFLECT,REST,SKILLSWAP,TELEKINESIS,TRICK,TRICKROOM,SMACKDOWN,FLASHCANNON,STEELWING,RAINDANCE
+EggMoves = ANCIENTPOWER,FUTURESIGHT,PSYCHOSHIFT,ROOST,SKILLSWAP,STEELWING,STOREDPOWER
+Height = 0.8
+Weight = 7.7
+Color = Black
+Shape = Winged
+Pokedex = It is speculated that this Pokémon hovers only with the help of it's psychic powers. Its wings are seemingly only used for communication.
+Evolutions = SIGILYPH,LevelNight,30
+BaseExp = 75
+CatchRate = 45
+HiddenAbilities = TINTEDLENS
+EggGroups = Flying
+HatchSteps = 2560
+Category = Symbol
+#-------------------------------
+[KINDRAGO]
+Name = Druddlor
+Types = DRAGON
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[COIFFEUS]
+Name = Woofurr
+Types = NORMAL
+BaseStats = 45,55,40,72,35,60
+GenderRate = Female50Percent
+GrowthRate = Medium
+EVs = SPEED,1
+Happiness = 70
+Abilities = QUICKFEET
+Moves = 1,TACKLE,1,GROWL,3,HOWL,5,SANDATTACK,7,QUICKATTACK,9,BABYDOLLEYES,12,BITE,15,TAILWHIP,17,HEADBUTT,22,RETALIATE,25,ODORSLEUTH,28,CRUNCH,30,TAKEDOWN,35,CHARM,38,SUCKERPUNCH,42,COTTONGUARD,48,GIGAIMPACT
+TutorMoves = UTURN,DARKPULSE,SNARL,WILDCHARGE,CHARGEBEAM,THUNDERWAVE,ROCKSMASH,SUNNYDAY,GRASSKNOT,GIGAIMPACT,LASTRESORT,HYPERVOICE,UPROAR,FACADE,HIDDENPOWER,ROUND,SNORE,ENDEAVOR,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,HELPINGHAND,PROTECT,DRACHENGEBRUELL,SLEEPTALK,SUBSTITUTE,SWAGGER,WORKUP,TOXIC,ZENHEADBUTT,REST,ROLEPLAY,IRONTAIL,SURF,RAINDANCE,HEADBUTT
+EggMoves = CAPTIVATE,MIMIC,REFRESH,ROLEPLAY,WISH,WORKUP
+Height = 0.6
+Weight = 13.9
+Color = White
+Shape = Quadruped
+Pokedex = You can not tame the furr of Woofurr. Therefore, unlike its evolution, it is not suitable for a fashion show.
+Evolutions = FURFROU,Level,20
+BaseExp = 42
+CatchRate = 160
+EggGroups = Field
+HatchSteps = 3820
+Category = Wuschel
+#-------------------------------
+[KANGAKID]
+Name = Kang Jr.
+Types = NORMAL
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[KANGAPA]
+Name = Grandaskhan
+Types = NORMAL
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[APILLYA]
+Name = Apillya
+Types = WATER
+BaseStats = 95,50,45,30,50,60
+GenderRate = Female50Percent
+GrowthRate = Slow
+EVs = HP,1
+Happiness = 70
+Abilities = WATERABSORB,SHELLARMOR
+Moves = 1,WATERSPORT,1,SING,1,GROWL,1,BUBBLE,4,MIST,7,CONFUSERAY,10,ICESHARD,14,WATERGUN,18,BODYSLAM,22,RAINDANCE,25,REFRESH,28,WATERPULSE,30,ICEBEAM,35,BRINE,40,SAFEGUARD,43,HYDROPUMP,45,SHEERCOLD
+TutorMoves = SIGNALBEAM,OUTRAGE,DRAGONPULSE,THUNDER,THUNDERBOLT,SHOCKWAVE,ROCKSMASH,DRILLRUN,BULLDOZE,BLIZZARD,ICEBEAM,FROSTBREATH,ICYWIND,HAIL,GIGAIMPACT,HYPERBEAM,HYPERVOICE,STRENGTH,FACADE,HIDDENPOWER,ROUND,SNORE,GEFRIERBRAND,FRUSTRATION,RETURN,ATTRACT,BLOCK,CONFIDE,DOUBLETEAM,HEALBELL,PROTECT,DRACHENGEBRUELL,SAFEGUARD,SLEEPTALK,SUBSTITUTE,SWAGGER,TOXIC,DREAMEATER,PSYCHIC,ZENHEADBUTT,REST,IRONTAIL,IRONHEAD,SMARTSTRIKE,AQUATAIL,SURF,DIVE,WATERFALL,WATERPULSE,RAINDANCE,HEADBUTT
+EggMoves = ANCIENTPOWER,AVALANCHE,CURSE,DRAGONDANCE,DRAGONPULSE,FISSURE,FORESIGHT,FREEZEDRY,FUTURESIGHT,HORNDRILL,REFRESH,SLEEPTALK,TICKLE,WHIRLPOOL
+Height = 0.8
+Weight = 3.8
+Color = Blue
+Shape = Finned
+Habitat = Sea
+Pokedex = It should not stay too long in colder waters, otherwise it's body will freeze completely.
+WildItemRare = MYSTICWATER
+Evolutions = PANEPRA,Level,17
+BaseExp = 64
+CatchRate = 120
+HiddenAbilities = HYDRATION
+EggGroups = Monster,Water1
+HatchSteps = 6400
+Category = Schwimmer
+#-------------------------------
+[PANEPRA]
+Name = Lanepra
+Types = WATER
+BaseStats = 100,75,70,50,80,90
+GenderRate = Female50Percent
+GrowthRate = Slow
+EVs = HP,2
+Happiness = 70
+Abilities = WATERABSORB,SHELLARMOR
+Moves = 1,WATERSPORT,1,SING,1,GROWL,1,BUBBLE,4,MIST,7,CONFUSERAY,10,ICESHARD,14,WATERGUN,18,BODYSLAM,22,RAINDANCE,26,REFRESH,30,WATERPULSE,32,ICEBEAM,37,BRINE,40,SAFEGUARD,45,HYDROPUMP,50,SHEERCOLD
+TutorMoves = SIGNALBEAM,OUTRAGE,DRAGONPULSE,THUNDER,THUNDERBOLT,SHOCKWAVE,ROCKSMASH,DRILLRUN,BULLDOZE,BLIZZARD,ICEBEAM,FROSTBREATH,ICYWIND,HAIL,GIGAIMPACT,HYPERBEAM,HYPERVOICE,STRENGTH,FACADE,HIDDENPOWER,ROUND,SNORE,GEFRIERBRAND,FRUSTRATION,RETURN,ATTRACT,BLOCK,CONFIDE,DOUBLETEAM,HEALBELL,PROTECT,DRACHENGEBRUELL,SAFEGUARD,SLEEPTALK,SUBSTITUTE,SWAGGER,TOXIC,DREAMEATER,PSYCHIC,ZENHEADBUTT,REST,IRONTAIL,IRONHEAD,SMARTSTRIKE,AQUATAIL,SURF,DIVE,WATERFALL,WATERPULSE,RAINDANCE,HEADBUTT
+Height = 1.5
+Weight = 102.8
+Color = Blue
+Shape = Finned
+Habitat = Sea
+Pokedex = This Pokémon has a beautiful voice. It is said that many songs are inspired by singing Lanepras.
+WildItemUncommon = MYSTICWATER
+WildItemRare = MYSTICWATER
+Evolutions = LAPRAS,Item,ICESTONE
+BaseExp = 104
+CatchRate = 120
+HiddenAbilities = HYDRATION
+EggGroups = Monster,Water1
+HatchSteps = 6400
+Category = Langschwimmer
+#-------------------------------
+[PREDORFISH]
+Name = Equish
+Types = WATER
+BaseStats = 50,75,70,60,50,50
+GenderRate = Female50Percent
+GrowthRate = Medium
+EVs = ATTACK,1
+Happiness = 70
+Abilities = RAINDISH,SWIFTSWIM
+Moves = 1,BUBBLE,1,TACKLE,3,HARDEN,5,WATERGUN,7,MINIMIZE,10,PROTECT,13,BUBBLEBEAM,18,STOCKPILE,20,SPITUP,22,REVENGE,25,AQUAJET,30,BRINE,33,PINMISSILE,37,TAKEDOWN,41,AQUATAIL,46,DESTINYBOND,50,HYDROPUMP,54,FELLSTINGER
+TutorMoves = SIGNALBEAM,THROATCHOP,PAYBACK,WUCHTSTOSS,TAUNT,SHOCKWAVE,THUNDERWAVE,BOUNCE,SHADOWBALL,BLIZZARD,ICEBEAM,ICYWIND,HAIL,EXPLOSION,FACADE,HIDDENPOWER,ROUND,SNORE,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,PAINSPLIT,PROTECT,SLEEPTALK,SUBSTITUTE,SWAGGER,SLUDGEWAVE,SLUDGEBOMB,POISONJAB,VENOSHOCK,TOXIC,REST,GYROBALL,AQUATAIL,SURF,LIQUIDATION,DIVE,SCALD,WATERFALL,WATERPULSE,RAINDANCE,HEADBUTT
+EggMoves = ACIDSPRAY,AQUAJET,ASTONISH,BRINE,BUBBLEBEAM,FLAIL,HAZE,SIGNALBEAM,SUPERSONIC,WATERPULSE
+Height = 0.3
+Weight = 1.9
+Color = Blue
+Shape = Finned
+Habitat = Sea
+Pokedex = This Pokémon has a poison that is only dangerous to humans. However, it has no effect on Pokémon.
+Evolutions = QWILFISH,DayHoldItem,POISONBARB,QWILFISH,NightHoldItem,POISONBARB
+BaseExp = 60
+CatchRate = 145
+HiddenAbilities = INTIMIDATE
+EggGroups = Water2
+HatchSteps = 3120
+Category = Minikugel
+#-------------------------------
+[ENDORFISH]
+Name = Revoltox
+Types = WATER,ELECTRIC
+BaseStats = 85,105,100,95,65,60
+GenderRate = Female50Percent
+GrowthRate = Medium
+EVs = ATTACK,2
+Happiness = 70
+Abilities = STATIC,SWIFTSWIM
+Moves = 1,FELLSTINGER,1,HYDROPUMP,1,DESTINYBOND,1,WATERGUN,1,THUNDERWAVE,1,TACKLE,1,SPARK,9,HARDEN,9,MINIMIZE,13,BUBBLE,17,ROLLOUT,21,ELECTRICTERRAIN,25,DISCHARGE,29,REVENGE,33,BRINE,35,THUNDERPUNCH,37,PINMISSILE,41,TAKEDOWN,45,AQUATAIL,49,WILDCHARGE,53,DESTINYBOND,57,HYDROPUMP,60,FELLSTINGER
+TutorMoves = SIGNALBEAM,THROATCHOP,PAYBACK,WUCHTSTOSS,TAUNT,SHOCKWAVE,THUNDERWAVE,BOUNCE,SHADOWBALL,BLIZZARD,ICEBEAM,ICYWIND,HAIL,EXPLOSION,FACADE,HIDDENPOWER,ROUND,SNORE,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,PAINSPLIT,PROTECT,SLEEPTALK,SUBSTITUTE,SWAGGER,SLUDGEWAVE,SLUDGEBOMB,POISONJAB,VENOSHOCK,TOXIC,REST,GYROBALL,AQUATAIL,SURF,LIQUIDATION,DIVE,SCALD,WATERFALL,WATERPULSE,RAINDANCE,HEADBUTT
+EggMoves = ACIDSPRAY,AQUAJET,ASTONISH,BRINE,BUBBLEBEAM,FLAIL,HAZE,SIGNALBEAM,SUPERSONIC,WATERPULSE
+Height = 100.5
+Weight = 110.9
+Color = Gray
+Shape = Finned
+Habitat = Sea
+Pokedex = Revoltox is a Pokémon whose existence was suspected a long time ago. It was only recently that a real specimen was discovered.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 188
+CatchRate = 45
+HiddenAbilities = INTIMIDATE
+EggGroups = Water2
+HatchSteps = 5120
+Category = Stachelkugel
+#-------------------------------
+[FRASSA]
+Name = Taeheat
+Types = FIRE
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[OFERLASS]
+Name = Furnamor
+Types = FIRE
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[MIDINAS]
+Name = Midiyna
+Types = BUG
+BaseStats = 50,60,52,60,30,50
+GenderRate = Female50Percent
+GrowthRate = Slow
+EVs = ATTACK,1,SPEED,1
+Happiness = 70
+Abilities = SWARM,SKILLLINK
+Moves = 1,TACKLE,1,LEER,3,FEINT,6,FURYCUTTER,9,AERIALACE,11,ENDURE,14,HORNATTACK,17,BUGBITE,20,AGILITY,23,SUCKERPUNCH,26,PINMISSILE,30,NIGHTSLASH,33,MEGAHORN,36,SCREECH,40,TAKEDOWN,43,REVERSAL,46,LEECHLIFE,50,FELLSTINGER
+TutorMoves = BUGBITE,STRUGGLEBUG,THIEF,SUNNYDAY,AERIALACE,FACADE,HIDDENPOWER,ROUND,CUT,SNORE,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,PROTECT,SLEEPTALK,SUBSTITUTE,SWAGGER,SWORDSDANCE,TOXIC,REST,RAINDANCE,HEADBUTT
+EggMoves = BIDE,DOUBLEEDGE,FLAIL,HARDEN,MEGAHORN,PURSUIT
+Height = 0.5
+Weight = 8.5
+Color = Blue
+Shape = Bipedal
+Habitat = Forest
+Pokedex = A Midiyna bites it's prey with his sharp front teeth until it loses consciousness from pain.
+Evolutions = HERACROSS,DayHoldItem,LANGHORN,HERACROSS,NightHoldItem,LANGHORN,ORYNASSORN,Level,25
+BaseExp = 50
+CatchRate = 190
+HiddenAbilities = MOXIE
+EggGroups = Bug
+HatchSteps = 3830
+Category = Kleinhorn
+#-------------------------------
+[ORYNASSORN]
+Name = Orycetros
+Types = BUG,GROUND
+BaseStats = 85,125,105,80,30,75
+GenderRate = Female50Percent
+GrowthRate = Slow
+EVs = ATTACK,1,DEFENSE,1
+Happiness = 70
+Abilities = SWARM,SKILLLINK
+Moves = 1,TACKLE,1,LEER,3,SANDATTACK,6,FURYCUTTER,9,MUDSLAP,13,HORNATTACK,17,BUGBITE,21,FURYATTACK,25,PINMISSILE,28,MAGNITUDE,31,TAKEDOWN,34,DIG,37,MEGAHORN,43,EARTHQUAKE,47,ROCKBLAST,55,FISSURE
+TutorMoves = BUGBITE,STRUGGLEBUG,KNOCKOFF,THIEF,WUCHTSTOSS,ROCKSMASH,BULKUP,SUNNYDAY,AERIALACE,EARTHQUAKE,BULLDOZE,GIGAIMPACT,HYPERBEAM,STRENGTH,FACADE,HIDDENPOWER,ROUND,CUT,SNORE,FALSESWIPE,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,PROTECT,SLEEPTALK,SUBSTITUTE,SWAGGER,SWORDSDANCE,WORKUP,TOXIC,REST,STONEEDGE,ROCKSLIDE,ROCKTOMB,SMACKDOWN,IRONDEFENSE,RAINDANCE,HEADBUTT
+EggMoves = BIDE,DOUBLEEDGE,FLAIL,HARDEN,MEGAHORN,PURSUIT
+Height = 1.1
+Weight = 50.0
+Color = Brown
+Shape = Bipedal
+Habitat = Forest
+Pokedex = Always on the lookout for new opponents, Orycetros often roams the territories of other Pokémon.
+BaseExp = 175
+CatchRate = 45
+HiddenAbilities = MOXIE
+EggGroups = Bug
+HatchSteps = 6630
+Category = Nashornkäfer
+#-------------------------------
+[PRIERO]
+Name = Preaero
+Types = ROCK
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[VELOCTOR]
+Name = Veloctor
+Types = ROCK,GROUND
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[KIMINI]
+Name = Comini
+Types = ICE,FLYING
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[GOTORINCH]
+Name = Looteburg
+Types = ICE,DARK
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[PRESANTA]
+Name = Presanta
+Types = ICE,FLYING
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[KLAURINCH]
+Name = Cloarinch
+Types = ICE,DARK
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[FLIEFLA]
+Name = Minneflee
+Types = GRASS
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[SONATAUBIS]
+Name = Sundevine
+Types = GRASS,POISON
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[ADONELLRA]
+Name = Fishadoris
+Types = WATER
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[TAFFADLER]
+Name = Valieagle
+Types = NORMAL,FLYING
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[SKALLJIEVO]
+Name = Skuleen
+Types = DARK,FLYING
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[SHINWHU]
+Name = Mienshoo
+Types = FIGHTING
+BaseStats = 55,100,55,85,70,55
+GenderRate = Female50Percent
+GrowthRate = Parabolic
+EVs = ATTACK,1
+Happiness = 70
+Abilities = INNERFOCUS,REGENERATOR
+Moves = 0,OFFENSIVSCHLAEGE,1,OFFENSIVSCHLAEGE,1,REVERSAL,1,POUND,1,MEDITATE,1,DETECT,1,FAKEOUT,5,MEDITATE,9,DETECT,13,FAKEOUT,17,DOUBLESLAP,21,SWIFT,25,CALMMIND,29,FORCEPALM,33,DRAINPUNCH,37,JUMPKICK,41,UTURN,44,WIDEGUARD,48,BOUNCE,54,HIGHJUMPKICK,58,REVERSAL,64,AURASPHERE
+TutorMoves = UTURN,KNOCKOFF,PAYBACK,TAUNT,DUALCHOP,FOCUSPUNCH,FOCUSBLAST,BRICKBREAK,DRAINPUNCH,LOWSWEEP,POWERUPPUNCH,ROCKSMASH,LOWKICK,BULKUP,SUNNYDAY,BOUNCE,AERIALACE,ACROBATICS,GRASSKNOT,GIGAIMPACT,HYPERBEAM,STRENGTH,FACADE,HIDDENPOWER,ROUND,SNORE,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,HELPINGHAND,LASERFOCUS,PROTECT,PSYCHUP,SLEEPTALK,SUBSTITUTE,SWAGGER,SWORDSDANCE,WORKUP,POISONJAB,TOXIC,ALLYSWITCH,CALMMIND,REFLECT,REST,ROLEPLAY,STONEEDGE,ROCKSLIDE,ROCKTOMB,RAINDANCE
+EggMoves = ALLYSWITCH,BATONPASS,ENDURE,FEINT,KNOCKOFF,LOWKICK,MEFIRST,SMELLINGSALTS,VITALTHROW
+Height = 0.8
+Weight = 17.2
+Color = Yellow
+Shape = BipedalTail
+Pokedex = The elegant fighting techniques of Mienshoo overwhelm any opponent who dares to attack it.
+WildItemUncommon = SOFTSAND
+Evolutions = MIENSHAO,Level,50
+BaseExp = 100
+CatchRate = 45
+HiddenAbilities = RECKLESS
+EggGroups = Field,Humanlike
+HatchSteps = 30720
+Category = Kampfkunst
+#-------------------------------
+[IGNIMOTH]
+Name = Lavarona
+Types = BUG,FIRE
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[ZORUCIS]
+Name = Zorucis
+Types = NORMAL
+BaseStats = 60,120,70,100,90,70
+GenderRate = FemaleOneEighth
+GrowthRate = Parabolic
+EVs = ATTACK,2
+Happiness = 70
+Abilities = TRUGTYPEN
+Moves = 0,SEKUNDAERTRITT,1,SEKUNDAERTRITT,1,PRIMAERSCHLAG,1,IMPRISON,1,UTURN,1,SCRATCH,1,LEER,1,PURSUIT,1,WORKUP,5,PURSUIT,9,WORKUP,13,FURYSWIPES,17,QUICKATTACK,21,SCARYFACE,25,ENDEAVOR,29,FACADE,34,ENDURE,39,AGILITY,44,SLASH,49,RETALIATE,54,NASTYPLOT,59,TRIATTACK,64,MEGAKICK
+TutorMoves = UTURN,TAUNT,FOCUSBLAST,LOWSWEEP,ROCKSMASH,LOWKICK,FLAMETHROWER,SUNNYDAY,BOUNCE,AERIALACE,SHADOWBALL,SHADOWCLAW,SPITE,GRASSKNOT,GIGAIMPACT,HYPERBEAM,HYPERVOICE,UPROAR,FACADE,COVET,HIDDENPOWER,ROUND,CUT,SNORE,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,LASERFOCUS,PROTECT,PSYCHUP,DRACHENGEBRUELL,SLEEPTALK,SUBSTITUTE,SWAGGER,SWORDSDANCE,TOXIC,CALMMIND,REST,TRICK,RAINDANCE
+Height = 1.2
+Weight = 80.1
+Color = White
+Shape = BipedalTail
+Pokedex = An unexplained defense technique, causes this Pokémon to change its types randomly.
+BaseExp = 179
+CatchRate = 45
+EggGroups = Field
+HatchSteps = 5120
+Category = Veränderung
+#-------------------------------
+[DUCIFER]
+Name = Ducifer
+Types = SWORD,STAR
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[MASKURITT]
+Name = Muskenight
+Types = GRASS,SWORD
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[BAUMMARMU]
+Name = Treequoia
+Types = ROCK,GRASS
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[CHRIMESSMA]
+Name = Chrimessma
+Types = ROCK,ICE
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[PANTIMORD]
+Name = RIPmime
+Types = DARK,FAIRY
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[MADAME]
+Name = Missfetch'd
+Types = SWORD,FLYING
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[GEGUSONN]
+Name = Reesola
+Types = WATER,ROCK
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[WAYBAT]
+Name = Wybat
+Types = POISON,DARK
+BaseStats = 80,85,75,135,85,75
+GenderRate = Female50Percent
+GrowthRate = Medium
+EVs = SPEED,3
+Happiness = 70
+Abilities = LEVITATE
+Moves = 0,CROSSPOISON,1,SPUKZAHN,1,CROSSPOISON,1,SCREECH,1,BITE,1,SUPERSONIC,1,ASTONISH,5,SUPERSONIC,7,ASTONISH,11,PURSUIT,13,WINGATTACK,17,CONFUSERAY,19,AIRCUTTER,24,CRUNCH,27,POISONFANG,32,TAUNT,35,LEECHLIFE,40,HAZE,43,VENOSHOCK,48,DARKPULSE,51,SHADOWBALL
+TutorMoves = LEECHLIFE,UTURN,DARKPULSE,THIEF,PAYBACK,SNATCH,TAUNT,TORMENT,HEATWAVE,SUNNYDAY,SKYATTACK,FLY,AERIALACE,ACROBATICS,DEFOG,ROOST,TAILWIND,SHADOWBALL,GIGADRAIN,GIGAIMPACT,HYPERBEAM,UPROAR,FACADE,HIDDENPOWER,ROUND,SNORE,FRUSTRATION,RETURN,SUPERFANG,ATTRACT,CONFIDE,DOUBLETEAM,PROTECT,SLEEPTALK,SUBSTITUTE,SWAGGER,SLUDGEBOMB,VENOSHOCK,TOXIC,ZENHEADBUTT,REST,STEELWING,RAINDANCE
+Height = 1.9
+Weight = 73.0
+Color = Purple
+Shape = MultiWinged
+Habitat = Cave
+Pokedex = It is the natural enemy of Crobat. They sometimes fight each other to the bitter end.
+BaseExp = 241
+CatchRate = 90
+EggGroups = Flying
+HatchSteps = 3840
+Category = Fledermaus
+#-------------------------------
+[RUNTERRDAX]
+Name = Terragoon
+Types = NORMAL,GROUND
+BaseStats = 90,105,71,120,63,71
+GenderRate = Female50Percent
+GrowthRate = Medium
+EVs = ATTACK,1,SPEED,2
+Happiness = 70
+Abilities = SANDFORCE,GLUTTONY
+Moves = 0,DIG,1,DIG,1,MAGNITUDE,1,PLAYROUGH,1,ROTOTILLER,1,SWITCHEROO,1,TACKLE,1,GROWL,1,TAILWHIP,1,SANDATTACK,5,TAILWHIP,7,SANDATTACK,11,HEADBUTT,13,ODORSLEUTH,17,MUDSHOT,19,FURYSWIPES,24,COVET,27,BESTOW,32,SLASH,35,DOUBLEEDGE,40,REST,43,BELLYDRUM,48,FLING,53,EARTHQUAKE
+TutorMoves = THROATCHOP,THIEF,WUCHTSTOSS,THUNDER,THUNDERBOLT,SHOCKWAVE,CHARGEBEAM,THUNDERWAVE,ROCKSMASH,SUNNYDAY,SHADOWBALL,SHADOWCLAW,SEEDBOMB,GRASSKNOT,STOMPINGTANTRUM,BLIZZARD,ICEBEAM,ICYWIND,GIGAIMPACT,HYPERBEAM,LASTRESORT,HYPERVOICE,STRENGTH,FACADE,COVET,HIDDENPOWER,ROUND,CUT,SNORE,FRUSTRATION,RETURN,SUPERFANG,ATTRACT,CONFIDE,DOUBLETEAM,HELPINGHAND,PROTECT,DRACHENGEBRUELL,SLEEPTALK,SUBSTITUTE,SWAGGER,WORKUP,GUNKSHOT,TOXIC,REST,TRICK,IRONTAIL,SURF,WATERPULSE,RAINDANCE,HEADBUTT
+Height = 1.5
+Weight = 38.5
+Color = White
+Shape = Quadruped
+Habitat = Grassland
+Pokedex = It is said that almost all ground-type moves originate from this Pokémon.
+WildItemCommon = POTION
+WildItemUncommon = MAXREVIVE
+BaseExp = 247
+CatchRate = 90
+HiddenAbilities = QUICKFEET
+EggGroups = Field
+HatchSteps = 3840
+Category = Dachsmaulwurf
+#-------------------------------
+[SPIRITHORA]
+Name = Spiricle
+Types = GHOST,ROCK
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[HOTTENTA]
+Name = Tentaboil
+Types = WATER,FIRE
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[SEMUGROS]
+Name = Pashell
+Types = WATER,ROCK
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[FRIAKTIT]
+Name = Freactite
+Types = ICE
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[QUECKLAK]
+Name = Merclang
+Types = STEEL,POISON
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[CINTORILUFF]
+Name = Cintoripuff
+Types = SWORD,FAIRY
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[VEMOTHNA]
+Name = Eclimoth
+Types = BUG,DARK
+BaseStats = 75,70,70,105,120,80
+GenderRate = Female50Percent
+GrowthRate = Medium
+EVs = SPEED,1,SPECIAL_ATTACK,1
+Happiness = 70
+Abilities = SHIELDDUST,TINTEDLENS
+Moves = 1,SPUKZAHN,1,DARKPULSE,1,QUIVERDANCE,1,BUGBUZZ,1,SILVERWIND,1,TACKLE,1,DISABLE,1,FORESIGHT,1,SUPERSONIC,5,SUPERSONIC,9,GIGADRAIN,11,CONFUSION,13,POISONPOWDER,17,LEECHLIFE,23,STUNSPORE,25,PSYBEAM,29,SLEEPPOWDER,31,GUST,37,SIGNALBEAM,41,ZENHEADBUTT,44,HEX,48,POISONFANG,52,BUGBUZZ,57,PSYCHIC,61,SLUDGEBOMB,66,SHADOWBALL,70,QUIVERDANCE
+TutorMoves = THIEF,SUNNYDAY,AERIALACE,ACROBATICS,DEFOG,ROOST,TAILWIND,SOLARBEAM,ENERGYBALL,GIGADRAIN,GIGAIMPACT,HYPERBEAM,FACADE,HIDDENPOWER,ROUND,SNORE,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,PROTECT,SLEEPTALK,SUBSTITUTE,SWAGGER,SLUDGEBOMB,VENOSHOCK,TOXIC,PSYCHIC,ZENHEADBUTT,REST,SKILLSWAP,HEADBUTT
+Height = 2.7
+Weight = 25.0
+Color = Black
+Shape = MultiWinged
+Habitat = Forest
+Pokedex = It can see as brightly at night as it does during the day. However, its red eyes often reveal Eclimoth's position.
+BaseExp = 178
+CatchRate = 45
+HiddenAbilities = SPEEDBOOST
+EggGroups = Bug
+HatchSteps = 5355
+Category = Nachtfalter
+#-------------------------------
+[GOLGALORD]
+Name = Goldosea
+Types = WATER,SWORD
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[JUDRAGONG]
+Name = Coldragon
+Types = DRAGON,ICE
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[GALLOPEGA]
+Name = Peginflate
+Types = FIRE,FAIRY
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[SONNESSEL]
+Name = Sunnettle
+Types = GRASS,FIRE
+BaseStats = 95,75,65,40,125,100
+GenderRate = Female50Percent
+GrowthRate = Parabolic
+EVs = SPECIAL_ATTACK,2
+Happiness = 70
+Abilities = CHLOROPHYLL,SOLARPOWER
+Moves = 0,SUNNYDAY,1,SOLARWIND,1,SUNNYDAY,1,FLOWERSHIELD,1,ABSORB,2,POUND,3,GROWTH,5,INCINERATE,8,INGRAIN,12,GRASSWHISTLE,16,FLAMECHARGE,20,MEGADRAIN,23,LEECHSEED,26,RAZORLEAF,29,WORRYSEED,32,GIGADRAIN,35,BULLETSEED,38,PETALDANCE,41,FLAMETHROWER,44,SOLARBEAM,47,DOUBLEEDGE,50,SUNNYDAY,53,LEAFSTORM,57,FIREBLAST,60,PETALBLIZZARD,64,ERUPTION
+TutorMoves = WUCHTSTOSS,SUNNYDAY,SOLARBEAM,ENERGYBALL,SEEDBOMB,GIGADRAIN,GRASSKNOT,SYNTHESIS,WORRYSEED,EARTHPOWER,GIGAIMPACT,HYPERBEAM,UPROAR,FACADE,HIDDENPOWER,ROUND,CUT,SNORE,ENDEAVOR,FRUSTRATION,RETURN,AFTERYOU,ATTRACT,CONFIDE,DOUBLETEAM,HELPINGHAND,PROTECT,SAFEGUARD,SLEEPTALK,SUBSTITUTE,SWAGGER,SWORDSDANCE,SLUDGEBOMB,TOXIC,LIGHTSCREEN,REST
+Height = 4.8
+Weight = 48.0
+Color = Yellow
+Shape = Bipedal
+Habitat = Grassland
+Pokedex = It possesses the power of a one-thousand suns. It is said that it becomes weak during a solar eclipse.
+BaseExp = 250
+CatchRate = 45
+HiddenAbilities = DROUGHT
+EggGroups = Grass
+HatchSteps = 5120
+Category = Solar
+#-------------------------------
+[DRAMMISON]
+Name = Gonsparce
+Types = NORMAL,DRAGON
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[HYDRAMIS]
+Name = Dunnydra
+Types = NORMAL,DRAGON
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[PHYAEENOR]
+Name = Hyenoar
+Types = DARK,GHOST
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[NEUTRIE]
+Name = Neutris
+Types = ELECTRIC,FIGHTING
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[AURORECO]
+Name = Decarora
+Types = STAR,ICE
+BaseStats = 88,90,75,96,90,70
+GenderRate = Female75Percent
+GrowthRate = Fast
+EVs = SPEED,2
+Happiness = 70
+Abilities = FROSTKOERPER,ASTRALITAET
+Moves = 0,EINFRIERHAUCH,1,EINFRIERHAUCH,1,AURORABEAM,1,FAKEOUT,1,SING,1,ATTRACT,1,DOUBLESLAP,1,WISH,1,AURORAVEIL,1,AURORABEAM,1,ASTROSCHIMMER,1,SWIFT,12,EINFRIERHAUCH,23,AURORABEAM,34,ALLKRAFT,45,ASTROSCHIMMER,56,KONVERGENZ,67,BLIZZARD,78,METEORMASH
+TutorMoves = PAYBACK,THUNDER,THUNDERBOLT,WILDCHARGE,SHOCKWAVE,CHARGEBEAM,THUNDERWAVE,ROCKSMASH,SUNNYDAY,SHADOWBALL,SOLARBEAM,GRASSKNOT,STOMPINGTANTRUM,BLIZZARD,ICEPUNCH,ICYWIND,GIGAIMPACT,HYPERBEAM,LASTRESORT,HYPERVOICE,UPROAR,STRENGTH,FACADE,COVET,HIDDENPOWER,ROUND,SNORE,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,HEALBELL,HELPINGHAND,LASERFOCUS,PROTECT,PSYCHUP,SAFEGUARD,SLEEPTALK,SUBSTITUTE,SWAGGER,WORKUP,TOXIC,DREAMEATER,ZENHEADBUTT,CALMMIND,REST,IRONTAIL,WATERPULSE,RAINDANCE,HEADBUTT
+Height = 1.8
+Weight = 45.6
+Color = Purple
+Shape = Quadruped
+Habitat = Forest
+Pokedex = Every aurora that can be seen on Earth is said to come from one of these Pokémon.
+BaseExp = 170
+CatchRate = 50
+HiddenAbilities = WONDERSKIN
+EggGroups = Field,Fairy
+HatchSteps = 3840
+Category = Aurora
+#-------------------------------
+[NINJAEMON]
+Name = Soulinja
+Types = BUG,GHOST
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[GEOZENTRA]
+Name = Geocentrix
+Types = STAR,ROCK
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[KEMMALEON]
+Name = Kemmaleon
+Types = NORMAL
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[KALLAGUIS]
+Name = Orelicriz
+Types = WATER,ROCK
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[HEARVILLIDA]
+Name = Ultrilovya
+Types = WATER,FAIRY
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[ZIRPIOLLA]
+Name = Krickelody
+Types = BUG,NORMAL
+BaseStats = 107,80,63,70,115,65
+GenderRate = Female50Percent
+GrowthRate = Parabolic
+EVs = HP,1,SPECIAL_ATTACK,2
+Happiness = 70
+Abilities = SWARM
+Moves = 0,HARFENSPIEL,1,FURYCUTTER,1,GROWL,1,BIDE,1,UPROAR,10,BUGBITE,15,ABSORB,20,SING,24,FOCUSENERGY,28,SLASH,32,XSCISSOR,36,HYPERVOICE,39,FELLSTINGER,43,TAUNT,47,NIGHTSLASH,49,STICKYWEB,51,BUGBUZZ,55,PERISHSONG,60,BOOMBURST
+TutorMoves = LEECHLIFE,XSCISSOR,BUGBITE,STRUGGLEBUG,INFESTATION,THROATCHOP,KNOCKOFF,TAUNT,BRICKBREAK,POWERUPPUNCH,ROCKSMASH,SUNNYDAY,AERIALACE,GIGAIMPACT,HYPERBEAM,HYPERVOICE,UPROAR,STRENGTH,FACADE,HIDDENPOWER,ROUND,CUT,SNORE,FALSESWIPE,ENDEAVOR,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,HEALBELL,LASERFOCUS,PROTECT,SLEEPTALK,SUBSTITUTE,SWAGGER,SWORDSDANCE,TOXIC,REST,RAINDANCE
+Height = 3.2
+Weight = 100.5
+Color = Red
+Shape = MultiWinged
+Pokedex = Long ago, this Pokémon was hunted by humans because its harp has an incomparable sound.
+WildItemUncommon = METRONOME
+BaseExp = 230
+CatchRate = 45
+HiddenAbilities = TECHNICIAN
+EggGroups = Bug
+HatchSteps = 3840
+Category = Harfe
+#-------------------------------
+[PLAUPSYPA]
+Name = Deeyatot
+Types = PSYCHIC,FLYING
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[KIRASOLA]
+Name = Cherrysola
+Types = GRASS,FAIRY
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[KIREDEPRA]
+Name = Cherrydepra
+Types = GRASS,DARK
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[FILLANEON]
+Name = Filleneon
+Types = WATER,STAR
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[YANMECHA]
+Name = Yanmecha
+Types = BUG,STEEL
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[SCHWALECTRO]
+Name = Swelectro
+Types = ELECTRIC,FLYING
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[EMOLVOLA]
+Name = Emolvola
+Types = ELECTRIC,FLYING
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[MERAMINEX]
+Name = Caraminex
+Types = GRASS,GHOST
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[FLUNDAWATT]
+Name = Flouthundr
+Types = GROUND,ELECTRIC
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[FERMICOLLOSS]
+Name = Collossant
+Types = BUG,STEEL
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[GIBANNY]
+Name = Gigrebbit
+Types = FIGHTING,GROUND
+BaseStats = 120,96,96,70,64,87
+GenderRate = Female50Percent
+GrowthRate = Medium
+EVs = HP,9
+Happiness = 70
+Abilities = SHEERFORCE,CHEEKPOUCH
+Moves = 1,HEAVYSLAM,1,HAMMERARM,1,ROTOTILLER,1,BULLDOZE,1,SWORDSDANCE,1,TACKLE,1,AGILITY,1,LEER,7,QUICKATTACK,10,DOUBLESLAP,13,MUDSLAP,15,TAKEDOWN,19,MUDSHOT,23,DOUBLEKICK,29,ODORSLEUTH,34,FLAIL,39,DIG,41,DYNAMICPUNCH,45,HEAVYSLAM,50,SUPERFANG,56,FACADE,59,EARTHQUAKE,62,HAMMERARM,65,CLOSECOMBAT
+TutorMoves = UTURN,FOULPLAY,KNOCKOFF,BRUTALSWING,THIEF,PAYBACK,SNATCH,TORMENT,WILDCHARGE,THUNDERPUNCH,FOCUSPUNCH,SUPERPOWER,BRICKBREAK,POWERUPPUNCH,ROCKSMASH,LOWKICK,BULKUP,FIREPUNCH,BOUNCE,GRASSKNOT,EARTHQUAKE,EARTHPOWER,STOMPINGTANTRUM,BULLDOZE,ICEPUNCH,GIGAIMPACT,HYPERBEAM,LASTRESORT,UPROAR,STRENGTH,FACADE,HIDDENPOWER,ROUND,CUT,SNORE,ENDEAVOR,FRUSTRATION,RETURN,SUPERFANG,ATTRACT,CONFIDE,DOUBLETEAM,PROTECT,RECYCLE,SLEEPTALK,SUBSTITUTE,SWAGGER,SWORDSDANCE,WORKUP,GUNKSHOT,SLUDGEBOMB,GASTROACID,TOXIC,REST,STONEEDGE,ROCKSLIDE,ROCKTOMB,SMACKDOWN,SANDSTORM,IRONTAIL,IRONHEAD,SURF
+Height = 6.1
+Weight = 300.4
+Color = Brown
+Shape = BipedalTail
+Pokedex = Gigrebbit can create an earthquake with one mighty blow, whose power can be felt all over the world.
+BaseExp = 250
+CatchRate = 120
+HiddenAbilities = MOXIE
+EggGroups = Field
+HatchSteps = 3840
+Category = Riesenhase
+#-------------------------------
+[DUVARNEIT]
+Name = Rieternoar
+Types = SWORD,DARK
+BaseStats = 85,96,117,90,60,85
+GenderRate = Female50Percent
+GrowthRate = Medium
+EVs = DEFENSE,3
+Happiness = 70
+Abilities = BATTLEARMOR,PRESSURE
+Moves = 0,NIGHTSLASH,1,NIGHTSLASH,1,SUCKERPUNCH,1,GOLDKLINGE,1,SILBERKLINGE,1,SMARTSTRIKE,1,RUESTUNG,1,BULLDOZE,1,SWORDSDANCE,1,RITTERSCHLAG,1,TACKLE,1,SHARPEN,1,LEER,7,TURBOTRENNER,10,DOPPELSCHNITT,13,MUDSLAP,15,TAKEDOWN,18,AGILITY,21,GEGENSCHNITT,27,RITTERSCHLAG,33,FLAIL,38,SWORDSDANCE,44,GOLDKLINGE,49,SUPERFANG,56,SCHWERTBRUCH,65,HEAVYSLAM,72,ULTRASCHNITT,80,SUCKERPUNCH
+TutorMoves = UTURN,FOULPLAY,KNOCKOFF,BRUTALSWING,THIEF,PAYBACK,SNATCH,TORMENT,WILDCHARGE,BRICKBREAK,POWERUPPUNCH,ROCKSMASH,LOWKICK,BULKUP,EARTHQUAKE,EARTHPOWER,STOMPINGTANTRUM,BULLDOZE,GIGAIMPACT,HYPERBEAM,LASTRESORT,UPROAR,STRENGTH,FACADE,HIDDENPOWER,ROUND,CUT,SNORE,ENDEAVOR,FRUSTRATION,RETURN,SUPERFANG,ATTRACT,CONFIDE,DOUBLETEAM,PROTECT,RECYCLE,SLEEPTALK,SUBSTITUTE,SWAGGER,SWORDSDANCE,WORKUP,TOXIC,REST,STONEEDGE,ROCKSLIDE,ROCKTOMB,SMACKDOWN,SANDSTORM,IRONTAIL,IRONHEAD
+Height = 5.1
+Weight = 294.8
+Color = Brown
+Shape = BipedalTail
+Pokedex = If you get into a fight with this Pokémon, you shouldn't expect any mercy.
+BaseExp = 250
+CatchRate = 120
+HiddenAbilities = INTIMIDATE
+EggGroups = Field
+HatchSteps = 3840
+Category = Ritter
+#-------------------------------
+[ROCASTALL]
+Name = Caristiel
+Types = ROCK,FAIRY
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[DENNEMAGIE]
+Name = Magienne
+Types = ELECTRIC,FAIRY
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[WRESPHOREO]
+Name = Aborestla
+Types = FIGHTING,FLYING
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[UNEVOLA]
+Name = Origeon
+Types = NORMAL
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[AURERA]
+Name = Aureon
+Types = FIGHTING
+BaseStats = 65,95,60,110,130,65
+GenderRate = FemaleOneEighth
+GrowthRate = Medium
+EVs = SPECIAL_ATTACK,2
+Happiness = 70
+Abilities = SOUNDPROOF,TELEPATHY
+Moves = 1,HELPINGHAND,1,TACKLE,1,TAILWHIP,5,SANDATTACK,9,VACUUMWAVE,13,QUICKATTACK,17,SWIFT,20,FLINKAURA,25,MIRRORCOAT,29,DETECT,33,STOREDPOWER,37,AURASPHERE,41,LASTRESORT,45,FOCUSBLAST
+TutorMoves = WUCHTSTOSS,FOCUSBLAST,SUPERPOWER,POWERUPPUNCH,ROCKSMASH,BULKUP,SUNNYDAY,SHADOWBALL,GIGAIMPACT,HYPERBEAM,LASTRESORT,HYPERVOICE,FACADE,COVET,HIDDENPOWER,ROUND,CUT,SNORE,FRUSTRATION,RETURN,ATTRACT,CONFIDE,DOUBLETEAM,HEALBELL,HELPINGHAND,LASERFOCUS,PROTECT,PSYCHUP,SAFEGUARD,SLEEPTALK,SUBSTITUTE,SWAGGER,WORKUP,TOXIC,CALMMIND,LIGHTSCREEN,MAGICCOAT,REFLECT,REST,RAINDANCE
+Height = 0.7
+Weight = 23.8
+Color = Blue
+Shape = Quadruped
+Pokedex = Aureon can immediately tell if the person in front of it is a good person or not. It treats them accordingly.
+BaseExp = 184
+CatchRate = 45
+HiddenAbilities = MEGALAUNCHER
+EggGroups = Field
+HatchSteps = 9180
+Category = Aura
+#-------------------------------
+[OZONEA]
+Name = Ozoneon
+Types = FLYING
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[INSECTIA]
+Name = Secteon
+Types = BUG
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[MUTANA]
+Name = Veneon
+Types = POISON
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[GRANITA]
+Name = Graveleon
+Types = ROCK
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[DESERTA]
+Name = Desereon
+Types = GROUND
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[PHANTOMEA]
+Name = Souleon
+Types = GHOST
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[ROBOTIA]
+Name = Mechaneon
+Types = STEEL
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[DRACONA]
+Name = Dracaleon
+Types = DRAGON
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[KATHANA]
+Name = Kataneon
+Types = SWORD
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species
+#-------------------------------
+[GALAXYNA]
+Name = Cosmaneon
+Types = STAR
+BaseStats = 100,100,100,100,100,100
+GenderRate = Genderless
+GrowthRate = Parabolic
+EVs = HP,9
+Happiness = 100
+Abilities = SYNCHRONIZE
+Moves = 1,POUND,1,REFLECTTYPE,1,TRANSFORM,10,MEGAPUNCH,20,METRONOME,30,PSYCHIC,40,BARRIER,50,ANCIENTPOWER,60,AMNESIA,70,MEFIRST,80,BATONPASS,90,NASTYPLOT,100,AURASPHERE
+Height = 0.4
+Weight = 4.0
+Color = Pink
+Shape = BipedalTail
+Habitat = Rare
+Pokedex = A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.
+WildItemCommon = LUMBERRY
+WildItemUncommon = LUMBERRY
+WildItemRare = LUMBERRY
+BaseExp = 270
+CatchRate = 45
+EggGroups = Undiscovered
+HatchSteps = 30720
+Category = New Species

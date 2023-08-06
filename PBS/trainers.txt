@@ -1,118 +1,490 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[CAMPER,Liam]
-LoseText = A very good battle, indeed!
-Pokemon = DIGLETT,10
-Pokemon = BONSLY,11
+[MAYA,Maya]
+Pokemon = EEVEE,3
+    Form = 1
+    Gender = female
+    Moves = SANDATTACK,GROWL,TACKLE,TAILWHIP
+    Ball = HEALBALL
 #-------------------------------
-[LEADER_Brock,Brock]
-Items = FULLRESTORE,FULLRESTORE
-LoseText = Very good.
-Pokemon = GEODUDE,12
-    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
-    AbilityIndex = 0
+[LEADER_ONE,Auro]
+Items = POTION
+Pokemon = RIOLU,16
     Gender = male
-    IV = 20,20,20,20,20,20
-Pokemon = ONIX,14
-    Name = Rocky
-    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
+    Moves = FLINKAURA,QUICKATTACK,BITE,DETECT
     AbilityIndex = 0
-    Item = SITRUSBERRY
+    Nature = ADAMANT
+    IV = 31,31,31,31,31,31
+    Ball = GREATBALL
+Pokemon = AURERA,18
     Gender = male
-    IV = 20,20,20,20,20,20
-    Shiny = true
+    Moves = FLINKAURA,QUICKATTACK,BITE,SANDATTACK
+    AbilityIndex = 0
+    Nature = ADAMANT
+    IV = 31,31,31,31,31,31
+    Ball = GREATBALL
+#-------------------------------
+[BUGCATCHER,Karsten]
+Pokemon = SCATTERBUG,3
+    Gender = male
+    Ball = NETBALL
+#-------------------------------
+[LASS,Mia]
+Pokemon = SENTRET,3
+    Moves = SCRATCH,FORESIGHT
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[YOUNGSTER,Adrian]
+Pokemon = BUNNELBY,4
+    Form = 1
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[PRESCHOOLER_M,Theodor]
+Pokemon = COIFFEUS,4
+    Moves = TACKLE,GROWL,HOWL
+    Ball = PREMIERBALL
+#-------------------------------
+[PICNICKER,Irah]
+Pokemon = BUNNELBY,3
+    Form = 1
+    Ball = NESTBALL
+Pokemon = PIDOVE,4
+    Form = 1
+    Gender = male
+    Ball = NESTBALL
+#-------------------------------
+[FISHERMAN,Ludwig]
+Pokemon = MAGIKARP,5
+    Moves = SPLASH
+    Ball = LUREBALL
+Pokemon = FEEBAS,5
+    Moves = SPLASH
+    Ball = LUREBALL
+#-------------------------------
+[YOUNGSTER,Ansgar]
+Pokemon = PANSAGE,5
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[BUGCATCHER,Klaus]
+Pokemon = WURMPLE,4
+    Ball = NETBALL
+Pokemon = COMBEE,5
+    Ball = NETBALL
+#-------------------------------
+[POKEMONBREEDER,Sarah]
+Pokemon = SUNKERN,3
+    Ball = REPEATBALL
+Pokemon = BUDEW,4
+    Ball = REPEATBALL
+Pokemon = OHRBY,5
+    Ball = REPEATBALL
+#-------------------------------
+[PRESCHOOLER_M,Emil]
+Pokemon = FLABEBE,6
+    Ball = PREMIERBALL
+#-------------------------------
+[SUPERNERD,Kevin]
+Pokemon = VOLBEAT,7
+    Ball = TIMERBALL
+#-------------------------------
+[FISHERMAN,Finn]
+Pokemon = POLIWAG,4
+    Ball = LUREBALL
+Pokemon = APILLYA,5
+    Moves = WATERSPORT,SING,GROWL,MIST
+    Ball = LUREBALL
+#-------------------------------
+[YOUNGSTER,Andre]
+Pokemon = PICHU,5
+    IV = 31,31,31,31,31,31
+Pokemon = BUNNELBY,6
+    Form = 1
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[LASS,Emily]
+Pokemon = AZURILL,5
+    Moves = SPLASH,WATERGUN,TAILWHIP,WATERSPORT
+    IV = 31,31,31,31,31,31
+Pokemon = SKITTY,7
+    Moves = TAILWHIP,TACKLE,FORESIGHT,SING
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[AROMALADY,Petra]
+Pokemon = TAILLOW,6
+    Ball = FRIENDBALL
+Pokemon = FLABEBE,7
+    Ball = FRIENDBALL
+#-------------------------------
+[FISHERMAN,Marvin]
+Pokemon = BARBOACH,8
+    Moves = MUDSLAP,MUDSPORT,WATERSPORT,AMNESIA
+    Ball = LUREBALL
+#-------------------------------
+[YOUNGSTER,George]
+Pokemon = LOTAD,6
+    Moves = ASTONISH,GROWL,ABSORB
+    IV = 31,31,31,31,31,31
+Pokemon = ZIGZAGOON,7
+    Moves = TACKLE,GROWL,TAILWHIP,SANDATTACK
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[BUGCATCHER,James]
+Pokemon = WURMPLE,6
+    Moves = TACKLE,STRINGSHOT,POISONSTING
+    Ball = NETBALL
+Pokemon = VENIPEDE,7
+    Ball = NETBALL
+#-------------------------------
+[GENTLEMAN,Samuel]
+Pokemon = EKANS,7
+    Form = 2
+    Moves = WRAP,LEER,POISONSTING,BITE
+    Ball = LUXURYBALL
+#-------------------------------
+[TEAMNEOFLARE_M,test]
+Pokemon = RATTATA,10
+    Moves = TAILWHIP,QUICKATTACK,FOCUSENERGY,BITE
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[BIKER,Rufus]
+Pokemon = GRIMER,7
+    Moves = POUND,POISONGAS,HARDEN,MUDSLAP
+    Ball = HEAVYBALL
+Pokemon = MURKROW,8
+    Moves = PECK,ASTONISH,PURSUIT
     Ball = HEAVYBALL
 #-------------------------------
-[TEAMROCKET_M,Grunt,1]
-LoseText = You're too good for me!
-Pokemon = WEEPINBELL,21
-    Shadow = true
+[POKEMONTRAINER_Sam,Testo]
+Pokemon = ABRA,10
+    Moves = TELEPORT
+Pokemon = ABRA,10
+    Moves = TELEPORT
+Pokemon = DITTO,10
+    Moves = TRANSFORM
 #-------------------------------
-[TEAMROCKET_F,Grunt,1]
-LoseText = You're too good for me!
-Pokemon = BURMY,19
-Pokemon = WINGULL,19
-Pokemon = ELECTABUZZ,20
-    Shadow = true
+[LEADER_EIGHT,Finalo]
+Pokemon = ZYGARDE,20
+    Moves = BITE,SAFEGUARD,DIG,BIND
+Pokemon = YVELTAL,30
+    Moves = DOUBLETEAM,AIRSLASH,SNARL,OBLIVIONWING
+Pokemon = XERNEAS,20
+    Moves = TAKEDOWN,LIGHTSCREEN,AURORABEAM,GRAVITY
 #-------------------------------
-[YOUNGSTER,Ben]
-LoseText = Aww, I lost.
+[HIKER,Peter]
+Pokemon = ROGGENROLA,8
+    Moves = TACKLE,HARDEN,SANDATTACK
+    Item = ORANBERRY
+    Ball = DUSKBALL
+#-------------------------------
+[AROMALADY,Ronja]
+Pokemon = ODDISH,7
+    Moves = ABSORB,SWEETSCENT
+    Ball = FRIENDBALL
+Pokemon = BELLSPROUT,8
+    Moves = VINEWHIP,GROWTH
+    Ball = FRIENDBALL
+#-------------------------------
+[SAILOR,Jonas]
+Pokemon = PREDORFISH,8
+    Ball = GREATBALL
+Pokemon = WINGULL,8
+    Moves = GROWL,WATERGUN,SUPERSONIC,WINGATTACK
+    Ball = GREATBALL
+#-------------------------------
+[BUGCATCHER,Franz]
+Pokemon = MIDINAS,9
+    Moves = LEER,FEINT,FURYCUTTER,AERIALACE
+    Ball = NETBALL
+#-------------------------------
+[CHANNELER,Susie]
+Pokemon = GASTLY,8
+    Moves = HYPNOSIS,LICK,SPITE,MEANLOOK
+    Ball = DUSKBALL
+Pokemon = PHANTUMP,8
+    Ball = DUSKBALL
+#-------------------------------
+[CHANNELER,Emma]
+Pokemon = PHANTUMP,8
+    Moves = TACKLE,CONFUSERAY,ASTONISH,GROWTH
+    Ball = DUSKBALL
+Pokemon = MURKROW,9
+    Moves = PECK,ASTONISH,PURSUIT
+    Ball = DUSKBALL
+Pokemon = FRILLISH,9
+    Moves = BUBBLE,WATERSPORT,ABSORB,NIGHTSHADE
+    Ball = DUSKBALL
+#-------------------------------
+[PICNICKER,Mina]
+Pokemon = ONIX,9
+    Form = 2
+    Ball = NESTBALL
+Pokemon = SHINX,10
+    Form = 2
+    Ball = NESTBALL
+#-------------------------------
+[CHANNELER,Lyra]
+Pokemon = SABLEYE,11
+    Moves = FORESIGHT,NIGHTSHADE,ASTONISH,FURYSWIPES
+    Ball = DUSKBALL
+#-------------------------------
+[POKEMONTRAINER_Red,Drago]
+Pokemon = DRAGONITE,100
+    Moves = HOWL,GROWL,SPLASH,CALMMIND
+#-------------------------------
+[MAYA,Maya,1]
+Pokemon = PIDOVE,7
+    Form = 1
+    Gender = female
+    Ball = HEALBALL
+Pokemon = APILLYA,8
+    Gender = female
+    Ball = HEALBALL
+Pokemon = EEVEE,13
+    Form = 1
+    Gender = female
+    Ball = HEALBALL
+#-------------------------------
+[SUPERNERD,Klaas]
+Pokemon = ARON,10
+    Moves = HARDEN,MUDSLAP,HEADBUTT,METALCLAW
+    Ball = TIMERBALL
+#-------------------------------
+[HIKER,William]
+Pokemon = NIDORANMA,11
+    Form = 1
+    Ball = DUSKBALL
+Pokemon = NIDORANFE,11
+    Form = 1
+    Ball = DUSKBALL
+#-------------------------------
+[YOUNGSTER,Joe]
+Pokemon = RATTATA,10
+    Moves = TAILWHIP,QUICKATTACK,FOCUSENERGY,BITE
+    IV = 31,31,31,31,31,31
 Pokemon = RATTATA,11
-Pokemon = EKANS,11
+    Moves = TAILWHIP,QUICKATTACK,FOCUSENERGY,BITE
+    IV = 31,31,31,31,31,31
+Pokemon = RATTATA,12
+    Moves = TAILWHIP,QUICKATTACK,FOCUSENERGY,BITE
+    IV = 31,31,31,31,31,31
 #-------------------------------
-[CAMPER,Jeff]
-LoseText = A very good battle, indeed!
-Pokemon = SPEAROW,16
-Pokemon = SENTRET,16
+[TEAMNEOFLARE_F,Rüpel]
+Pokemon = FLETCHLING,12
+    IV = 31,31,31,31,31,31
+Pokemon = PANSEAR,13
+    IV = 31,31,31,31,31,31
 #-------------------------------
-[CAMPER,Jeff,1]
-LoseText = You beat me again!
-Pokemon = FEAROW,29
-Pokemon = FURRET,29
+[TEAMNEOFLARE_M,Rüpel]
+Pokemon = ZUBAT,11
+    Form = 1
+    IV = 31,31,31,31,31,31
+Pokemon = GROWLITHE,12
+    IV = 31,31,31,31,31,31
 #-------------------------------
-[PICNICKER,Susie]
-LoseText = Defeated! Oh my!
-Pokemon = MEOWTH,18
+[LEADER_ONE,Megalord]
+Pokemon = VENUSAUR,15
+    Moves = TACKLE,GROWL,CUT,PROTECT
+    Item = VENUSAURITE
+    Nature = ADAMANT
+    IV = 31,31,31,31,31,31
 #-------------------------------
-[PICNICKER,Susie,1]
-LoseText = Defeated! Oh my!
-Pokemon = PERSIAN,32
+[GAMBLER,Willi]
+Pokemon = MEOWTH,12
+    Moves = SCRATCH,GROWL,BITE,FAKEOUT
+    Ball = PREMIERBALL
+Pokemon = AIPOM,13
+    Moves = TAILWHIP,SANDATTACK,ASTONISH,SCRATCH
+    Ball = PREMIERBALL
 #-------------------------------
-[HIKER,Ford]
-LoseText = You're too good for me!
-Pokemon = MACHOP,19
+[BIRDKEEPER,Alex]
+Pokemon = SPEAROW,12
+    Moves = GROWL,LEER,FURYATTACK,PURSUIT
+    Ball = FASTBALL
+Pokemon = PANZANO,13
+    Moves = PECK,SANDATTACK,PURSUIT,QUICKATTACK
+    Ball = FASTBALL
+Pokemon = FLETCHLING,13
+    Moves = GROWL,QUICKATTACK,PECK,AGILITY
+    Ball = FASTBALL
 #-------------------------------
-[FISHERMAN,Andrew]
-LoseText = Washed out!
-Pokemon = MAGIKARP,14
-Pokemon = MAGIKARP,18
+[SCHOOLBOY,Joachim]
+Pokemon = EKANS,14
+    Form = 2
+    Moves = LEER,POISONSTING,BITE,GLARE
+    Ball = LEVELBALL
 #-------------------------------
-[BEAUTY,Bridget]
-LoseText = My Skitty!
-Pokemon = SKITTY,18
+[SAILOR,Alfred]
+Pokemon = PANCHAM,12
+    Moves = ARMTHRUST,WORKUP,KARATECHOP,COMETPUNCH
+    IV = 31,31,31,31,31,31
+Pokemon = MACHOP,13
+    Moves = FOCUSENERGY,KARATECHOP,FORESIGHT,LOWSWEEP
+    IV = 31,31,31,31,31,31
 #-------------------------------
-[LASS,Crissy]
-LoseText = You didn't have to win so convincingly!
-Pokemon = PLUSLE,17
-Pokemon = MINUN,17
+[PICNICKER,Ina]
+Pokemon = SANDSHREW,13
+    Moves = POISONSTING,ROLLOUT,RAPIDSPIN,FURYCUTTER
+    Ball = NESTBALL
+Pokemon = GULPIN,14
+    Moves = YAWN,POISONGAS,SLUDGE,AMNESIA
+    Ball = NESTBALL
 #-------------------------------
-[COOLCOUPLE,Alice & Bob]
-LoseText = Our teamwork failed!
-Pokemon = TURTWIG,19
-Pokemon = CHIMCHAR,19
+[HIKER,Heinrich]
+Pokemon = GEODUDE,13
+    Moves = MUDSPORT,ROCKPOLISH,ROLLOUT,MAGNITUDE
+    Ball = DUSKBALL
+Pokemon = WOOBAT,13
+    Moves = CONFUSION,ODORSLEUTH,GUST,ASSURANCE
+    Ball = DUSKBALL
+Pokemon = NOSEPASS,13
+    Ball = DUSKBALL
 #-------------------------------
-[POKEMONTRAINER_May,May]
-LoseText = ...
-Pokemon = COMBUSKEN,19
+[BLACKBELT,Roy]
+Pokemon = MIENFOO,15
+    Moves = FAKEOUT,REVERSAL,MEDITATE,KNOCKOFF
+    Item = ORANBERRY
+    Ball = LEVELBALL
 #-------------------------------
-[SWIMMER2_F,Ariel]
-LoseText = Washed out!
-Pokemon = STARYU,15
-Pokemon = GOLDEEN,11
+[YOUNGSTER,Tony]
+Pokemon = CLEFFA,13
+    Moves = ENCORE,SING,SWEETKISS,COPYCAT
+    IV = 31,31,31,31,31,31
+Pokemon = IGGLYBUFF,14
+    Moves = DEFENSECURL,POUND,SWEETKISS,COPYCAT
+    IV = 31,31,31,31,31,31
 #-------------------------------
-[RIVAL1,Blue]
-LoseText = Not too shabby.
-Pokemon = PIDGEOTTO,17
-Pokemon = RATTATA,15
-Pokemon = BULBASAUR,18
+[JOGGER,Jonah]
+Pokemon = SLOWPOKE,14
+    Moves = TACKLE,GROWL,WATERGUN,CONFUSION
+    Ball = QUICKBALL
 #-------------------------------
-[RIVAL1,Blue,1]
-LoseText = Not too shabby.
-Pokemon = PIDGEOTTO,17
-Pokemon = RATTATA,15
-Pokemon = CHARMANDER,18
+[BUGCATCHER,Bob]
+Pokemon = KAKUNA,11
+    Moves = POISONSTING,STRINGSHOT,HARDEN
+    Ball = NETBALL
+Pokemon = MIDINAS,12
+    Moves = FEINT,FURYCUTTER,AERIALACE,ENDURE
+    Ball = NETBALL
+Pokemon = DWEBBLE,13
+    Moves = ROCKBLAST,WITHDRAW,SANDATTACK,FEINTATTACK
+    Ball = NETBALL
+Pokemon = VENONAT,14
+    Moves = FORESIGHT,SUPERSONIC,CONFUSION,POISONPOWDER
+    Ball = NETBALL
 #-------------------------------
-[RIVAL1,Blue,2]
-LoseText = Not too shabby.
-Pokemon = PIDGEOTTO,17
-Pokemon = RATTATA,15
-Pokemon = SQUIRTLE,18
+[BUGCATCHER,Lucas]
+Pokemon = CASCOON,14
+    Moves = HARDEN,POISONSTING,STRINGSHOT,TACKLE
+    Ball = NETBALL
 #-------------------------------
-[CHAMPION,Blue]
-LoseText = A good battle indeed!
-Pokemon = VENUSAUR,63
-    Item = SITRUSBERRY
-Pokemon = CHARIZARD,63
-    Item = SITRUSBERRY
-Pokemon = BLASTOISE,63
-    Item = SITRUSBERRY
+[BUGCATCHER,Louis]
+Pokemon = SILCOON,15
+    Moves = HARDEN,POISONSTING,STRINGSHOT,TACKLE
+    Ball = NETBALL
+#-------------------------------
+[BLACKBELT,Jackie]
+Pokemon = TIMBURR,15
+    Moves = LEER,FOCUSENERGY,BIDE,LOWKICK
+    Ball = LEVELBALL
+#-------------------------------
+[BLACKBELT,Bruce]
+Pokemon = SCRAGGY,15
+    Moves = LOWKICK,SANDATTACK,FEINTATTACK,HEADBUTT
+    Ball = LEVELBALL
+#-------------------------------
+[BLACKBELT,John]
+Pokemon = MANKEY,15
+    Moves = LEER,FOCUSENERGY,FURYSWIPES,KARATECHOP
+    Ball = LEVELBALL
+Pokemon = MEDITITE,15
+    Moves = CONFUSION,DETECT,ENDURE,FEINT
+    Ball = LEVELBALL
+#-------------------------------
+[BLACKBELT,Teira]
+Pokemon = AURERA,15
+    Moves = SLEEPTALK,SPLASH,AGILITY,HOWL
+    Ball = LEVELBALL
+#-------------------------------
+[FERRIO,Ferrio]
+Pokemon = TOTODILE,12
+    Form = 2
+    Gender = male
+    Moves = SCRATCH,LEER,RAGE
+    IV = 31,31,31,31,31,31
+Pokemon = PANZANO,16
+    Gender = male
+    Moves = SANDATTACK,PURSUIT,QUICKATTACK,AIRCUTTER
+    Ball = DUSKBALL
+Pokemon = AXEW,17
+    Gender = male
+    Moves = ASSURANCE,SCRATCH,DUALCHOP,SCARYFACE
+    Ball = DUSKBALL
+#-------------------------------
+[FERRIO,Ferrio,1]
+Pokemon = CHIKORITA,12
+    Form = 2
+    Gender = male
+    Moves = GROWL,TACKLE,GUST,COPYCAT
+    IV = 31,31,31,31,31,31
+Pokemon = PANZANO,16
+    Gender = male
+    Moves = SANDATTACK,PURSUIT,QUICKATTACK,AIRCUTTER
+    Ball = DUSKBALL
+Pokemon = AXEW,17
+    Gender = male
+    Moves = ASSURANCE,SCRATCH,DUALCHOP,SCARYFACE
+    Ball = DUSKBALL
+#-------------------------------
+[FERRIO,Ferrio,2]
+Pokemon = CYNDAQUIL,12
+    Form = 2
+    Gender = male
+    Moves = LEER,TACKLE,POWDERSNOW,MIST
+    IV = 31,31,31,31,31,31
+Pokemon = PANZANO,16
+    Gender = male
+    Moves = SANDATTACK,PURSUIT,QUICKATTACK,AIRCUTTER
+    Ball = DUSKBALL
+Pokemon = AXEW,17
+    Gender = male
+    Moves = ASSURANCE,SCRATCH,DUALCHOP,SCARYFACE
+    Ball = DUSKBALL
+#-------------------------------
+[VETERAN_M,Onixman]
+Pokemon = BLISSEY,50
+    Moves = ROYALESSCHILD
+Pokemon = PANZANO,30
+    Moves = SANDATTACK,PURSUIT,QUICKATTACK,AIRCUTTER
+    Ball = DUSKBALL
+#-------------------------------
+[EVILSCIENTIST,Arnold]
+Pokemon = SEEDOT,8
+    Form = 1
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[EVILSCIENTIST,Ashton]
+Pokemon = ZUBAT,8
+    Form = 1
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[EVILSCIENTIST,Hugo]
+Pokemon = FOONGUS,8
+    Form = 1
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[BUGCATCHER,Ultron]
+Pokemon = CHANSEY,1
+    Moves = TOXIC
+    IV = 31,31,31,31,31,31
+Pokemon = CHANSEY,2
+    Moves = TOXIC
+    IV = 31,31,31,31,31,31
+Pokemon = CHANSEY,3
+    Moves = TOXIC
+    IV = 31,31,31,31,31,31
+Pokemon = CHANSEY,4
+    Moves = TOXIC
+    IV = 31,31,31,31,31,31
+Pokemon = CHANSEY,5
+    Moves = TOXIC
+    IV = 31,31,31,31,31,31
