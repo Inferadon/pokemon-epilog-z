@@ -5,7 +5,7 @@ Pokemon = EEVEE,3
     Form = 1
     Gender = female
     Moves = SANDATTACK,GROWL,TACKLE,TAILWHIP
-    Ball = 13
+    Ball = HEALBALL
 #-------------------------------
 [LEADER_ONE,Auro]
 Items = POTION
@@ -15,19 +15,19 @@ Pokemon = RIOLU,16
     AbilityIndex = 0
     Nature = ADAMANT
     IV = 31,31,31,31,31,31
-    Ball = 1
+    Ball = GREATBALL
 Pokemon = AURERA,18
     Gender = male
     Moves = FLINKAURA,QUICKATTACK,BITE,SANDATTACK
     AbilityIndex = 0
     Nature = ADAMANT
     IV = 31,31,31,31,31,31
-    Ball = 1
+    Ball = GREATBALL
 #-------------------------------
 [BUGCATCHER,Karsten]
 Pokemon = SCATTERBUG,3
     Gender = male
-    Ball = 5
+    Ball = NETBALL
 #-------------------------------
 [LASS,Mia]
 Pokemon = SENTRET,3
@@ -42,24 +42,24 @@ Pokemon = BUNNELBY,4
 [PRESCHOOLER_M,Theodor]
 Pokemon = COIFFEUS,4
     Moves = TACKLE,GROWL,HOWL
-    Ball = 11
+    Ball = PREMIERBALL
 #-------------------------------
 [PICNICKER,Irah]
 Pokemon = BUNNELBY,3
     Form = 1
-    Ball = 7
+    Ball = NESTBALL
 Pokemon = PIDOVE,4
     Form = 1
     Gender = male
-    Ball = 7
+    Ball = NESTBALL
 #-------------------------------
 [FISHERMAN,Ludwig]
 Pokemon = MAGIKARP,5
     Moves = SPLASH
-    Ball = 18
+    Ball = LUREBALL
 Pokemon = FEEBAS,5
     Moves = SPLASH
-    Ball = 18
+    Ball = LUREBALL
 #-------------------------------
 [YOUNGSTER,Ansgar]
 Pokemon = PANSAGE,5
@@ -67,32 +67,32 @@ Pokemon = PANSAGE,5
 #-------------------------------
 [BUGCATCHER,Klaus]
 Pokemon = WURMPLE,4
-    Ball = 5
+    Ball = NETBALL
 Pokemon = COMBEE,5
-    Ball = 5
+    Ball = NETBALL
 #-------------------------------
 [POKEMONBREEDER,Sarah]
 Pokemon = SUNKERN,3
-    Ball = 8
+    Ball = REPEATBALL
 Pokemon = BUDEW,4
-    Ball = 8
+    Ball = REPEATBALL
 Pokemon = OHRBY,5
-    Ball = 8
+    Ball = REPEATBALL
 #-------------------------------
 [PRESCHOOLER_M,Emil]
 Pokemon = FLABEBE,6
-    Ball = 11
+    Ball = PREMIERBALL
 #-------------------------------
 [SUPERNERD,Kevin]
 Pokemon = VOLBEAT,7
-    Ball = 9
+    Ball = TIMERBALL
 #-------------------------------
 [FISHERMAN,Finn]
 Pokemon = POLIWAG,4
-    Ball = 18
+    Ball = LUREBALL
 Pokemon = APILLYA,5
     Moves = WATERSPORT,SING,GROWL,MIST
-    Ball = 18
+    Ball = LUREBALL
 #-------------------------------
 [YOUNGSTER,Andre]
 Pokemon = PICHU,5
@@ -111,14 +111,14 @@ Pokemon = SKITTY,7
 #-------------------------------
 [AROMALADY,Petra]
 Pokemon = TAILLOW,6
-    Ball = 21
+    Ball = FRIENDBALL
 Pokemon = FLABEBE,7
-    Ball = 21
+    Ball = FRIENDBALL
 #-------------------------------
 [FISHERMAN,Marvin]
 Pokemon = BARBOACH,8
     Moves = MUDSLAP,MUDSPORT,WATERSPORT,AMNESIA
-    Ball = 18
+    Ball = LUREBALL
 #-------------------------------
 [YOUNGSTER,George]
 Pokemon = LOTAD,6
@@ -131,15 +131,15 @@ Pokemon = ZIGZAGOON,7
 [BUGCATCHER,James]
 Pokemon = WURMPLE,6
     Moves = TACKLE,STRINGSHOT,POISONSTING
-    Ball = 5
+    Ball = NETBALL
 Pokemon = VENIPEDE,7
-    Ball = 5
+    Ball = NETBALL
 #-------------------------------
 [GENTLEMAN,Samuel]
 Pokemon = EKANS,7
     Form = 2
     Moves = WRAP,LEER,POISONSTING,BITE
-    Ball = 10
+    Ball = LUXURYBALL
 #-------------------------------
 [TEAMNEOFLARE_M,test]
 Pokemon = RATTATA,10
@@ -149,10 +149,10 @@ Pokemon = RATTATA,10
 [BIKER,Rufus]
 Pokemon = GRIMER,7
     Moves = POUND,POISONGAS,HARDEN,MUDSLAP
-    Ball = 19
+    Ball = HEAVYBALL
 Pokemon = MURKROW,8
     Moves = PECK,ASTONISH,PURSUIT
-    Ball = 19
+    Ball = HEAVYBALL
 #-------------------------------
 [POKEMONTRAINER_Sam,Testo]
 Pokemon = ABRA,10
@@ -174,58 +174,58 @@ Pokemon = XERNEAS,20
 Pokemon = ROGGENROLA,8
     Moves = TACKLE,HARDEN,SANDATTACK
     Item = ORANBERRY
-    Ball = 12
+    Ball = DUSKBALL
 #-------------------------------
 [AROMALADY,Ronja]
 Pokemon = ODDISH,7
     Moves = ABSORB,SWEETSCENT
-    Ball = 21
+    Ball = FRIENDBALL
 Pokemon = BELLSPROUT,8
     Moves = VINEWHIP,GROWTH
-    Ball = 21
+    Ball = FRIENDBALL
 #-------------------------------
 [SAILOR,Jonas]
 Pokemon = PREDORFISH,8
-    Ball = 1
+    Ball = GREATBALL
 Pokemon = WINGULL,8
     Moves = GROWL,WATERGUN,SUPERSONIC,WINGATTACK
-    Ball = 1
+    Ball = GREATBALL
 #-------------------------------
 [BUGCATCHER,Franz]
 Pokemon = MIDINAS,9
     Moves = LEER,FEINT,FURYCUTTER,AERIALACE
-    Ball = 5
+    Ball = NETBALL
 #-------------------------------
-[CHANELLER,Susie]
+[CHANNELER,Susie]
 Pokemon = GASTLY,8
     Moves = HYPNOSIS,LICK,SPITE,MEANLOOK
-    Ball = 12
+    Ball = DUSKBALL
 Pokemon = PHANTUMP,8
-    Ball = 12
+    Ball = DUSKBALL
 #-------------------------------
-[CHANELLER,Emma]
+[CHANNELER,Emma]
 Pokemon = PHANTUMP,8
     Moves = TACKLE,CONFUSERAY,ASTONISH,GROWTH
-    Ball = 12
+    Ball = DUSKBALL
 Pokemon = MURKROW,9
     Moves = PECK,ASTONISH,PURSUIT
-    Ball = 12
+    Ball = DUSKBALL
 Pokemon = FRILLISH,9
     Moves = BUBBLE,WATERSPORT,ABSORB,NIGHTSHADE
-    Ball = 12
+    Ball = DUSKBALL
 #-------------------------------
 [PICNICKER,Mina]
 Pokemon = ONIX,9
     Form = 2
-    Ball = 7
+    Ball = NESTBALL
 Pokemon = SHINX,10
     Form = 2
-    Ball = 7
+    Ball = NESTBALL
 #-------------------------------
-[CHANELLER,Lyra]
+[CHANNELER,Lyra]
 Pokemon = SABLEYE,11
     Moves = FORESIGHT,NIGHTSHADE,ASTONISH,FURYSWIPES
-    Ball = 12
+    Ball = DUSKBALL
 #-------------------------------
 [POKEMONTRAINER_Red,Drago]
 Pokemon = DRAGONITE,100
@@ -235,27 +235,27 @@ Pokemon = DRAGONITE,100
 Pokemon = PIDOVE,7
     Form = 1
     Gender = female
-    Ball = 13
+    Ball = HEALBALL
 Pokemon = APILLYA,8
     Gender = female
-    Ball = 13
+    Ball = HEALBALL
 Pokemon = EEVEE,13
     Form = 1
     Gender = female
-    Ball = 13
+    Ball = HEALBALL
 #-------------------------------
 [SUPERNERD,Klaas]
 Pokemon = ARON,10
     Moves = HARDEN,MUDSLAP,HEADBUTT,METALCLAW
-    Ball = 9
+    Ball = TIMERBALL
 #-------------------------------
 [HIKER,William]
 Pokemon = NIDORANMA,11
     Form = 1
-    Ball = 12
+    Ball = DUSKBALL
 Pokemon = NIDORANFE,11
     Form = 1
-    Ball = 12
+    Ball = DUSKBALL
 #-------------------------------
 [YOUNGSTER,Joe]
 Pokemon = RATTATA,10
@@ -291,27 +291,27 @@ Pokemon = VENUSAUR,15
 [GAMBLER,Willi]
 Pokemon = MEOWTH,12
     Moves = SCRATCH,GROWL,BITE,FAKEOUT
-    Ball = 11
+    Ball = PREMIERBALL
 Pokemon = AIPOM,13
     Moves = TAILWHIP,SANDATTACK,ASTONISH,SCRATCH
-    Ball = 11
+    Ball = PREMIERBALL
 #-------------------------------
 [BIRDKEEPER,Alex]
 Pokemon = SPEAROW,12
     Moves = GROWL,LEER,FURYATTACK,PURSUIT
-    Ball = 16
+    Ball = FASTBALL
 Pokemon = PANZANO,13
     Moves = PECK,SANDATTACK,PURSUIT,QUICKATTACK
-    Ball = 16
+    Ball = FASTBALL
 Pokemon = FLETCHLING,13
     Moves = GROWL,QUICKATTACK,PECK,AGILITY
-    Ball = 16
+    Ball = FASTBALL
 #-------------------------------
 [SCHOOLBOY,Joachim]
 Pokemon = EKANS,14
     Form = 2
     Moves = LEER,POISONSTING,BITE,GLARE
-    Ball = 17
+    Ball = LEVELBALL
 #-------------------------------
 [SAILOR,Alfred]
 Pokemon = PANCHAM,12
@@ -324,26 +324,26 @@ Pokemon = MACHOP,13
 [PICNICKER,Ina]
 Pokemon = SANDSHREW,13
     Moves = POISONSTING,ROLLOUT,RAPIDSPIN,FURYCUTTER
-    Ball = 7
+    Ball = NESTBALL
 Pokemon = GULPIN,14
     Moves = YAWN,POISONGAS,SLUDGE,AMNESIA
-    Ball = 7
+    Ball = NESTBALL
 #-------------------------------
 [HIKER,Heinrich]
 Pokemon = GEODUDE,13
     Moves = MUDSPORT,ROCKPOLISH,ROLLOUT,MAGNITUDE
-    Ball = 12
+    Ball = DUSKBALL
 Pokemon = WOOBAT,13
     Moves = CONFUSION,ODORSLEUTH,GUST,ASSURANCE
-    Ball = 12
+    Ball = DUSKBALL
 Pokemon = NOSEPASS,13
-    Ball = 12
+    Ball = DUSKBALL
 #-------------------------------
 [BLACKBELT,Roy]
 Pokemon = MIENFOO,15
     Moves = FAKEOUT,REVERSAL,MEDITATE,KNOCKOFF
     Item = ORANBERRY
-    Ball = 17
+    Ball = LEVELBALL
 #-------------------------------
 [YOUNGSTER,Tony]
 Pokemon = CLEFFA,13
@@ -356,54 +356,54 @@ Pokemon = IGGLYBUFF,14
 [JOGGER,Jonah]
 Pokemon = SLOWPOKE,14
     Moves = TACKLE,GROWL,WATERGUN,CONFUSION
-    Ball = 14
+    Ball = QUICKBALL
 #-------------------------------
 [BUGCATCHER,Bob]
 Pokemon = KAKUNA,11
     Moves = POISONSTING,STRINGSHOT,HARDEN
-    Ball = 5
+    Ball = NETBALL
 Pokemon = MIDINAS,12
     Moves = FEINT,FURYCUTTER,AERIALACE,ENDURE
-    Ball = 5
+    Ball = NETBALL
 Pokemon = DWEBBLE,13
     Moves = ROCKBLAST,WITHDRAW,SANDATTACK,FEINTATTACK
-    Ball = 5
+    Ball = NETBALL
 Pokemon = VENONAT,14
     Moves = FORESIGHT,SUPERSONIC,CONFUSION,POISONPOWDER
-    Ball = 5
+    Ball = NETBALL
 #-------------------------------
 [BUGCATCHER,Lucas]
 Pokemon = CASCOON,14
     Moves = HARDEN,POISONSTING,STRINGSHOT,TACKLE
-    Ball = 5
+    Ball = NETBALL
 #-------------------------------
 [BUGCATCHER,Louis]
 Pokemon = SILCOON,15
     Moves = HARDEN,POISONSTING,STRINGSHOT,TACKLE
-    Ball = 5
+    Ball = NETBALL
 #-------------------------------
 [BLACKBELT,Jackie]
 Pokemon = TIMBURR,15
     Moves = LEER,FOCUSENERGY,BIDE,LOWKICK
-    Ball = 17
+    Ball = LEVELBALL
 #-------------------------------
 [BLACKBELT,Bruce]
 Pokemon = SCRAGGY,15
     Moves = LOWKICK,SANDATTACK,FEINTATTACK,HEADBUTT
-    Ball = 17
+    Ball = LEVELBALL
 #-------------------------------
 [BLACKBELT,John]
 Pokemon = MANKEY,15
     Moves = LEER,FOCUSENERGY,FURYSWIPES,KARATECHOP
-    Ball = 17
+    Ball = LEVELBALL
 Pokemon = MEDITITE,15
     Moves = CONFUSION,DETECT,ENDURE,FEINT
-    Ball = 17
+    Ball = LEVELBALL
 #-------------------------------
 [BLACKBELT,Teira]
 Pokemon = AURERA,15
     Moves = SLEEPTALK,SPLASH,AGILITY,HOWL
-    Ball = 17
+    Ball = LEVELBALL
 #-------------------------------
 [FERRIO,Ferrio]
 Pokemon = TOTODILE,12
@@ -414,11 +414,11 @@ Pokemon = TOTODILE,12
 Pokemon = PANZANO,16
     Gender = male
     Moves = SANDATTACK,PURSUIT,QUICKATTACK,AIRCUTTER
-    Ball = 12
+    Ball = DUSKBALL
 Pokemon = AXEW,17
     Gender = male
     Moves = ASSURANCE,SCRATCH,DUALCHOP,SCARYFACE
-    Ball = 12
+    Ball = DUSKBALL
 #-------------------------------
 [FERRIO,Ferrio,1]
 Pokemon = CHIKORITA,12
@@ -429,11 +429,11 @@ Pokemon = CHIKORITA,12
 Pokemon = PANZANO,16
     Gender = male
     Moves = SANDATTACK,PURSUIT,QUICKATTACK,AIRCUTTER
-    Ball = 12
+    Ball = DUSKBALL
 Pokemon = AXEW,17
     Gender = male
     Moves = ASSURANCE,SCRATCH,DUALCHOP,SCARYFACE
-    Ball = 12
+    Ball = DUSKBALL
 #-------------------------------
 [FERRIO,Ferrio,2]
 Pokemon = CYNDAQUIL,12
@@ -444,18 +444,18 @@ Pokemon = CYNDAQUIL,12
 Pokemon = PANZANO,16
     Gender = male
     Moves = SANDATTACK,PURSUIT,QUICKATTACK,AIRCUTTER
-    Ball = 12
+    Ball = DUSKBALL
 Pokemon = AXEW,17
     Gender = male
     Moves = ASSURANCE,SCRATCH,DUALCHOP,SCARYFACE
-    Ball = 12
+    Ball = DUSKBALL
 #-------------------------------
 [VETERAN_M,Onixman]
 Pokemon = BLISSEY,50
     Moves = ROYALESSCHILD
 Pokemon = PANZANO,30
     Moves = SANDATTACK,PURSUIT,QUICKATTACK,AIRCUTTER
-    Ball = 12
+    Ball = DUSKBALL
 #-------------------------------
 [EVILSCIENTIST,Arnold]
 Pokemon = SEEDOT,8

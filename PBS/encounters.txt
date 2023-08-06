@@ -20,14 +20,13 @@ HeadbuttHigh
     10,HOOTHOOT,2
     10,HOOTHOOT,3,4
     5,HOOTHOOT,4
-Horde
-    60,BIDOOF,2
-    25,BIDOOF,2
-    10,BIDOOF,2
-    5,BIDOOF,2
+# Horde
+#     60,BIDOOF,2
+#     25,BIDOOF,2
+#     10,BIDOOF,2
+#     5,BIDOOF,2
 #-------------------------------
 [007] # Route 23
-25,10,10
 Land,20
     20,BUNNELBY_1,2,4
     20,PIDOVE_1,2,4
@@ -66,14 +65,13 @@ LandNight,20
     4,PIDOVE_1,3,4
     1,BUNNELBY_1,3,4
     1,PIDOVE_1,3,4
-Horde
-    60,BUNNELBY_1,2
-    25,RATTATA,2
-    10,RATTATA,2
-    5,PICHU,2
+# Horde
+#     60,BUNNELBY_1,2
+#     25,RATTATA,2
+#     10,RATTATA,2
+#     5,PICHU,2
 #-------------------------------
 [008] # Florasia Town
-25,10,10
 Land,20
     20,CATERPIE,2,3
     20,WEEDLE,2,3
@@ -112,14 +110,13 @@ LandNight,20
     4,PARAS,3,4
     1,PARAS,4
     1,PARAS,5
-Horde
-    60,WURMPLE,2
-    25,CATERPIE,2
-    10,WEEDLE,2
-    5,COMBEE,2
+# Horde
+#     60,WURMPLE,2
+#     25,CATERPIE,2
+#     10,WEEDLE,2
+#     5,COMBEE,2
 #-------------------------------
 [012] # Route 24
-25,10,10
 Land,20
     20,FLABEBE,3,4
     20,FLABEBE,3,5
@@ -158,14 +155,13 @@ LandNight,20
     4,ODDISH,4
     1,ODDISH,4,5
     1,ODDISH,5
-Horde
-    60,FLABEBE,2
-    25,BELLSPROUT,2
-    10,OHRBY,2
-    5,BUDEW,2
+# Horde
+#     60,FLABEBE,2
+#     25,BELLSPROUT,2
+#     10,OHRBY,2
+#     5,BUDEW,2
 #-------------------------------
 [013] # Route 25
-25,10,10
 Land,20
     20,SLAKOTH,4,5
     20,WINGULL,3,5
@@ -204,14 +200,13 @@ LandNight,20
     4,SEEDOT_1,5
     1,SEEDOT_1,5
     1,SEEDOT_1,5
-Horde
-    60,WINGULL,2
-    25,SEEDOT_1,2
-    10,LOTAD,2
-    5,LOTAD,2
+# Horde
+#     60,WINGULL,2
+#     25,SEEDOT_1,2
+#     10,LOTAD,2
+#     5,LOTAD,2
 #-------------------------------
 [015] # Finesta City
-25,10,10
 OldRod
     50,MAGIKARP,4
     25,MAGIKARP,5
@@ -220,7 +215,6 @@ OldRod
     5,WOOPER,5,6
 #-------------------------------
 [017] # Route 26
-25,10,10
 Land,20
     20,PATRAT,4,5
     20,COIFFEUS,4,6
@@ -259,14 +253,13 @@ LandNight,20
     4,TOGEPI,5
     1,PURRLOIN,5
     1,TOGEPI,4,6
-Horde
-    60,COIFFEUS,2
-    25,KRICKETOT,2
-    10,SHINX_2,2
-    5,BIDOOF,2
+# Horde
+#     60,COIFFEUS,2
+#     25,KRICKETOT,2
+#     10,SHINX_2,2
+#     5,BIDOOF,2
 #-------------------------------
 [018] # Illusio Forest
-25,10,10
 Land,20
     20,MIDINAS,5,7
     20,SCATTERBUG,5,7
@@ -286,14 +279,13 @@ OldRod
     10,MAGIKARP,7,8
     10,HORSEA,6
     5,FRILLISH,5,8
-Horde
-    60,MIDINAS,3
-    25,DUSKULL,3
-    10,PINECO,3
-    5,PHANTUMP,3
+# Horde
+#     60,MIDINAS,3
+#     25,DUSKULL,3
+#     10,PINECO,3
+#     5,PHANTUMP,3
 #-------------------------------
 [019] # Mt. Crescent
-25,10,10
 Cave,20
     20,ZUBAT_1,6
     20,ZUBAT_1,7
@@ -313,14 +305,13 @@ OldRod
     10,WOOPER,6
     10,WOOPER,7
     5,POLIWAG,6,8
-Horde
-    60,ZUBAT_1,3
-    25,GEODUDE,3
-    10,ROGGENROLA,3
-    5,ARON,3
+# Horde
+#     60,ZUBAT_1,3
+#     25,GEODUDE,3
+#     10,ROGGENROLA,3
+#     5,ARON,3
 #-------------------------------
 [020] # Route 27
-25,10,10
 OldRod
     50,MAGIKARP,7
     25,MAGIKARP,8
@@ -335,7 +326,6 @@ HeadbuttHigh
     5,STARLY,8
 #-------------------------------
 [021] # Sarenio City
-25,10,10
 OldRod
     50,PREDORFISH,8,9
     25,APILLYA,7
@@ -350,7 +340,6 @@ HeadbuttHigh
     5,BUTTERFREE,10
 #-------------------------------
 [025] # Route 28
-25,10,10
 Land,20
     20,SPEAROW,8,10
     20,FLETCHLING,8,10
@@ -389,14 +378,13 @@ LandNight,20
     4,MANKEY,9,11
     1,MANKEY,10,11
     1,EKANS_2,10,11
-Horde
-    60,FLETCHLING,3
-    25,PANZANO,3
-    10,MANKEY,3
-    5,EKANS_2,3
+# Horde
+#     60,FLETCHLING,3
+#     25,PANZANO,3
+#     10,MANKEY,3
+#     5,EKANS_2,3
 #-------------------------------
 [043] # Ori-Jin Town
-25,10,10
 OldRod
     50,MAGIKARP,2
     25,MAGIKARP,2
@@ -411,7 +399,6 @@ HeadbuttHigh
     5,HOOTHOOT,3
 #-------------------------------
 [048] # Ori-Yin Port
-25,10,10
 OldRod
     50,MAGIKARP,2
     25,MAGIKARP,2

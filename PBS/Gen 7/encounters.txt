@@ -120,8 +120,8 @@ PokeRadar,40
 #-------------------------------
 [031] # Route 3
 Land,21
-    30,NIDORANfE,12,15
-    30,NIDORANmA,12,15
+    30,NIDORANFE,12,15
+    30,NIDORANMA,12,15
     20,PIKACHU,14,17
     10,EEVEE,15
     10,PONYTA,13,15
@@ -223,8 +223,8 @@ Cave,5
 Land,21
     20,ABRA,12,15
     20,DODUO,13,15
-    20,NIDORANfE,15,16
-    20,NIDORANmA,15,16
+    20,NIDORANFE,15,16
+    20,NIDORANMA,15,16
     10,HOPPIP,13,17
     10,TANGELA,14,16
 #-------------------------------

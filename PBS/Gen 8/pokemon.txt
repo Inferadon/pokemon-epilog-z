@@ -732,7 +732,7 @@ Pokedex = It curls up in a ball to protect itself from enemy attacks. It also cu
 Generation = 1
 WildItemUncommon = GRIPCLAW
 #-------------------------------
-[NIDORANfE]
+[NIDORANFE]
 Name = Nidoran♀
 Types = POISON
 BaseStats = 55,47,52,41,40,40
@@ -749,7 +749,7 @@ TutorMoves = AERIALACE,ATTRACT,BEATUP,BLIZZARD,BODYSLAM,CAPTIVATE,CHARM,CONFIDE,
 EggMoves = BEATUP,CHARM,COUNTER,DISABLE,FOCUSENERGY,POISONFANG,POISONTAIL,SKULLBASH,SUPERSONIC,TAKEDOWN,VENOMDRENCH
 EggGroups = Monster,Field
 HatchSteps = 5120
-Offspring = NIDORANfE,NIDORANmA
+Offspring = NIDORANFE,NIDORANMA
 Height = 0.4
 Weight = 7.0
 Color = Blue
@@ -811,7 +811,7 @@ Category = Drill
 Pokedex = It is adept at sending foes flying with harsh tackles using its tough, scaly body. This Pokémon is at its strongest when it is defending its young.
 Generation = 1
 #-------------------------------
-[NIDORANmA]
+[NIDORANMA]
 Name = Nidoran♂
 Types = POISON
 BaseStats = 46,57,40,50,40,40
@@ -828,7 +828,7 @@ TutorMoves = AMNESIA,ATTRACT,BEATUP,BLIZZARD,BODYSLAM,CAPTIVATE,CONFIDE,COUNTER,
 EggMoves = AMNESIA,BEATUP,CONFUSION,COUNTER,DISABLE,HEADSMASH,HORNDRILL,POISONTAIL,SUCKERPUNCH,SUPERSONIC,TAKEDOWN,THRASH,VENOMDRENCH
 EggGroups = Monster,Field
 HatchSteps = 5120
-Offspring = NIDORANfE,NIDORANmA
+Offspring = NIDORANFE,NIDORANMA
 Height = 0.5
 Weight = 9.0
 Color = Purple
