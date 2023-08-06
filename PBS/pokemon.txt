@@ -708,7 +708,7 @@ Evolutions = SANDSLASH,Level,22
 #-------------------------------
 [SANDSLASH]
 Name = Sandslash
-Types = GROUND
+Types = GROUND,SWORD
 BaseStats = 75,100,110,65,45,55
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -892,7 +892,7 @@ Generation = 1
 #-------------------------------
 [CLEFAIRY]
 Name = Clefairy
-Types = FAIRY
+Types = FAIRY,STAR
 BaseStats = 70,45,48,35,60,65
 GenderRatio = Female75Percent
 GrowthRate = Fast
@@ -919,7 +919,7 @@ Evolutions = CLEFABLE,Item,MOONSTONE
 #-------------------------------
 [CLEFABLE]
 Name = Clefable
-Types = FAIRY
+Types = FAIRY,STAR
 BaseStats = 95,70,73,60,95,90
 GenderRatio = Female75Percent
 GrowthRate = Fast
@@ -1279,7 +1279,7 @@ CatchRate = 75
 Happiness = 50
 Abilities = SHIELDDUST,TINTEDLENS
 HiddenAbilities = WONDERSKIN
-Moves = 0,GUST,1,QUIVERDANCE,1,BUGBUZZ,1,WHIRLWIND,1,TACKLE,1,DISABLE,1,STRUGGLEBUG,1,SUPERSONIC,5,SUPERSONIC,11,CONFUSION,13,POISONPOWDER,17,PSYBEAM,23,STUNSPORE,25,MEGADRAIN,29,SLEEPPOWDER,37,LEECHLIFE,41,ZENHEADBUTT,47,POISONFANG,55,PSYCHIC,59,BUGBUZZ,63,QUIVERDANCE
+Moves = 0,GUST,1,GUST,1,QUIVERDANCE,1,BUGBUZZ,1,SILVERWIND,1,TACKLE,1,DISABLE,1,FORESIGHT,1,SUPERSONIC,5,SUPERSONIC,11,CONFUSION,13,POISONPOWDER,17,PSYBEAM,23,STUNSPORE,25,SIGNALBEAM,29,SLEEPPOWDER,37,LEECHLIFE,41,ZENHEADBUTT,47,POISONFANG,49,DARKPULSE,55,PSYCHIC,59,BUGBUZZ,63,QUIVERDANCE
 TutorMoves = ACROBATICS,AERIALACE,AIRCUTTER,ATTRACT,BUGBITE,BUGBUZZ,CAPTIVATE,CONFIDE,DEFOG,DOUBLEEDGE,DOUBLETEAM,ENDURE,ENERGYBALL,FACADE,FLASH,FRUSTRATION,GIGADRAIN,GIGAIMPACT,HIDDENPOWER,HYPERBEAM,INFESTATION,LEECHLIFE,MIMIC,NATURALGIFT,OMINOUSWIND,PROTECT,PSYCHIC,REST,RETURN,ROOST,ROUND,SECRETPOWER,SIGNALBEAM,SILVERWIND,SKILLSWAP,SLEEPTALK,SLUDGEBOMB,SNORE,SOLARBEAM,STRINGSHOT,STRUGGLEBUG,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,TAILWIND,THIEF,TWISTER,UTURN,VENOSHOCK,ZENHEADBUTT
 EggGroups = Bug
 HatchSteps = 5120
@@ -1292,6 +1292,7 @@ Category = Poison Moth
 Pokedex = Venomoth are nocturnal--they only are active at night. Their favorite prey are insects that gather around streetlights, attracted by the light in the darkness.
 Generation = 1
 WildItemUncommon = SHEDSHELL
+Evolutions = VEMOTHNA,HasMove,DARKPULSE
 #-------------------------------
 [DIGLETT]
 Name = Diglett
@@ -1639,7 +1640,7 @@ WildItemUncommon = KINGSROCK
 #-------------------------------
 [ABRA]
 Name = Abra
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 25,20,15,90,105,55
 GenderRatio = Female25Percent
 GrowthRate = Parabolic
@@ -1667,7 +1668,7 @@ Evolutions = KADABRA,Level,16
 #-------------------------------
 [KADABRA]
 Name = Kadabra
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 40,35,30,105,120,70
 GenderRatio = Female25Percent
 GrowthRate = Parabolic
@@ -1694,7 +1695,7 @@ Evolutions = ALAKAZAM,Trade,
 #-------------------------------
 [ALAKAZAM]
 Name = Alakazam
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 55,50,45,120,135,95
 GenderRatio = Female25Percent
 GrowthRate = Parabolic
@@ -2174,7 +2175,7 @@ Evolutions = MAGNEZONE,Item,THUNDERSTONE,MAGNEZONE,LocationFlag,Magnetic
 #-------------------------------
 [FARFETCHD]
 Name = Farfetch'd
-Types = NORMAL,FLYING
+Types = SWORD,FLYING
 BaseStats = 52,90,55,60,58,62
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -3157,7 +3158,7 @@ WildItemUncommon = MYSTICWATER
 #-------------------------------
 [STARYU]
 Name = Staryu
-Types = WATER
+Types = WATER,STAR
 BaseStats = 30,45,55,85,70,55
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -3185,7 +3186,7 @@ Evolutions = STARMIE,Item,WATERSTONE
 #-------------------------------
 [STARMIE]
 Name = Starmie
-Types = WATER,PSYCHIC
+Types = WATER,STAR
 BaseStats = 60,75,85,115,100,85
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -3525,7 +3526,7 @@ Habitat = Urban
 Category = Evolution
 Pokedex = An Eevee has an unstable genetic makeup that suddenly mutates due to its environment. Radiation from various stones causes this Pokémon to evolve.
 Generation = 1
-Evolutions = VAPOREON,Item,WATERSTONE,JOLTEON,Item,THUNDERSTONE,FLAREON,Item,FIRESTONE,LEAFEON,Item,LEAFSTONE,LEAFEON,LocationFlag,MossRock,GLACEON,Item,ICESTONE,GLACEON,LocationFlag,IceRock,SYLVEON,HappinessMoveType,FAIRY,ESPEON,HappinessDay,,UMBREON,HappinessNight,
+Evolutions = VAPOREON,Item,WATERSTONE,JOLTEON,Item,THUNDERSTONE,FLAREON,Item,FIRESTONE,LEAFEON,Item,LEAFSTONE,LEAFEON,LocationFlag,MossRock,GLACEON,Item,ICESTONE,GLACEON,LocationFlag,IceRock,AURERA,HasMove,FLINKAURA,SYLVEON,HappinessMoveType,FAIRY,ESPEON,HappinessDay,,UMBREON,HappinessNight,
 #-------------------------------
 [VAPOREON]
 Name = Vaporeon
@@ -3682,7 +3683,7 @@ Generation = 1
 #-------------------------------
 [KABUTO]
 Name = Kabuto
-Types = ROCK,WATER
+Types = ROCK,SWORD
 BaseStats = 30,80,90,55,55,45
 GenderRatio = FemaleOneEighth
 GrowthRate = Medium
@@ -3709,7 +3710,7 @@ Evolutions = KABUTOPS,Level,40
 #-------------------------------
 [KABUTOPS]
 Name = Kabutops
-Types = ROCK,WATER
+Types = ROCK,SWORD
 BaseStats = 60,115,105,80,65,70
 GenderRatio = FemaleOneEighth
 GrowthRate = Medium
@@ -4550,7 +4551,7 @@ Evolutions = PIKACHU,Happiness,
 #-------------------------------
 [CLEFFA]
 Name = Cleffa
-Types = FAIRY
+Types = FAIRY,STAR
 BaseStats = 50,25,28,15,45,55
 GenderRatio = Female75Percent
 GrowthRate = Fast
@@ -5060,7 +5061,7 @@ CatchRate = 120
 Happiness = 50
 Abilities = CHLOROPHYLL,SOLARPOWER
 HiddenAbilities = EARLYBIRD
-Moves = 1,FLOWERSHIELD,1,ENDEAVOR,1,SYNTHESIS,1,SEEDBOMB,1,POUND,1,TACKLE,1,GROWTH,4,INGRAIN,7,ABSORB,10,MEGADRAIN,13,LEECHSEED,16,RAZORLEAF,19,WORRYSEED,22,GIGADRAIN,25,BULLETSEED,28,PETALDANCE,34,SOLARBEAM,37,DOUBLEEDGE,40,SUNNYDAY,43,LEAFSTORM,50,PETALBLIZZARD
+Moves = 1,SOLARWIND,1,FLOWERSHIELD,1,ABSORB,1,POUND,1,GROWTH,4,INGRAIN,7,GRASSWHISTLE,10,MEGADRAIN,13,LEECHSEED,16,RAZORLEAF,19,WORRYSEED,22,GIGADRAIN,25,BULLETSEED,28,PETALDANCE,31,NATURALGIFT,34,SOLARBEAM,37,DOUBLEEDGE,40,SUNNYDAY,43,LEAFSTORM,46,SOLARWIND,50,PETALBLIZZARD
 TutorMoves = AFTERYOU,ATTRACT,BULLETSEED,CAPTIVATE,CONFIDE,CUT,DOUBLEEDGE,DOUBLETEAM,EARTHPOWER,ENDEAVOR,ENDURE,ENERGYBALL,FACADE,FLASH,FRUSTRATION,GIGADRAIN,GIGAIMPACT,GRASSKNOT,HELPINGHAND,HIDDENPOWER,HYPERBEAM,LIGHTSCREEN,MIMIC,NATURALGIFT,NATUREPOWER,PROTECT,REST,RETURN,ROUND,SAFEGUARD,SECRETPOWER,SEEDBOMB,SLEEPTALK,SLUDGEBOMB,SNORE,SOLARBEAM,SUBSTITUTE,SUNNYDAY,SWAGGER,SWORDSDANCE,SYNTHESIS,UPROAR,WORRYSEED
 EggGroups = Grass
 HatchSteps = 5120
@@ -5072,6 +5073,7 @@ Habitat = Grassland
 Category = Sun
 Pokedex = Sunflora convert solar energy into nutrition. They are highly active in the warm daytime but suddenly stop moving as soon as the sun sets.
 Generation = 2
+Evolutions = SONNESSEL,HasMove,SOLARWIND
 #-------------------------------
 [YANMA]
 Name = Yanma
@@ -5567,6 +5569,7 @@ Category = Balloon
 Pokedex = A Qwilfish uses the pressure of water it swallows to shoot toxic quills all at once from all over its body. It finds swimming to be somewhat challenging.
 Generation = 2
 WildItemUncommon = POISONBARB
+Evolutions = ENDORFISH,Item,THUNDERSTONE,ENDORFISH,Item,GIFTSTEIN
 #-------------------------------
 [SCIZOR]
 Name = Scizor
@@ -6657,7 +6660,7 @@ Evolutions = GROVYLE,Level,16
 #-------------------------------
 [GROVYLE]
 Name = Grovyle
-Types = GRASS
+Types = GRASS,SWORD
 BaseStats = 50,65,45,95,85,65
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -6683,7 +6686,7 @@ Evolutions = SCEPTILE,Level,36
 #-------------------------------
 [SCEPTILE]
 Name = Sceptile
-Types = GRASS
+Types = GRASS,SWORD
 BaseStats = 70,85,65,120,105,85
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -6969,7 +6972,7 @@ Pokedex = It is exceedingly fast if it only has to run in a straight line. When 
 Generation = 3
 WildItemCommon = POTION
 WildItemUncommon = MAXREVIVE
-Evolutions = OBSTAGOON,None,
+Evolutions = RUNTERRDAX,LevelDay,35
 #-------------------------------
 [WURMPLE]
 Name = Wurmple
@@ -7899,7 +7902,7 @@ Evolutions = PROBOPASS,LocationFlag,Magnetic,PROBOPASS,Item,THUNDERSTONE
 #-------------------------------
 [SKITTY]
 Name = Skitty
-Types = NORMAL
+Types = STAR
 BaseStats = 50,45,45,50,35,35
 GenderRatio = Female75Percent
 GrowthRate = Fast
@@ -7926,7 +7929,7 @@ Evolutions = DELCATTY,Item,MOONSTONE
 #-------------------------------
 [DELCATTY]
 Name = Delcatty
-Types = NORMAL
+Types = STAR
 BaseStats = 70,65,65,90,55,55
 GenderRatio = Female75Percent
 GrowthRate = Fast
@@ -7948,6 +7951,7 @@ Habitat = Forest
 Category = Prim
 Pokedex = Rather than keeping a permanent lair, it habitually seeks comfortable spots and sleeps there. It is nocturnal and becomes active at dusk.
 Generation = 3
+Evolutions = AURORECO,Item,AURORAAMETHYST,AURORECO,Item,AURORARUBIN,AURORECO,Item,AURORASMARAGD,AURORECO,Item,AURORASAPHIR
 #-------------------------------
 [SABLEYE]
 Name = Sableye
@@ -8244,7 +8248,7 @@ WildItemUncommon = CELLBATTERY
 #-------------------------------
 [VOLBEAT]
 Name = Volbeat
-Types = BUG
+Types = BUG,STAR
 BaseStats = 65,73,75,85,47,85
 GenderRatio = AlwaysMale
 GrowthRate = Erratic
@@ -8830,7 +8834,7 @@ Generation = 3
 #-------------------------------
 [ZANGOOSE]
 Name = Zangoose
-Types = NORMAL
+Types = NORMAL,STAR
 BaseStats = 73,115,60,90,60,60
 GenderRatio = Female50Percent
 GrowthRate = Erratic
@@ -8884,7 +8888,7 @@ WildItemUncommon = SHEDSHELL
 #-------------------------------
 [LUNATONE]
 Name = Lunatone
-Types = ROCK,PSYCHIC
+Types = ROCK,STAR
 BaseStats = 90,55,65,70,95,85
 GenderRatio = Genderless
 GrowthRate = Fast
@@ -8910,7 +8914,7 @@ WildItemUncommon = MOONSTONE
 #-------------------------------
 [SOLROCK]
 Name = Solrock
-Types = ROCK,PSYCHIC
+Types = ROCK,STAR
 BaseStats = 90,95,85,70,55,65
 GenderRatio = Genderless
 GrowthRate = Fast
@@ -9465,7 +9469,7 @@ WildItemUncommon = CLEANSETAG
 #-------------------------------
 [ABSOL]
 Name = Absol
-Types = DARK
+Types = DARK,SWORD
 BaseStats = 65,130,60,75,75,60
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
@@ -9865,7 +9869,7 @@ WildItemUncommon = DRAGONFANG
 #-------------------------------
 [BELDUM]
 Name = Beldum
-Types = STEEL,PSYCHIC
+Types = STEEL,STAR
 BaseStats = 40,55,80,30,35,60
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -9892,7 +9896,7 @@ Evolutions = METANG,Level,20
 #-------------------------------
 [METANG]
 Name = Metang
-Types = STEEL,PSYCHIC
+Types = STEEL,STAR
 BaseStats = 60,75,100,50,55,80
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -9919,7 +9923,7 @@ Evolutions = METAGROSS,Level,45
 #-------------------------------
 [METAGROSS]
 Name = Metagross
-Types = STEEL,PSYCHIC
+Types = STEEL,STAR
 BaseStats = 80,135,130,70,95,90
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -10148,7 +10152,7 @@ Flags = Legendary
 #-------------------------------
 [JIRACHI]
 Name = Jirachi
-Types = STEEL,PSYCHIC
+Types = STEEL,STAR
 BaseStats = 100,100,100,100,100,100
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -10177,7 +10181,7 @@ WildItemRare = STARPIECE
 [DEOXYS]
 Name = Deoxys
 FormName = Normal Forme
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 50,150,50,150,150,50
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -10600,6 +10604,7 @@ Category = Cricket
 Pokedex = It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.
 Generation = 4
 WildItemUncommon = METRONOME
+Evolutions = ZIRPIOLLA,Level,34
 #-------------------------------
 [SHINX]
 Name = Shinx
@@ -12428,7 +12433,7 @@ Generation = 4
 #-------------------------------
 [GALLADE]
 Name = Gallade
-Types = PSYCHIC,FIGHTING
+Types = PSYCHIC,SWORD
 BaseStats = 68,125,65,80,65,115
 GenderRatio = AlwaysMale
 GrowthRate = Slow
@@ -12747,7 +12752,7 @@ Flags = Legendary
 #-------------------------------
 [CRESSELIA]
 Name = Cresselia
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 120,70,120,85,75,130
 GenderRatio = AlwaysFemale
 GrowthRate = Slow
@@ -13097,7 +13102,7 @@ Evolutions = DEWOTT,Level,17
 #-------------------------------
 [DEWOTT]
 Name = Dewott
-Types = WATER
+Types = WATER,SWORD
 BaseStats = 75,75,60,60,83,60
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -13122,7 +13127,7 @@ Evolutions = SAMUROTT,Level,36
 #-------------------------------
 [SAMUROTT]
 Name = Samurott
-Types = WATER
+Types = WATER,SWORD
 BaseStats = 95,100,85,70,108,70
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -15306,7 +15311,7 @@ Evolutions = ESCAVALIER,TradeSpecies,SHELMET
 #-------------------------------
 [ESCAVALIER]
 Name = Escavalier
-Types = BUG,STEEL
+Types = BUG,SWORD
 BaseStats = 70,135,105,20,60,105
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -15705,7 +15710,7 @@ Generation = 5
 #-------------------------------
 [ELGYEM]
 Name = Elgyem
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 55,55,55,30,85,55
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -15731,7 +15736,7 @@ Evolutions = BEHEEYEM,Level,42
 #-------------------------------
 [BEHEEYEM]
 Name = Beheeyem
-Types = PSYCHIC
+Types = PSYCHIC,STAR
 BaseStats = 75,75,75,40,125,95
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -15955,7 +15960,7 @@ Generation = 5
 #-------------------------------
 [CRYOGONAL]
 Name = Cryogonal
-Types = ICE
+Types = ICE,STAR
 BaseStats = 80,50,50,105,95,135
 GenderRatio = Genderless
 GrowthRate = Medium
@@ -16077,7 +16082,7 @@ Shape = BipedalTail
 Category = Martial Arts
 Pokedex = They have mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.
 Generation = 5
-Evolutions = MIENSHAO,Level,50
+Evolutions = MIENSHAO,Level,50,SHINWHU,Item,KAMPFKRALLE
 #-------------------------------
 [MIENSHAO]
 Name = Mienshao
@@ -16182,7 +16187,7 @@ WildItemUncommon = LIGHTCLAY
 #-------------------------------
 [PAWNIARD]
 Name = Pawniard
-Types = DARK,STEEL
+Types = DARK,SWORD
 BaseStats = 45,85,70,60,40,40
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -16208,7 +16213,7 @@ Evolutions = BISHARP,Level,52
 #-------------------------------
 [BISHARP]
 Name = Bisharp
-Types = DARK,STEEL
+Types = DARK,SWORD
 BaseStats = 65,125,100,70,60,70
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -16531,7 +16536,7 @@ WildItemRare = SILVERPOWDER
 #-------------------------------
 [COBALION]
 Name = Cobalion
-Types = STEEL,FIGHTING
+Types = STEEL,SWORD
 BaseStats = 91,90,129,108,90,72
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -16555,7 +16560,7 @@ Flags = Legendary
 #-------------------------------
 [TERRAKION]
 Name = Terrakion
-Types = ROCK,FIGHTING
+Types = ROCK,SWORD
 BaseStats = 91,129,90,108,72,90
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -16579,7 +16584,7 @@ Flags = Legendary
 #-------------------------------
 [VIRIZION]
 Name = Virizion
-Types = GRASS,FIGHTING
+Types = GRASS,SWORD
 BaseStats = 91,90,72,108,90,129
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -16754,7 +16759,7 @@ Flags = Legendary
 [KELDEO]
 Name = Keldeo
 FormName = Ordinary Form
-Types = WATER,FIGHTING
+Types = WATER,SWORD
 BaseStats = 91,72,90,108,129,90
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -16841,7 +16846,7 @@ CatchRate = 45
 Happiness = 50
 Abilities = OVERGROW
 HiddenAbilities = BULLETPROOF
-Moves = 1,GROWL,1,VINEWHIP,5,VINEWHIP,8,ROLLOUT,11,BITE,15,LEECHSEED,18,PINMISSILE,27,TAKEDOWN,32,SEEDBOMB,35,MUDSHOT,39,BULKUP,42,BODYSLAM,45,PAINSPLIT,48,WOODHAMMER
+Moves = 1,TACKLE,1,GROWL,1,VINEWHIP,5,VINEWHIP,8,ROLLOUT,11,BITE,15,LEECHSEED,18,PINMISSILE,27,TAKEDOWN,32,SEEDBOMB,35,MUDSHOT,39,BULKUP,42,BODYSLAM,45,PAINSPLIT,48,WOODHAMMER
 TutorMoves = AERIALACE,ATTRACT,BRICKBREAK,BULKUP,BULLDOZE,CAPTIVATE,CONFIDE,CUT,DIG,DOUBLETEAM,DRAINPUNCH,DUALCHOP,ENDEAVOR,ENDURE,ENERGYBALL,FACADE,FLASH,FLING,FOCUSPUNCH,FRUSTRATION,GIGADRAIN,GRASSKNOT,GRASSPLEDGE,GYROBALL,HELPINGHAND,HIDDENPOWER,IRONDEFENSE,IRONHEAD,IRONTAIL,LOWKICK,LOWSWEEP,MIMIC,NATURALGIFT,NATUREPOWER,PAINSPLIT,PAYBACK,POISONJAB,POWERUPPUNCH,PROTECT,REFLECT,REST,RETALIATE,RETURN,ROAR,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SECRETPOWER,SEEDBOMB,SHADOWCLAW,SLEEPTALK,SLUDGEBOMB,SMACKDOWN,SNORE,SOLARBEAM,STOMPINGTANTRUM,STONEEDGE,STRENGTH,SUBSTITUTE,SUNNYDAY,SUPERFANG,SUPERPOWER,SWAGGER,SWORDSDANCE,SYNTHESIS,TAUNT,THUNDERPUNCH,TOXIC,WORKUP,WORRYSEED,ZENHEADBUTT
 EggMoves = BELLYDRUM,CURSE,DEFENSECURL,POWERUPPUNCH,QUICKGUARD,ROLLOUT,SPIKES,SYNTHESIS
 EggGroups = Field
@@ -16916,7 +16921,7 @@ CatchRate = 45
 Happiness = 50
 Abilities = BLAZE
 HiddenAbilities = MAGICIAN
-Moves = 1,SCRATCH,1,TAILWHIP,5,EMBER,11,HOWL,14,FLAMECHARGE,17,PSYBEAM,20,FIRESPIN,25,LUCKYCHANT,27,LIGHTSCREEN,31,PSYSHOCK,35,FLAMETHROWER,38,WILLOWISP,41,PSYCHIC,43,SUNNYDAY,46,MAGICROOM,48,FIREBLAST
+Moves = 1,SCRATCH,1,TAILWHIP,1,EMBER,11,HOWL,14,FLAMECHARGE,17,PSYBEAM,20,FIRESPIN,25,LUCKYCHANT,27,LIGHTSCREEN,31,PSYSHOCK,35,FLAMETHROWER,38,WILLOWISP,41,PSYCHIC,43,SUNNYDAY,46,MAGICROOM,48,FIREBLAST
 TutorMoves = ATTRACT,CAPTIVATE,CONFIDE,COVET,CUT,DOUBLETEAM,DREAMEATER,ECHOEDVOICE,EMBARGO,ENDURE,FACADE,FIREBLAST,FIREPLEDGE,FLAMECHARGE,FLAMETHROWER,FOULPLAY,FRUSTRATION,GRASSKNOT,HEATWAVE,HIDDENPOWER,INCINERATE,IRONTAIL,LIGHTSCREEN,MAGICCOAT,MAGICROOM,MIMIC,NATURALGIFT,OVERHEAT,POWERUPPUNCH,PROTECT,PSYCHIC,PSYCHUP,PSYSHOCK,RAINDANCE,REST,RETURN,ROUND,SAFEGUARD,SECRETPOWER,SLEEPTALK,SNORE,SOLARBEAM,SUBSTITUTE,SUNNYDAY,SWAGGER,THIEF,TOXIC,WILLOWISP,WORKUP
 EggMoves = HEATWAVE,HYPNOSIS,MAGICCOAT,PSYCHICTERRAIN,WISH
 EggGroups = Field
@@ -16991,7 +16996,7 @@ CatchRate = 45
 Happiness = 50
 Abilities = TORRENT
 HiddenAbilities = PROTEAN
-Moves = 1,POUND,1,GROWL,5,BUBBLE,8,QUICKATTACK,10,LICK,14,WATERPULSE,18,SMOKESCREEN,21,ROUND,25,FLING,29,SMACKDOWN,35,SUBSTITUTE,39,BOUNCE,43,DOUBLETEAM,48,HYDROPUMP
+Moves = 1,POUND,1,GROWL,1,BUBBLE,8,QUICKATTACK,10,LICK,14,WATERPULSE,18,SMOKESCREEN,21,ROUND,25,FLING,29,SMACKDOWN,35,SUBSTITUTE,39,BOUNCE,43,DOUBLETEAM,48,HYDROPUMP
 TutorMoves = ACROBATICS,AERIALACE,ATTRACT,BLIZZARD,BOUNCE,CAPTIVATE,CONFIDE,CUT,DIG,DIVE,DOUBLETEAM,ECHOEDVOICE,ENDURE,FACADE,FLING,FRUSTRATION,GRASSKNOT,HIDDENPOWER,ICEBEAM,ICYWIND,MIMIC,NATURALGIFT,POWERUPPUNCH,PROTECT,RAINDANCE,REST,RETURN,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROLEPLAY,ROUND,SCALD,SECRETPOWER,SLEEPTALK,SMACKDOWN,SNATCH,SNORE,SPITE,STRENGTH,SUBSTITUTE,SURF,SWAGGER,TAUNT,THIEF,TOXIC,UTURN,WATERFALL,WATERPLEDGE,WATERPULSE,WORKUP
 EggMoves = BESTOW,CAMOUFLAGE,MINDREADER,MUDSPORT,POWERUPPUNCH,TOXICSPIKES,WATERSPORT
 EggGroups = Water1
@@ -17092,7 +17097,7 @@ CatchRate = 127
 Happiness = 50
 Abilities = PICKUP,CHEEKPOUCH
 HiddenAbilities = HUGEPOWER
-Moves = 1,MUDSLAP,1,LEER,1,TACKLE,1,LASERFOCUS,9,QUICKATTACK,12,MUDSHOT,15,FLAIL,18,DOUBLEKICK,23,BULLDOZE,28,DIG,33,BOUNCE,38,TAKEDOWN,43,SWORDSDANCE,48,EARTHQUAKE,53,SUPERFANG,58,HAMMERARM
+Moves = 1,HAMMERARM,1,ROTOTILLER,1,BULLDOZE,1,SWORDSDANCE,1,TACKLE,1,AGILITY,1,LEER,7,QUICKATTACK,10,DOUBLESLAP,13,MUDSLAP,15,TAKEDOWN,18,MUDSHOT,21,DOUBLEKICK,27,ODORSLEUTH,32,FLAIL,37,DIG,43,BOUNCE,45,SUPERPOWER,48,SUPERFANG,54,FACADE,57,EARTHQUAKE,60,HAMMERARM
 TutorMoves = AGILITY,ATTRACT,BODYSLAM,BOUNCE,BRICKBREAK,BRUTALSWING,BULKUP,BULLDOZE,CAPTIVATE,CONFIDE,CUT,DIG,DOUBLETEAM,EARTHPOWER,EARTHQUAKE,ENDEAVOR,ENDURE,FACADE,FIREPUNCH,FLING,FOCUSPUNCH,FOULPLAY,FRUSTRATION,GASTROACID,GIGAIMPACT,GRASSKNOT,GUNKSHOT,HIDDENPOWER,HIGHHORSEPOWER,HYPERBEAM,ICEPUNCH,IRONHEAD,IRONTAIL,KNOCKOFF,LASTRESORT,LOWKICK,MEGAKICK,MEGAPUNCH,MIMIC,MUDSHOT,NATURALGIFT,NATUREPOWER,PAYBACK,POWERUPPUNCH,PROTECT,RECYCLE,REST,RETURN,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SANDSTORM,SANDTOMB,SCORCHINGSANDS,SECRETPOWER,SLEEPTALK,SLUDGEBOMB,SMACKDOWN,SNATCH,SNORE,SPIKES,STOMPINGTANTRUM,STONEEDGE,STRENGTH,SUBSTITUTE,SUPERFANG,SUPERPOWER,SURF,SWAGGER,SWORDSDANCE,THIEF,THUNDERPUNCH,TORMENT,TOXIC,UPROAR,UTURN,WILDCHARGE,WORKUP
 EggGroups = Field
 HatchSteps = 3840
@@ -17103,6 +17108,7 @@ Shape = BipedalTail
 Category = Digging
 Pokedex = As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it's finished digging, it lounges lazily.
 Generation = 6
+Evolutions = GIBANNY,HasMove,SUPERPOWER
 #-------------------------------
 [FLETCHLING]
 Name = Fletchling
@@ -17566,7 +17572,7 @@ Generation = 6
 #-------------------------------
 [HONEDGE]
 Name = Honedge
-Types = STEEL,GHOST
+Types = SWORD,GHOST
 BaseStats = 45,80,100,28,35,37
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -17591,7 +17597,7 @@ Evolutions = DOUBLADE,Level,35
 #-------------------------------
 [DOUBLADE]
 Name = Doublade
-Types = STEEL,GHOST
+Types = SWORD,GHOST
 BaseStats = 59,110,150,35,45,49
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -17616,7 +17622,7 @@ Evolutions = AEGISLASH,Item,DUSKSTONE
 [AEGISLASH]
 Name = Aegislash
 FormName = Shield Forme
-Types = STEEL,GHOST
+Types = SWORD,GHOST
 BaseStats = 60,50,140,60,50,140
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -19428,7 +19434,7 @@ WildItemUncommon = MYSTICWATER
 #-------------------------------
 [FOMANTIS]
 Name = Fomantis
-Types = GRASS
+Types = GRASS,SWORD
 BaseStats = 40,55,35,35,50,35
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -19455,7 +19461,7 @@ Evolutions = LURANTIS,LevelDay,34
 #-------------------------------
 [LURANTIS]
 Name = Lurantis
-Types = GRASS
+Types = GRASS,SWORD
 BaseStats = 70,105,90,45,80,90
 GenderRatio = Female50Percent
 GrowthRate = Medium
@@ -19966,7 +19972,7 @@ Flags = Legendary
 [MINIOR]
 Name = Minior
 FormName = Meteor Form
-Types = ROCK,FLYING
+Types = ROCK,STAR
 BaseStats = 60,60,100,60,60,100
 GenderRatio = Genderless
 GrowthRate = Parabolic
@@ -20344,7 +20350,7 @@ Flags = Legendary
 #-------------------------------
 [COSMOG]
 Name = Cosmog
-Types = PSYCHIC
+Types = STAR
 BaseStats = 43,29,31,37,29,31
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -20368,7 +20374,7 @@ Evolutions = COSMOEM,Level,43
 #-------------------------------
 [COSMOEM]
 Name = Cosmoem
-Types = PSYCHIC
+Types = STAR
 BaseStats = 43,29,131,37,29,131
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -20393,7 +20399,7 @@ Evolutions = SOLGALEO,LevelDay,53,LUNALA,LevelNight,53
 #-------------------------------
 [SOLGALEO]
 Name = Solgaleo
-Types = PSYCHIC,STEEL
+Types = STAR,STEEL
 BaseStats = 137,137,107,97,113,89
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -20417,7 +20423,7 @@ Flags = Legendary
 #-------------------------------
 [LUNALA]
 Name = Lunala
-Types = PSYCHIC,GHOST
+Types = STAR,GHOST
 BaseStats = 137,113,89,97,137,107
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -20561,7 +20567,7 @@ Flags = UltraBeast
 #-------------------------------
 [KARTANA]
 Name = Kartana
-Types = GRASS,STEEL
+Types = GRASS,SWORD
 BaseStats = 59,181,131,109,59,31
 GenderRatio = Genderless
 GrowthRate = Slow
@@ -20609,7 +20615,7 @@ Flags = UltraBeast
 #-------------------------------
 [NECROZMA]
 Name = Necrozma
-Types = PSYCHIC
+Types = STAR
 BaseStats = 97,107,101,79,127,89
 GenderRatio = Genderless
 GrowthRate = Slow
