@@ -127,3 +127,26 @@ IsSpecialType = true
 Weaknesses = POISON,STEEL
 Resistances = FIGHTING,BUG,DARK
 Immunities = DRAGON
+#-------------------------------
+[SWORD]
+Name = Sword
+IconPosition = 19
+InternalName = SWORD
+Weaknesses = ELECTRIC,PSYCHIC,DRAGON
+Resistances = FLYING,BUG,GRASS,ICE,FAIRY
+#-------------------------------
+[STAR]
+Name = Star
+IconPosition = 20
+InternalName = STAR
+IsSpecialType = true
+Weaknesses = NORMAL,GHOST,DARK
+Resistances = WATER,FIGHTING,ROCK,BUG,POISON
+Immunities = FIRE,IFE
+#-------------------------------
+[IFE]
+Name = IceFireElectric
+IconPosition = 21
+InternalName = IFE
+IsPseudoType = true
+IsSpecialType = true
