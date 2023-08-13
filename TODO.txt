@@ -1,3 +1,6 @@
+DONE - Convert Music
+- Convert Images
+- Convert SE and Cries
 DONE - Fix Encouters pbs file
 - Add Horde Encounter type
 DONE - Fix PokemonForms pbs file
