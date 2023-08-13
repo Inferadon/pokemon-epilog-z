@@ -1,11 +1,11 @@
 DONE - Convert Music
-- Convert Images
+DONE - Convert Images
 - Convert SE and Cries
 - Convert Trainer images (ID to name)
 DONE - Fix Encouters pbs file
 - Add Horde Encounter type
 DONE - Fix PokemonForms pbs file
-- Edit Pokemon metrics
+DONE - Edit Pokemon metrics
 DONE - Edit Evolutions/Abilites/etc. of the old Pokemon
 DONE - Schreibe Code, der das TM PBS-File durchgeht und dann für Jedes Pokemon ihre Attack in TutorMoves umwandelt
 DONE - Schreibe Code für Konvertierung vom Pokemon PBS File
@@ -15,9 +15,10 @@ DONE - Konvertierung vom Trainer PBS File
 - Map Connections neu machen
 DONE - Map metadata konvertieren
 DONE - pbs/metadata.txt bearbeiten - Anpassen an Version 18
-- Regional Dex
+- Regional Dex => Code, der Deutsch in Englisch unbennenn kann und (Klammern) ignoriert und Dinge wie Nidoran♂ lässt, aber mit "TODO" kennzeichnet
 - Town Map überprüfen
 DONE - Trainer_Types BEARBEITEN
+- Konvertiere die Tilesets
 - Types PBS und im Spiel überprüfen
 - Script-Options anpassen
 - Alle interne Skripts übertragen

@@ -1,2 +1,16 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+# Route 23 (7) - Ori-Jin Town (43)
+7,South,17,43,North,0
+# Route 24 (12) - Florasia Town (8)
+12,South,19,8,North,0
+# Route 25 (13) - Route 24 (12)
+13,South,0,12,North,11
+# Route 28 (25) - Route 26 (17)
+25,South,0,17,North,1
+# Sarenio City (21) - Route 27 (20)
+21,South,20,20,North,0
+# Meafield Town (29) - Route 30 (28)
+29,East,0,28,West,2
+# Route 31 (30) - Meafield Town (29)
+30,East,0,29,West,9
