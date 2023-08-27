@@ -12,7 +12,7 @@ DONE - Schreibe Code für Konvertierung vom Pokemon PBS File
 DONE - Schreibe Code für Konvertierung vom Moves PBS File
 DONE - Schreibe Code für Konvertierung vom Items PBS File
 DONE - Konvertierung vom Trainer PBS File
-- Map Connections neu machen
+DONE - Map Connections neu machen
 DONE - Map metadata konvertieren
 DONE - pbs/metadata.txt bearbeiten - Anpassen an Version 18
 - Regional Dex => Code, der Deutsch in Englisch unbennenn kann und (Klammern) ignoriert und Dinge wie Nidoran♂ lässt, aber mit "TODO" kennzeichnet
