@@ -1,7 +1,7 @@
 DONE - Convert Music
 DONE - Convert Images
-- Convert SE and Cries
-- Convert Trainer images (ID to name)
+DONE - Convert SE and Cries
+DONE - Convert Trainer images (ID to name)
 DONE - Fix Encouters pbs file
 - Add Horde Encounter type
 DONE - Fix PokemonForms pbs file
