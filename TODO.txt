@@ -16,7 +16,7 @@ DONE - Map Connections neu machen
 DONE - Map metadata konvertieren
 DONE - pbs/metadata.txt bearbeiten - Anpassen an Version 18
 - Regional Dex => Code, der Deutsch in Englisch unbennenn kann und (Klammern) ignoriert und Dinge wie Nidoran♂ lässt, aber mit "TODO" kennzeichnet
-- Town Map überprüfen
+DONE - Town Map überprüfen
 DONE - Trainer_Types BEARBEITEN
 - Konvertiere die Tilesets
 - Types PBS und im Spiel überprüfen

@@ -227,10 +227,6 @@ Pokemon = SABLEYE,11
     Moves = FORESIGHT,NIGHTSHADE,ASTONISH,FURYSWIPES
     Ball = DUSKBALL
 #-------------------------------
-[POKEMONTRAINER_Red,Drago]
-Pokemon = DRAGONITE,100
-    Moves = HOWL,GROWL,SPLASH,CALMMIND
-#-------------------------------
 [MAYA,Maya,1]
 Pokemon = PIDOVE,7
     Form = 1
