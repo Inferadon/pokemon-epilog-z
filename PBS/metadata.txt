@@ -5,16 +5,16 @@ StartMoney = 3000
 StartItemStorage = POTION
 Home = 6,27,8,2
 StorageCreator = Bill
-WildBattleBGM = Z_WildBattle.wav
-TrainerBattleBGM = Z_Trainer.wav
-WildVictoryBGM = Z_WildVictory.wav
-TrainerVictoryBGM = Z_TrainerVictory.wav
-SurfBGM = Z_Surfing.wav
+WildBattleBGM = Z_WildBattle.ogg
+TrainerBattleBGM = Z_TrainerBattle.ogg
+WildVictoryBGM = Z_WildVictory.ogg
+TrainerVictoryBGM = Z_TrainerVictory.ogg
+SurfBGM = Z_Surfing.ogg
 BicycleBGM = Bicycle
 #-------------------------------
 [1]
-TrainerType = POKEMONTRAINER_Red
-WalkCharset = trainer_POKEMONTRAINER_Red
+TrainerType = POKEMONTRAINER_Tyler
+WalkCharset = trainer_POKEMONTRAINER_Tyler
 RunCharset = boy_run
 CycleCharset = boy_bike
 SurfCharset = boy_surf
@@ -23,8 +23,8 @@ FishCharset = boy_fish_offset
 SurfFishCharset = boy_fish_offset
 #-------------------------------
 [2]
-TrainerType = POKEMONTRAINER_Leaf
-WalkCharset = trainer_POKEMONTRAINER_Leaf
+TrainerType = POKEMONTRAINER_Ally
+WalkCharset = trainer_POKEMONTRAINER_Ally
 RunCharset = girl_run
 CycleCharset = girl_bike
 SurfCharset = girl_surf
